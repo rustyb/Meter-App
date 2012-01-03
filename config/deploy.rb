@@ -28,6 +28,7 @@ role :db,  "178.79.137.160", :primary => true # This is where Rails migrations w
 
 set :branch, "master"
 set :deploy_via, :remote_cache
+set :chmod755, "app config db lib public vendor script script/* public/disp*"          # Some files that will need proper permissions
 
 # Uncomment if you are using Rails' asset pipeline
 load 'deploy/assets'
