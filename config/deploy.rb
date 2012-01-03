@@ -1,12 +1,21 @@
+# Add RVM's lib directory to the load path.
+$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
+# Load RVM's capistrano plugin.
+require "rvm/capistrano"
+# Set it to the ruby + gemset of your app, e.g:
+set :rvm_ruby_string, 'ruby-1.9.2-p180@global'
+
+
 require 'bundler/capistrano'
 set :application, "meter_map.ie"
 
 # Deploy from your local Git repo by cloning and uploading a tarball
 default_run_options[:pty] = true  # Must be set for the password prompt from git to work
-set :repository, "git@github.com:vanpelt/rails-app.git"  # Your clone URL
+set :repository, "git@github.com:rustyb/Meter-App.git"  # Your clone URL
 set :scm, "git"
-set :user, "deployer"  # The server's user for deploys
-set :scm_passphrase, "p@ssw0rd"  # The deploy user's password
+set :user, "deploy"  # The server's user for deploys
+set :scm_passphrase, "rustyswimmer"  # The deploy user's password
+set :port, 30000  # your port on slicehost. Standard port for ssh is 22, but if you followed the slicehost articles, you probably changed this to something different
 
 set :user, :deploy
 set :deploy_to, "/srv/www/#{application}"

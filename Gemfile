@@ -36,6 +36,11 @@ gem 'gmaps4rails'
 # Deploy with Capistrano
 gem 'capistrano'
 
+group :production do
+  #Fix deploy errors
+  gem 'therubyracer'
+end
+
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
