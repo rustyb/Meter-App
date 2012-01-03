@@ -7,8 +7,12 @@ class Meter < ActiveRecord::Base
   validates_presence_of :location
   validates_uniqueness_of :location
   
+  
+  include Rails.application.routes.url_helpers
+  default_url_options[:host] = 'www.therustyproject.com'
   def gmaps4rails_infowindow
-    "<b>#{location} - #{dublin_no}</b>"
+    "<span style='font-size:1.2em;font-weight:bold;'>#{location} - #{dublin_no}</span><br/><b><a href='#{url_for(:controller => 'meters', :action => 'show', :id => "#{id}")}'>Get More Info</a></b>"
+    #"<b>#{location} - #{dublin_no}</b><br /><a href='#{base_url}/meters/#{id}'>More Info</a>"
   end
   
   def gmaps4rails_marker_picture
