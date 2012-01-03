@@ -31,12 +31,12 @@ test:
   password: 100.fly_63
   socket: /tmp/mysql.sock
 
-production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: metre_map_production
-  pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+  production:
+    adapter: mysql2
+    encoding: utf8
+    reconnect: false
+    database: meter_map_production
+    pool: 5
+    username: deploy
+    password: rustyswimmer
+    host: localhost
