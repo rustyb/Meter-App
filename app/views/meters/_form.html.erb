@@ -1,0 +1,21 @@
+<%= simple_form_for @meter do |f| %>
+  <%= f.error_messages %>
+  <%= f.input :dublin_no %>
+  <%= f.input :location  %>
+  <%= f.input :code  %>
+  <%= f.input :spaces %>
+  <%= f.input :exact_location %>
+  <%= f.input :installed %>
+  <%= f.input :tariff %>
+  <%= f.input :nearest_pad %>
+  <%= f.input :op_hours %>
+  <%= f.input :clearway_hours %>
+  <%= f.input :comment %>
+  <%= f.input :further_info %>  
+  <%= f.input :finished %>  
+  <%= f.input :extra_comment %>  
+  <%= f.input :zone %>  
+  <%= f.input :longitude %>  
+  <%= f.input :latitude %>  
+  <%= f.button :submit %>
+<% end %>

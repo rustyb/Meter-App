@@ -1,0 +1,66 @@
+<% title "Meters" %>
+<div class="row">
+	<div class="eight columns hide-on-phones">
+		<%= gmaps(:markers     => { :data => @json, :options => {:clusterer_maxZoom => 13,  :marker_picture => "http://mapicons.nicolasmollet.com/wp-content/uploads/mapicons/shape-default/color-1d5dcc/shapecolor-dark/shadow-1/border-white/symbolstyle-white/symbolshadowstyle-no/gradient-no/parking-meter-export.png"} },
+		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true , :height =>"539px", :libraries => ["places"]},
+		          :last_map    => true) %>	
+	
+	</div>
+	<div class="four columns panel">
+		<h3>Find a Meter</h3>
+		<p><b>Enter the Street you are on, Dublin</b> to find the meters within 400 meters of where you are.</p>
+		<%= form_tag meters_path, :method => :get do %>
+		  <p>
+		    <%= text_field_tag :search, params[:search], :style => "font-size:20px;width:100%;" %>
+		    <%= submit_tag "Search Nearest", :name => nil, :class => "button small radius blue" %>
+		  </p>
+		<% end %>
+		<p>Below is a list of the closest meters to your search, if you click on the title the meter will be highlighted on the map.</p>
+		<p>To view full information on a meter click show me more.</p>
+		<!--<ul id="markers_list" class="hide-on-phones" style="height:220px; overflow-y:scroll;">
+		</ul> -->
+		<% unless @meters.empty? %>
+		<ul class="hide-on-phones" style="height:220px; overflow-y:scroll;">
+		<% for meter in @meters %>
+		<li>
+		<span class=''>
+			<b><%= link_to "#{meter.location} #{meter.dublin_no}", meter, :title => "Detailed information" %></b><br />
+			<p>
+				<b>Hours:</b>
+				<br /><%= meter.op_hours %>
+				<br />
+				<b>Number of Spaces:</b>
+				<br /><%= meter.spaces %>
+			</p>
+			<div class='small <%= meter.zone.downcase %> button radius'> <%= meter.zone %> Zone</div> 
+			<div class='small black button radius'>&euro; <%= meter.tariff %>0 per hour</div>
+			<br />
+		</span>
+		</li>
+		<% end %>
+		</ul>
+		<ul class="show-on-phones">
+		<% for meter in @meters %>
+		<li>
+		<span class=''>
+			<b><%= link_to "#{meter.location} #{meter.dublin_no}", meter, :title => "Detailed information" %></b><br />
+			<p>
+				<b>Number of Spaces:</b>
+				<br /><%= meter.spaces %>
+			</p>
+			<div class='small <%= meter.zone.downcase %> button radius'> <%= meter.zone %> Zone</div> 
+			<div class='small black button radius'>&euro; <%= meter.tariff %>0 per hour</div>
+			<br />
+		</span>
+		</li>
+		<% end %>
+		</ul>
+		<% else %>
+		<div class="alert-box error">Awww...SUGAR there's no meters near you! Try a different Address.</div>
+		<% end %>
+	</div>
+</div>
+	
+
+<p><%= link_to "New Meter", new_meter_path, :class => "large blue button radius" %></p> 
+<%= render "autocomp" %>

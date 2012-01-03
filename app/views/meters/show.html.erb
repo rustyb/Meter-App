@@ -1,0 +1,111 @@
+<% title "Meter" %>
+<div class="row">
+	<div class="two columns">
+		<div class="medium <%= @meter.zone.downcase %> button radius" style="margin-bottom:0.5em"><%= @meter.zone %> Zone</div>
+		<div class="medium black button radius">€ <%= @meter.tariff %>0 per hour</div>
+		</div>
+
+	<div class="four columns">
+		<%= content_tag :h2,"#{@meter.location} #{@meter.dublin_no}" %>
+		<!--<p style="margin-top:1em;"><%= image_tag "http://maps.google.com/maps/api/staticmap?size=640x200&sensor=false&maptype=map&zoom=20&markers=icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=airport|#{@meter.latitude}%2C#{@meter.longitude}" %></p>-->
+		<ul class="block-grid two-up">
+			<li>
+				<b>Hours:</b>
+				<p><%= @meter.op_hours %></p>
+			</li>
+			<li>
+				<b>Nearest Pay and Display Zone</b>
+				<p><%= @meter.nearest_pad %></p>
+			</li>
+			
+			<li>
+				<b>Number of Spaces</b> (if available)
+				<p><%= @meter.spaces %></p>
+			</li>
+			
+			<li>
+				<b>Clearway + Hours of Clearway</b>
+				<p><%= @meter.clearway %> <%= @meter.clearway_hours %></p>
+			</li>
+			<li>
+				<b>Exact Location</b> (Lat,Lng)
+				<p><%= @meter.latitude %>, <%= @meter.longitude %></p>
+			</li>
+			<li>
+				<b>Inactive</b>
+				<p><%= @meter.finished %></p>
+			</li>
+		</ul>
+	<!--	<p>
+			<b>Extra Remarks</b><br/>
+			<p><%= @meter.comment %></p>
+			<p><%= @meter.extra_comment %></p>
+		</p>
+
+
+		<table>
+			<thead>
+				<tr>
+					<th colspan="3">Dublin City Council Info</th>	
+				</tr>
+				<tr>
+					<th>DCC Numnber</th>
+					<th>DCC Code</th>
+					<th>Installed</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><%= @meter.dublin_no %></td>
+					<td><%= @meter.code %></td>
+					<td><%= @meter.installed %></td>
+				</tr>
+			</tbody>
+		</table> 
+		<p>
+			<%= link_to "Edit", edit_meter_path(@meter) %> |
+			<%= link_to "Destroy", @meter, :confirm => 'Are you sure?', :method => :delete %> |
+			<%= link_to "View All", meters_path %>
+		</p>-->
+	</div>
+
+	<div class="six columns">
+		<!--	<div class="row">
+		<%= content_tag :h2,"#{@meter.location} #{@meter.dublin_no}" %>
+		<div class="large <%= @meter.zone.downcase %> button radius"><%= @meter.zone %> Zone</div>
+		<div class="large black button radius">€ <%= @meter.tariff %>0 per hour</div>
+		</div> -->
+		<div class="row">
+			
+			<%= gmaps(:markers     => { :data => @json },
+			:map_options => { :container_class => "maps", :id => "map_container_s", :auto_adjust => true, :mapTypeControl => true, :height =>"400px" },
+			:last_map    => true) %>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<hr />
+</div>
+<div class="row">
+	<h2>Nearby Meters</h2>
+	<p>There are <%= @meter.nearbys(0.3).count %> meters in total within 300m of this meter.</p>
+	<ul class="block-grid four-up">
+		<% for meter in @meter.nearbys(0.3).limit(6) %>
+		<li>
+			<span class=''>
+				<b><%= link_to "#{meter.location} #{meter.dublin_no}", meter, :title => "Detailed information" %> - (<%= (meter.distance*1000).round(1) %> M)</b><br />
+				<p>
+					<b>Hours:</b>
+					<br /><%= meter.op_hours %>
+					<br />
+					<b>Number of Spaces:</b>
+					<br /><%= meter.spaces %>
+				</p>
+				<div class='small <%= meter.zone.downcase %> button radius'> <%= meter.zone %> Zone</div> 
+				<div class='small black button radius'>&euro; <%= meter.tariff %>0 per hour</div>
+				<br />
+			</span>
+		</li>
+		<% end %>
+	</ul>
+</div>
