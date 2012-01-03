@@ -17,7 +17,7 @@ class Meter < ActiveRecord::Base
   
   def gmaps4rails_marker_picture
     {
-     "picture" => "/images/parking-meter-small.png",
+     "picture" => "/images/parking-meter-#{zone.downcase}-small.png",
      "width" => "22",
      "height" => "25",
      "marker_anchor" => [ 5, 10],
