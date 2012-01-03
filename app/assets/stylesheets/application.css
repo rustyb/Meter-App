@@ -8,7 +8,7 @@
  *= require_tree . 
 */
 
-#map_container_c img { max-width:none; }
+#map_container_c img, #map_container_s img { max-width:none; }
 #map_container_c.gmaps4rails_map {width:100%;height:559px;}
 #map_container_s.gmaps4rails_map {width:100%;height:350px;}
 
