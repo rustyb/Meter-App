@@ -1,50 +1,29 @@
-set :application, "meter_map"
-set :repository,  "git@github.com:rustyb/Meter-App.git"
-ssh_options[:forward_agent] = true
+require 'bundler/capistrano'
+set :application, "meter_map.ie"
 
-set :scm, :git
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
-set :scm_verbose, true
+# Deploy from your local Git repo by cloning and uploading a tarball
+default_run_options[:pty] = true  # Must be set for the password prompt from git to work
+set :repository, "git@github.com:vanpelt/rails-app.git"  # Your clone URL
+set :scm, "git"
+set :user, "deployer"  # The server's user for deploys
+set :scm_passphrase, "p@ssw0rd"  # The deploy user's password
 
-set :domain, "109.74.199.253"  # your domain.com for this app
-set :user, "colin" # your username on slicehost
-set :admin_runner, "colin"
+set :user, :deploy
+set :deploy_to, "/srv/www/#{application}"
 set :use_sudo, false
 
-role :web, domain                          # Your HTTP server, Apache/etc
-role :app, domain                          # This may be the same as your `Web` server
-role :db,  domain, :primary => true # This is where Rails migrations will run
-role :db,  domain
+role :web, "178.79.137.160"                          # Your HTTP server, Apache/etc
+role :app, "178.79.137.160"                          # This may be the same as your `Web` server
+role :db,  "178.79.137.160", :primary => true # This is where Rails migrations will run
 
 
-set :scm_passphrase, "100.fly_63" #github password
-set :branch, "master" #this is the branch you want. most likely master
+set :branch, "master"
 set :deploy_via, :remote_cache
-set :copy_exclude, %w(.git doc test)
 
-set :port, 30000  # your port on slicehost. Standard port for ssh is 22, but if you followed the slicehost articles, you probably changed this to something different
-set :deploy_to, "/home/#{user}/public_html/#{application}"          # Where on the server your app will be deployed
-set :chmod755, "app config db lib public vendor script script/* public/disp*"          # Some files that will need proper permissions
-set :chmod666, "log/production.log"
-#set :git_enable_submodules, true # Make sure submodules are checked out
+# Uncomment if you are using Rails' asset pipeline
+load 'deploy/assets'
 
-#set :asset_directories, ['public/uploads/*']
-
-# if you're still using the script/reaper helper you will need
-# these http://github.com/rails/irs_process_scripts
-
-# If you are using Passenger mod_rails uncomment this:
-# namespace :deploy do
-#   task :start do ; end
-#   task :stop do ; end
-#   task :restart, :roles => :app, :except => { :no_release => true } do
-#     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-#   end
-# end
-set :keep_releases, 5
 before "deploy", "deploy:check_revision"
-
-require "bundler/capistrano"
 
 namespace :deploy do
   desc "Make sure there is something to deploy"
@@ -59,17 +38,10 @@ namespace :deploy do
     end
   end
   
-   task :start do ; end
-   task :stop do ; end
-   task :restart, :roles => :app, :except => { :no_release => true } do
-     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-   end
-     
-        
-     after "deploy:update", "deploy:cleanup", 
+  task :start do ; end
+  task :stop do ; end
+  task :restart, :roles => :app, :except => { :no_release => true } do
+   run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+  end
+  after "deploy:update", "deploy:cleanup"
 end
- 
- 
-        require './config/boot'
-        
-
