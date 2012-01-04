@@ -1,0 +1,4 @@
+id,dublin_no,location,code,spaces,exact_location,installed,tariff,nearest_pad,op_hours,clearway,clearway_hours,comment,further_info,finished,extra_comment,zone,longitude,latitude,created_at,updated_at
+,3,Hatch Street Upper,2,58 P n D (Total),Near College of Music,,2.90,6 On Hatch St Upr,Mon-Sat 07.00-19.00,FALSE,,,,FALSE,,Yellow,-6.261752,53.333963,01/08/2011 16:16:08,null
+,5,Hatch Street Upper,2,58 P n D (Total),Iveagh Gardens,,2.90,6 On Hatch St Upr,Mon-Sat 07.00-19.00,FALSE,,,Northside West of Earlsfort Tce,TRUE,,Yellow,-6.260484,53.334019,01/08/2011 16:16:08,null
+,6,Hatch Street Upper,2,58 P n D (Total),UCD,,2.90,6 On Hatch St Upr,Mon-Sat 07.00-19.00,FALSE,,,Northside West of Earlsfort Tce,TRUE,,Yellow,-6.259689,53.333968,01/08/2011 16:16:08,null

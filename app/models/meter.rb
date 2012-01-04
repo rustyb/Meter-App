@@ -2,10 +2,11 @@ class Meter < ActiveRecord::Base
   
   acts_as_gmappable :process_geocoding => false
   
-  geocoded_by :location
+  #geocoded_by :location
+  reverse_geocoded_by :latitude, :longitude
   attr_accessible :dublin_no, :location, :code, :spaces, :exact_location, :installed, :tariff, :nearest_pad, :op_hours, :clearway, :clearway_hours, :comment, :further_info, :finished, :extra_comment, :zone, :longitude, :latitude
-  validates_presence_of :location
-  validates_uniqueness_of :location
+  validates_presence_of :location, :latitude, :longitude
+  #validates_uniqueness_of :location
   
   
   include Rails.application.routes.url_helpers
