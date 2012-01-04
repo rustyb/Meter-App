@@ -10,9 +10,9 @@ class Meter < ActiveRecord::Base
   
   
   include Rails.application.routes.url_helpers
-  default_url_options[:host] = 'www.therustyproject.com'
+  
   def gmaps4rails_infowindow
-    "<span style='font-size:1.2em;font-weight:bold;'>#{location} - #{dublin_no}</span><br/><b><a href='#{url_for(:controller => 'meters', :action => 'show', :id => "#{id}")}'>Get More Info</a></b>"
+    "<span style='font-size:1.2em;font-weight:bold;'>#{location} - #{dublin_no}</span><br/><b><a href='#{url_for(:controller => 'meters', :only_path => true, :action => 'show', :id => "#{id}")}'>Get More Info</a></b>"
     #"<b>#{location} - #{dublin_no}</b><br /><a href='#{base_url}/meters/#{id}'>More Info</a>"
   end
   
