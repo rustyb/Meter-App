@@ -1,48 +1,43 @@
 <% title "Protected Structure" %>
-
-<p>
-  <strong>Rps Number:</strong>
-  <%= @protected_structure.rps_number %>
-</p>
-<p>
-  <strong>Structure Name:</strong>
-  <%= @protected_structure.structure_name %>
-</p>
-<p>
-  <strong>Description:</strong>
-  <%= @protected_structure.description %>
-</p>
-<p>
-  <strong>Street Number:</strong>
-  <%= @protected_structure.street_number %>
-</p>
-<p>
-  <strong>Street Address:</strong>
-  <%= @protected_structure.street_address %>
-</p>
-<p>
-  <strong>Townland:</strong>
-  <%= @protected_structure.townland %>
-</p>
-<p>
-  <strong>Niah Ref:</strong>
-  <%= @protected_structure.niah_ref %>
-</p>
-<p>
-  <strong>Rmp Ref:</strong>
-  <%= @protected_structure.rmp_ref %>
-</p>
-<p>
-  <strong>Longitude:</strong>
-  <%= @protected_structure.longitude %>
-</p>
-<p>
-  <strong>Latitude:</strong>
-  <%= @protected_structure.latitude %>
-</p>
-
-<p>
-  <%= link_to "Edit", edit_protected_structure_path(@protected_structure) %> |
-  <%= link_to "Destroy", @protected_structure, :confirm => 'Are you sure?', :method => :delete %> |
-  <%= link_to "View All", protected_structures_path %>
-</p>
+<div class="row">
+	<div class="six columns">
+		<h3><strong>RPS#</strong> <%= @protected_structure.rps_number %></h3>
+		<p>
+			<span style="font-size:1.5em;">Name</span><br />
+			<%= @protected_structure.structure_name %>
+		</p>
+		<p><span style="font-size:1.5em;">Description</span><br /><%= @protected_structure.description %></p>
+		<p><span style="font-size:1.5em;">Address</span><br />
+			<em><%= @protected_structure.street_number %> 
+			<%= raw(@protected_structure.street_address.to_s.gsub(',',',<br/>')) %><br />
+			<b><%= @protected_structure.townland %></b></em>
+		</p>
+		<p>
+			<span style="font-size:1.5em;">I want to find out more</span><br />
+			On the left is the National Inventory of Architectural heritage reference number, you find extra information on the building on buildingsofireland.ie or by clicking the green number below.
+			<div><% unless @protected_structure.niah_ref.nil? %> 
+				<%= link_to @protected_structure.niah_ref, "http://www.buildingsofireland.ie/niah/search.jsp?type=record&county=FI&regno=#{@protected_structure.niah_ref}", 
+				:class => "large green button radius", :title =>"Click to View NIAH full Record" %>
+			<% end %>
+		
+			<% unless @protected_structure.rmp_ref.nil? %>
+			<%= link_to @protected_structure.rmp_ref, "#", 
+			:class => "large black button radius", :title =>"The RMP Website is currently unvailable" %>
+			<% end %></div>
+		</p>
+		<p>
+			<%= link_to "Edit", edit_protected_structure_path(@protected_structure) %> |
+			<%= link_to "Destroy", @protected_structure, :confirm => 'Are you sure?', :method => :delete %> |
+			<%= link_to "View All", protected_structures_path %>
+		</p>
+	</div>
+	<div class="six columns">
+		
+		<% if @protected_structure.niah_ref.nil? %>
+			<%= image_tag "http://maps.googleapis.com/maps/api/streetview?size=400x400&location=#{@protected_structure.latitude},%20#{@protected_structure.longitude}&fov=120&pitch=10&sensor=false" %>
+		<% else %>
+			<%= image_tag "http://www.buildingsofireland.ie/niah/images/survey_specific/fullsize/#{@protected_structure.niah_ref}_1.jpg" %><br />
+			<em>Image: &copy;NIAH</em>
+		<% end %>
+	</div>
+</div>
