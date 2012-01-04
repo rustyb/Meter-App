@@ -39,6 +39,10 @@ gem 'capistrano'
 group :production do
   #Fix deploy errors
   gem 'therubyracer'
+  
+  gem 'thin'
+	gem 'fog'
+	gem 'pg'
 end
 
 # To use debugger
