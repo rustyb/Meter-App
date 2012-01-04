@@ -93,7 +93,7 @@
 		<% for meter in @meter.nearbys(0.3).limit(6) %>
 		<li>
 			<span class=''>
-				<b><%= link_to "#{meter.location} #{meter.dublin_no}", meter, :title => "Detailed information" %> - (<%= (meter.distance*1000)#.round(1) %> M)</b><br />
+				<b><%= link_to "#{meter.location} #{meter.dublin_no}", meter, :title => "Detailed information" %> - (<%= (meter.distance*1000).to_f.round(1) %> M)</b><br />
 				<p>
 					<b>Hours:</b>
 					<br /><%= meter.op_hours %>
