@@ -1,0 +1,48 @@
+<% title "Protected Structure" %>
+
+<p>
+  <strong>Rps Number:</strong>
+  <%= @protected_structure.rps_number %>
+</p>
+<p>
+  <strong>Structure Name:</strong>
+  <%= @protected_structure.structure_name %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @protected_structure.description %>
+</p>
+<p>
+  <strong>Street Number:</strong>
+  <%= @protected_structure.street_number %>
+</p>
+<p>
+  <strong>Street Address:</strong>
+  <%= @protected_structure.street_address %>
+</p>
+<p>
+  <strong>Townland:</strong>
+  <%= @protected_structure.townland %>
+</p>
+<p>
+  <strong>Niah Ref:</strong>
+  <%= @protected_structure.niah_ref %>
+</p>
+<p>
+  <strong>Rmp Ref:</strong>
+  <%= @protected_structure.rmp_ref %>
+</p>
+<p>
+  <strong>Longitude:</strong>
+  <%= @protected_structure.longitude %>
+</p>
+<p>
+  <strong>Latitude:</strong>
+  <%= @protected_structure.latitude %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_protected_structure_path(@protected_structure) %> |
+  <%= link_to "Destroy", @protected_structure, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", protected_structures_path %>
+</p>

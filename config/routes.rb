@@ -1,4 +1,6 @@
 MetreMap::Application.routes.draw do
+  resources :protected_structures
+
   resources :meters
 
   # The priority is based upon order of creation:

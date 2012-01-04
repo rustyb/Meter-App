@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111229124642) do
+ActiveRecord::Schema.define(:version => 20120104180539) do
 
   create_table "meters", :force => true do |t|
     t.integer  "dublin_no"
@@ -30,6 +30,21 @@ ActiveRecord::Schema.define(:version => 20111229124642) do
     t.boolean  "finished"
     t.string   "extra_comment"
     t.string   "zone"
+    t.float    "longitude"
+    t.float    "latitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "protected_structures", :force => true do |t|
+    t.integer  "rps_number"
+    t.string   "structure_name"
+    t.text     "description"
+    t.string   "street_number"
+    t.string   "street_address"
+    t.string   "townland"
+    t.integer  "niah_ref"
+    t.string   "rmp_ref"
     t.float    "longitude"
     t.float    "latitude"
     t.datetime "created_at"

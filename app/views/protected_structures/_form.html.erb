@@ -1,0 +1,44 @@
+<%= form_for @protected_structure do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :rps_number %><br />
+    <%= f.number_field :rps_number %>
+  </p>
+  <p>
+    <%= f.label :structure_name %><br />
+    <%= f.text_field :structure_name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :street_number %><br />
+    <%= f.text_field :street_number %>
+  </p>
+  <p>
+    <%= f.label :street_address %><br />
+    <%= f.text_field :street_address %>
+  </p>
+  <p>
+    <%= f.label :townland %><br />
+    <%= f.text_field :townland %>
+  </p>
+  <p>
+    <%= f.label :niah_ref %><br />
+    <%= f.number_field :niah_ref %>
+  </p>
+  <p>
+    <%= f.label :rmp_ref %><br />
+    <%= f.number_field :rmp_ref %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

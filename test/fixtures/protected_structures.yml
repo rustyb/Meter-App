@@ -1,0 +1,23 @@
+one:
+  rps_number: 1
+  structure_name: MyString
+  description: MyText
+  street_number: MyString
+  street_address: MyString
+  townland: MyString
+  niah_ref: 1
+  rmp_ref: 1
+  longitude: 1.5
+  latitude: 1.5
+
+two:
+  rps_number: 1
+  structure_name: MyString
+  description: MyText
+  street_number: MyString
+  street_address: MyString
+  townland: MyString
+  niah_ref: 1
+  rmp_ref: 1
+  longitude: 1.5
+  latitude: 1.5

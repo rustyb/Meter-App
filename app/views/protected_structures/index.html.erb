@@ -1,0 +1,85 @@
+<% title "Protected Structures" %>
+<div class="row">
+	<p>The list containing all the structures that are protected within Fingal is known as the Record of Protected Structures, or RPS for short.  Prior to an Act in 1999 these buildings or features were known as Listed Buildings, but this title no longer applies.</p>
+
+	<p>The protection, unless otherwise stated in the RPS, includes the exterior and interior of the structure, the land lying within its curtilage (boundary), any other structures and their interiors within the curtilage, plus all fixtures and fittings which form part of the interior or exterior of any of these structures.</p>
+	
+</div>
+<div class="row">
+	<div class="eight columns hide-on-phones">
+		<%= gmaps(:markers     => { :data => @markers, :options => {:clusterer_maxZoom => 13} },
+		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true}) %>
+		
+				<%# gmaps({
+				    "map_options" => { "type" => "SATELLITE", "center_longitude" => 180, "zoom" => 3, "auto_adjust" => true},
+				    "markers"     => { "data" => '[{ "description": "", "title": "", "lng": "5.9311119", "lat": "43.1251606", "picture": "", "width": "", "height": "" } ,{ "description": "", "title": "", "lng": "2.3509871", "lat": "48.8566667", "picture": "", "width": "", "height": "" } ]',
+				                                         }}) %>
+				<%# for protected_structure in @protected_structures %>
+				<%# end %>
+				<%# @markers.to_s %>
+	</div>
+	<div class="four columns hide-on-phones">
+		<p>Ever wondered where all the protected structures are in your area? Well now you can find them all, just enter your location below:</p>
+		<%= form_tag protected_structures_path, :method => :get do %>
+		  <p>
+		    <%= text_field_tag :search, params[:search], :style => "font-size:20px;width:100%;" %>
+		    <%= submit_tag "Search Nearest", :name => nil, :class => "button small radius blue" %>
+		  </p>
+		<% end %>
+		<ul class="hide-on-phones" style="height:220px; overflow-y:scroll;">
+		<% for ps in @protected_structures %>
+		<li>
+		<span class=''>
+			<b><%= link_to "#{ps.rps_number} - #{ps.street_address}", ps, :title => "Detailed information" %></b><br />
+			
+				<p><%= ps.description %></p>
+			
+			<% unless ps.niah_ref.nil? %>
+				<div class='small green button radius'> <%= ps.niah_ref %></div> 
+			<% end %>
+			<% unless ps.rmp_ref.nil? %>
+				<div class='small black button radius'><%= ps.rmp_ref %></div>
+			<% end %>
+			<br />
+		</span>
+		</li>
+	<% end %>	
+		</ul>
+	
+	</div>
+</div>
+
+
+<table>
+  <tr>
+    <th>Rps Number</th>
+    <th>Structure Name</th>
+    <th>Description</th>
+    <th>Street Number</th>
+    <th>Street Address</th>
+    <th>Townland</th>
+    <th>Niah Ref</th>
+    <th>Rmp Ref</th>
+    <th>Longitude</th>
+    <th>Latitude</th>
+  </tr>
+  <% for protected_structure in @protected_structures %>
+    <tr>
+      <td><%= protected_structure.rps_number %></td>
+      <td><%= protected_structure.structure_name %></td>
+      <td><%= protected_structure.description %></td>
+      <td><%= protected_structure.street_number %></td>
+      <td><%= protected_structure.street_address %></td>
+      <td><%= protected_structure.townland %></td>
+      <td><%= protected_structure.niah_ref %></td>
+      <td><%= protected_structure.rmp_ref %></td>
+      <td><%= protected_structure.longitude %></td>
+      <td><%= protected_structure.latitude %></td>
+      <td><%= link_to "Show", protected_structure %></td>
+      <td><%= link_to "Edit", edit_protected_structure_path(protected_structure) %></td>
+      <td><%= link_to "Destroy", protected_structure, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Protected Structure", new_protected_structure_path %></p>

@@ -6,7 +6,7 @@ task :import_ps_csv => [:environment] do
   #p "Starting to import CSV data from #{file}." 
 
   CSV.foreach(file, {:headers => true, :row_sep => :auto}) do |row|
-    ProtecedStructure.create!(
+    ProtectedStructure.create!(
     :rps_number => row[0],
     :structure_name => row[1],
     :description => row[2],
@@ -19,3 +19,6 @@ task :import_ps_csv => [:environment] do
     :latitude => row[8])
   end
 end
+
+#create the db
+#protected_structures rps_number:integer structure_name:string description:text street_number:string street_address:string townland:string niah_ref:integer rmp_ref:integer longitude:float latitude:float

@@ -1,314 +1,793 @@
 RPS_Number,StructureName,Description,StreetNumber,StreetAddress,Townland,NIAH_Ref,RMP_REF,Lat,Long
-5,St. Brigid's Well,Holy Well,,Tobersool Lane,Tobersool,,DU001-001,53.6272869858849,-6.23832144264639
-100,Ring-Ditch,Earthwork,,Doolagh Road,Doolagh,,DU001-002,53.6091179972111,-6.26208413097521
-7,Balscadden Church (in ruins) & St. Mary's Well,"Church ruins, Graveyard & Holy Well",,Flemingtown to Toberstown Rd,Tobertown (Balscadden),11304010,DU001-003 to -00304,53.617356600281,-6.23692982564276
-11,Lady Well,Holy Well,,Flemingtown Lane,Flemingtown,,DU001-004,53.615526380965,-6.21364222152724
-4,Gormanstown Bridge,Stone bridge over River Delvin,,Gormanstown Road,Tobersool,,DU001-010,53.6287715542,-6.23088411542306
-2,Knocknagin House,House & Outoffices,,Drogheda Road (N1),Knocknagin,11302001,DU001-012,53.6305336016055,-6.21568769957695
-3,Passage Grave Cemetery,Group of five mounds (incl group of cairns),,off Drogheda Road,Bremore,,DU002-001,53.6302009998934,-6.19086853037131
-14,Bremore Castle,Remains of 16th century medieval stone castle,,off Drogheda Road,Bremore,,DU002-00201,53.6172585427976,-6.19072827267038
-13,St. Molaga's Church (in ruins) & Graveyard,Remains of nave & chancel of church with some decorative stonework,,off Drogheda Street,Bremore,,"DU002-00202, DU002-00203",53.6166149411933,-6.19083150944949
-17,Martello Tower,Former Martello Tower,,"King Strand, off Bath Road",Tankardstown (Balbriggan),11305009,DU002-004,53.6157715243007,-6.18320724241868
-16,Tankard Ville,Thatched house,,Brecan Close,Tankardstown (Balbriggan),,DU002-011,53.6125110292638,-6.19139338592028
-120,Ringfort,Earthwork,,off Hedges Road,Commons Upper,,DU003-001,53.5851920498647,-6.3861334349439
+176,Thatched Dwelling,Four-bay single-storey thatched dwelling with extension,,"New Lane, Balbriggan",Darcystown,11310002,,53.5768453836466,-6.18108350949736
+112,Mounds,Group of three burial mounds,,Lecklinstown Lane,Kitchenstown,,DU004-01201 to 01203,53.5733816877829,-6.25550705960346
+40,,4-storey over basement structure with decorative window mouldings,11,Bridge Street,Balbriggan,11305040,,53.6093872935164,-6.18306981947357
+43,Allied Irish Bank,Bank building,1,Georges Sqaure,Balbriggan,,,53.6086728457196,-6.18322644248481
+42,Court House,Two-storey stone courthouse on corner site,,Georges Square,Balbriggan,11305038,,53.6083364808388,-6.18291706456789
+58,,Early 19th century house (excluding modern lean-to shop extension),2,Dublin Street,Balbriggan,11305016,,53.6081985783056,-6.18299495134247
+59,Balbriggan Clubs Community Centre,Fa�ade only of Art Deco former cinema,23,Dublin Street,Balbriggan,,,53.6074514657378,-6.18381859643444
+60,,Fa�ade only of Art Deco former garage,39,Dublin Street,Balbriggan,,,53.6067592204693,-6.184028212682
+61,,Corner building at junction with Market Green & Dublin St,40,Dublin Street,Balbriggan,11305034,,53.606590925849,-6.18351374504105
+64,Former Corn Mill,"Four storey former mill, now an apartment block",,Vauxhall Street,Balbriggan,11305037,DU005-050,53.6053642569399,-6.18516743120426
+44,,"19th century former residence, now offices",7,Georges Sqaure,Balbriggan,,,53.6082959375969,-6.18236111070779
+45,,"19th century former residence, now offices",8,Georges Sqaure,Balbriggan,,,53.6083041705933,-6.18219884663603
+46,Carnegie Library,Redbrick library on corner site with turretted clock tower,,Georges Square,Balbriggan,11305039,,53.6084738750156,-6.18210159868788
+47,,19th century terraced house,11,High Street,Balbriggan,11305041,,53.6086932136185,-6.18175035800167
+48,Kincora,Victorian Gothic Revival style house,39,High Street,Balbriggan,,,53.6096587958242,-6.18122309787677
+52,St. George's Church & Hall,Gothic Revival Church of Ireland church. Detached  hall within grounds,,Georges Street/Church Street,Balbriggan,11305023 & 11305022,,53.6097191701072,-6.17956534791671
+36,Viaduct,Eleven-arch railway viaduct over harbour,,Balbriggan Harbour,Balbriggan,11305021,,53.6106751021227,-6.1805137194631
+35,Former RNLI Boathouse,Former Lifeboat House,,Balbriggan Harbour,Balbriggan,11305020,,53.6108689244443,-6.18059533531544
+53,Croom House,19th century house,,Seapoint Lane,Balbriggan,11305026,,53.6097545656859,-6.17837643002909
+51,Georgeville,19th century semi-detached house,5,Georges Street/Church Street,Balbriggan,11305028,,53.6086420253672,-6.17979161062786
+50,Roscarrig,19th century semi-detached house,3,Georges Street/Church Street,Balbriggan,,,53.6085274237717,-6.17999443749951
+49,Bedford House,Former Vicarage/Rectory now Nursing Home,,Georges Street/Church Street,Balbriggan,11305029,,53.6082115902051,-6.18033184951407
+57,St. George's National School & Schoolhouse,"Mid-19th century School,  School Masters house to rear & stone boundary wall",,Hampton Street,Balbriggan,11305031,,53.6076202756033,-6.17943980219575
+65,Market House,Early 19th century former market house,,Market Green,Balbriggan,11305033,,53.6063166049486,-6.18165463160524
+67,,One of two pairs of semi-detached mid-19th century houses,2,"The Bower, Fancourt",Balbriggan,,,53.607955414724,-6.16915304950671
+69,,One of two pairs of semi-detached mid-19th century houses,4,"The Bower, Fancourt",Balbriggan,,,53.607781275945,-6.16826108354292
+182,,Four-bay single-storey thatched dwelling,42,Quay Street,Townparks (Skerries),11311023,,53.5812274771405,-6.11039799784575
+194,,Six-bay single-storey thatched dwelling,19,Thomas Hand Street,Townparks (Skerries),11311006,,53.5803832984349,-6.10963847214901
+210,,Five-bay single-storey thatched dwelling,78,Church Street,Skerries,11311013,,53.5795887144292,-6.10955632893086
+193,The Gladstone Inn,Public House with historic shopfront,16,The Cross,Skerries,11311007,,53.5807491718167,-6.10818454505671
+197,Hamilton Monument,Obelisk-style monument,,Strand Street,Skerries,11311010,,53.5806841458719,-6.10702431408753
+196,Post Office,Building with traditional shopfront,11,Strand Street,Skerries,11311009,,53.5808747189797,-6.1067805476348
+190,Slieve Donard,Two-storey house with decorative external mouldings & balcony,12,Harbour Road,Skerries,11311024,,53.5825268368118,-6.10551733900161
+183,Skerries Harbour,18th century limestone pier,,Harbour Road,Townparks (Skerries),11311001,,53.5854134611435,-6.10657756781901
+203,The Red Bank Restaurant,Redbrick three-bay two-storey former bank with dormer attic,7,Church Street,Skerries,11311039,,53.5796863688097,-6.1088462604196
+199,Wesleyan Methodist Church,Double-height stone church,,Strand Street,Skerries,11311011,,53.5797981579164,-6.10706392391949
+200,Garda Station,Semi-detached two-storey four-bay former house,90,Strand Street,Skerries,11311026,,53.5796022076324,-6.10696813483287
+204,Nealon's Public House,Public House with traditional imber shoppub,12,Church Street,Skerries,11311012,,53.5793316797358,-6.10854845902634
+212,,Three-bey two-storey 19th century house,17,Little Strand Street,Townparks (Skerries),,,53.579189848281,-6.10794057244369
+198,Ivetta,House with decorative external plasterwork,34,Strand Street,Skerries,11311014,,53.5793507363843,-6.10631287984046
+209,The Coast Inn,Two adjoining three-bay two-storey structures with traditional shopfront & pubfront,66 & 67,Church Street,Skerries,11311015,,53.578875620188,-6.10872564815447
+208,,Two-bay two-storey house,65,Church Street,Skerries,,,53.578856149944,-6.10847821995629
+205,,Five-bay single-storey thatched dwelling,17,Church Street,Skerries,11311019,,53.5790131609677,-6.10807915170704
+206,,House with traditional timber shopfront,21,Church Street,Skerries,11311016,,53.5786641747696,-6.1076504204101
+202,St. Patrick's Roman Catholic Church,Detached early 20th century Catholic Church,,Strand Street,Skerries,11311020,,53.5783316808119,-6.10678970820354
+201,Skerries Library,Detached limestone Carnegie library builiding with projecting tower,80,Strand Street,Skerries,11311017,,53.5785928194801,-6.1065820066694
+207,Seapark,Five-bay three-storey house,39,Church Street,Townparks (Skerries),,,53.5766984768536,-6.10630081281958
+227,Kibe Well,Holy well,,Mill Hill,Townparks (Skerries),,DU005-030,53.5750528981719,-6.10717046120947
+213,Ivy House,Three-bay two-storey 19th house with projecting timber entrance porch,42,Holmpatrick,Townparks (Skerries),,,53.573836926919,-6.10342993434142
+226,Holmpatrick Church of Ireland Church,19th century Anglican church and graveyard,,Millers Lane,Skerries,11311032,,53.5742332291804,-6.10546115309734
+228,Skerries Mill,"Former watermill building & complex, incl mill race, millpond, sluice and water wheel",,Mill Hill,Townparks (Skerries),11311031,DU005-029,53.5743187056358,-6.11011111137406
+229,The Great Windmill,"Restored circular windmill, rendered with mansard roof & five sails",,Mill Hill,Townparks (Skerries),11311029,DU005-028,53.5750494498577,-6.1100884882182
+230,The Small Windmill,"Restored windmill, unrendered with thatched conical roof & four sails",,Mill Hill,Townparks (Skerries),11311030,DU005-02701,53.5745966944714,-6.1130347978529
+192,Station Masters House,Former Station Master's House,,Station Road,Skerries,,,53.5739821415175,-6.11854480631874
+191,Skerries Railway Station,Railway Station Buildings & Signal Box,,Station Road,Skerries,11311036 & 11311035,,53.573953096915,-6.11896552895882
+105,Castle,"Remains of stone tower, known as ""The Black Castle""",,Drogheda Road,Naul,,DU004-04502,53.5881125552283,-6.28959796427902
+103,Lady Well,Holy Well,,Balbriggan Road,Naul,,DU004-04503,53.5878845460167,-6.28742923130564
+106,Naul Bridge,Stone road bridge over River Delvin,,Drogheda Road,Naul,11308003,,53.5881999497662,-6.29208602629721
 127,Garristown Barrow,Barrows are earthern burial mounds,,Newtown Lane,Newtown (Garristown),,DU003-003,53.5561369280488,-6.41910619760656
-125,Windmill (in ruins),"Remains of base of circular stone windmill, dated 1736 & hillfort site",,Windmill Road/Ashbourne Road,Garristown,11313005,DU003-00402,53.5635647545311,-6.39337094540533
-126,Mound,"Semi-circular mound, 1.5m high, cut by field boundary",,Adamstown Road,Garristown,,DU003-005,53.5626637332531,-6.38034954792651
-121,"Church (in ruins), Graveyard & Whetstone",Remains of 19th century church & older graveyard,,Chapel Road/Watery Lane,Garristown,11313010,DU003-011,53.5683209967038,-6.38411384386435
-98,Ringfort,Platform type ringfort enclosed by slight fosse,,Toberstown Road,Grange (Balscadden),,DU004-001,53.6073932470628,-6.24463459745857
+128,Laurel Mount,Nine-bay single-storey house with doric porch,,Borranstown Road,Borranstown,11313001,,53.5479370560637,-6.4113552252186
+138,Thatched Cottage,Four-bay single-storey thatched dwelling,,Adamstown Cross Roads,Adamstown,11314001,,53.5529413962695,-6.35998839742436
+139,Burial Mound,Earthwork in fields at end of lane,,Knocklyon Lane,Adamstown,,DU004-018,53.5533152766905,-6.34089946642669
+143,Trallie House,Five-bay two-storey 19th century house & Outbuildings,,Naul Road,Grallagh,11314008,,53.5428133904462,-6.32438046672931
+147,Outbuildings of Wyanstown House,Fine stone barns and outoffices,,Brownscross to Ballyboghil Road,Oldtown,11320001,,53.53883562639,-6.3187480040055
+160,St. Kenny's Well,Holy Well,,Naul Road,Hollywood Great,,DU004-022,53.5564427977601,-6.27064234935488
+162,Possible Barrow,Low circular flat-topped mound (.75m high),,Hollywood Road,Hollywood Great,,DU004-021,53.5586811787208,-6.25953331188412
+151,The Grange,Three-bay single-storey bonnetted thatched dwelling with modern extensions,,Drishoge Lane,Grange (Ballyboughil),,,53.5173760467166,-6.27575054804229
+356,St. Columcille's Church,"Catholic Church, font, graveyard",,Chapel Lane,Swords Demense,11343010,DU011-070,53.4580094112502,-6.21722975035945
+359,The Old School House Restaurant,Three-bay two-storey Tudor style former school house,,Church Road,Swords Demesne,11343012,,53.4566751583429,-6.22262359841917
+361,Sexton's House,Three-bay single-storey aslar limestone Tudor style house,,Church Road,Swords Glebe,11343006,,53.4578919676112,-6.22370808613303
+362,Old Vicarage,Three-bay two-storey former vicarage,,Church Road,Swords Glebe,11343004,,53.4580440765799,-6.22274565740472
+372,National Irish Bank,Five-bay single-storey ashlar granite bank building,47,Main Street,Brazil (Swords),11343009,,53.4570743989144,-6.22069480614452
+358,Parochial House,Three-bay two-storey redbrick parochial house,,Seatown Road,Swords Demesne,11335003,,53.4598235346535,-6.21595856272573
+410,,Group of twelve mid 19th century terraced houses - No. 3 is two-bay two-storey house,3,St. James's Terrace,Malahide,11344001,,53.451231882453,-6.15192825068346
+412,,Group of twelve mid 19th century terraced houses - No. 5 is two-bay three-storey house,5,St. James's Terrace,Malahide,11344001,,53.4513733970746,-6.15191362527122
+413,,Group of twelve mid 19th century terraced houses - No. 6 is two-bay three-storey house,6,St. James's Terrace,Malahide,11344001,,53.4514390765028,-6.1519051191475
+414,,Group of twelve mid 19th century terraced houses - No. 7 is two-bay three-storey house,7,St. James's Terrace,Malahide,11344001,,53.4515081241895,-6.15189646522244
+415,,Group of twelve mid 19th century terraced houses - No. 8 is two-bay three-storey house,8,St. James's Terrace,Malahide,11344001,,53.4515789059827,-6.15189056072524
+416,,Group of twelve mid 19th century terraced houses - No. 9 is two-bay three-storey house,9,St. James's Terrace,Malahide,11344001,,53.4516480420162,-6.15188755846409
+417,,Group of twelve mid 19th century terraced houses - No. 10 is two-bay two-storey house,10,St. James's Terrace,Malahide,11344001,,53.4517204223863,-6.15187593496293
+419,,Group of twelve mid 19th century terraced houses - No. 12 is two-bay two-storey house,12,St. James's Terrace,Malahide,11344001,,53.4518433461242,-6.15185928720746
+420,Malahide Railway Viaduct,Railway viaduct across Broadmeadow Estuary,,Malahide Estuary,Malahide,,,53.4584018605429,-6.15544122196963
+404,,Group of six sem-detached three-bay three-storey 19th century houses incl railings & gates,3,"Windsor Terrace, Church Road",Malahide,11344027,,53.4496483370389,-6.15287739367261
+405,,Group of six sem-detached three-bay three-storey 19th century houses incl railings & gates,4,"Windsor Terrace, Church Road",Malahide,11344027,,53.4495194783333,-6.15284714366493
+406,,Group of six sem-detached three-bay three-storey 19th century houses incl railings & gates,5,"Windsor Terrace, Church Road",Malahide,11344027,,53.4493259154506,-6.15278385530461
+407,,Group of six sem-detached three-bay three-storey 19th century houses incl railings & gates,6,"Windsor Terrace, Church Road",Malahide,11344027,,53.4491901132092,-6.152765856001
+387,Station Master's House,Redbrick former station masters house,,Dublin Road,Malahide,,,53.4506095379913,-6.15599617184183
+388,Malahide Railway Station,"Railway Station, Signal Box, Pedestrian Bridge & Entrance",,Dublin Road,Malahide,11344008,,53.4507115842286,-6.1564458109668
+386,Milestone,Cast-iron milestone in granite setting in boundary wall of thatched house 'Casino',,Dublin Road,Malahide,11344038,,53.4501999622835,-6.15749558585782
+385,Casino,Large thatched dwelling in garden ornee style,,Dublin Road,Malahide,11344016,,53.4506689285253,-6.15830374102136
+384,Malahide Abbey (in ruins),"Church in ruins, Graveyard and Sheela-na-gig within grounds of Malahide Castle",,off Dublin Road,Malahide Demesne,11344020,DU012-03101 to 03106,53.4449621576689,-6.16359453954021
+383,Malahide Castle,"Castle, gatelodges (x4), stone outbuildings, entrance gates & piers",,Dublin Road,Malahide Demesne,11344019,DU012-030,53.4449296317744,-6.16457164748415
+382,Lime Kiln (in ruins),"Remains of square stone lime kiln within grounds of Malahide Castle, west of castle building",,off Dublin Road,Malahide Demesne,,,53.4467359537286,-6.17072654165317
+381,Thatched Dwelling,Two semi-detached single-storey thatched dwellings,,Bissett Strand,Malahide,11344045,,53.4537642934015,-6.16206737793703
+423,Railway Bridge,Stone rail bridge over road,,The Strand,Malahide,11344015,,53.4522285756617,-6.15637409322919
+426,Presbyterian Church,Mid-20th century Presbyterian Church with steeply pitch roof with flared eaves and copper clad spire,,Dublin Road,Malahide,,,53.4502688920148,-6.15926701134931
+436,Tir na nOge,Large redbrick late 19th century house,,Church Road,Malahide,,,53.4486502787372,-6.15521881049257
+437,St. Andrew's Church (C of I),Early 19th century Church of Ireland church,,Church Road,Malahide,11344049,,53.4482092921102,-6.1534536482138
+427,St. Sylvester's GAA Club,End of terrace five-bay two-storey house with doric entrance porch,2,Church Road,Malahide,11344029,,53.450150744229,-6.15384733519654
+439,St. Andrew's National School,Three-bay two-storey school house dated 1824,,Church Street,Malahide,11344034,,53.4489173649627,-6.15280956036642
+438,Roseneath,Large Tudor-Revival style early 20th century house,,Church Road,Malahide,,,53.4475934229849,-6.15237318252669
+380,Thatched Dwelling,Four-bay single-storey thatched dwelling,,Sea Road,Malahide,11344045,,53.4533753702132,-6.17202057742075
+299,Former Lusk Post Office,"Exterior only of former Post Office, now residence",,Post Office Road,Greatcommon (Lusk),11323009,,53.5274877333974,-6.16773575790765
+298,Tower of St. Macculin's C of I Church,Medieval Church Tower (incl early Christian Round Tower & effigal tombs),,Church Road,Lusk,11323010,DU008-01003,53.5262302716759,-6.16724806111862
+297,Community Centre Former St. Macculin's C of I Church,Converted 19th century church structure & Graveyard,,Church Road,Lusk,11323010,DU008-01005,53.5261284893875,-6.16685097885245
+296,Fingal House,Exterior only and entrance hall of 19th century building,,The Square/Main Street,Lusk,11323012,,53.5254769369699,-6.16570480950739
+295,Clay Cottage,Four-bay single-storey thatched dwelling on road leading into Lusk village from Dublin,,"Dublin Road, Lusk",Ballough (Part of),11323024,,53.522879271861,-6.16752328372454
+329,Mound,Earthwork,,Fieldstown to Swords Road,Newbarn,,DU011-004,53.4897900733323,-6.3198419889157
+336,Lispopple Bridge,Road Bridge over Broadmeadow River,,,Lispopple,11327002,,53.4889952579578,-6.28468422797057
+337,Roganstown House,"House, out-offices, lodge & gates",,Naul Road,Roganstown,11334010,,53.4866110038576,-6.27285340657154
+657,Kilsallaghan Glebe,"House & gates, Former Glebe House",,,Glebe (Kilsallaghan),,,53.4763735589975,-6.32502327257766
+658,Thorntown Lodge,House & out-offices,,Thorntown Lane,Dunmucky,,,53.4725451728294,-6.34684334528048
+643,Corrstown House,"House, out-offices, gates & piers, now in grounds of golfcourse",,Corrstown Lane,Corrstown,11341001,,53.4597293662485,-6.32242898859684
+639,Owens Bridge,Bridge & Ford,,Toberburr Road,Toberburr,,,53.4543441744543,-6.29428855933578
+376,Leas House,Five-bay two-storey house,,Leas Cross,Leas,11334008,,53.4665990611525,-6.27327308064236
+118,Garristown Bridge,Stone road bridge over River Delvin,,Ardcath Road,Commons Upper,,,53.5832462173848,-6.38069989500651
+122,Church of the Assumption,Roman Catholic Church,,Main Street,Garristown,11313008,,53.5668130629664,-6.38276519600986
+123,Garristown Library,Single storey limestone Carnegie library building,,Main Street,Garristown,11313007,,53.5664612511477,-6.38292728820447
+117,Cockles Bridge,Stone road bridge over river,,Clonalvy Road,Glebe East,,,53.5750806819112,-6.35033137219648
 96,Enclosure Site,Earthwork,,Groghan Lane,Balscadden,,DU004-003,53.6023740963556,-6.22931192424169
 10,Potential Site,Earthwork,,,Balscadden,,DU004-003,53.6036308540597,-6.22160239676067
-116,Enclosure site,Earthwork,,Fourknocks Road,Westown,,DU004-004,53.5832586080891,-6.31013319512162
-115,Mound,Bell Barrow (burial mound) on hilltop,,Naul Road,Westown,,DU004-005,53.5802469133953,-6.3073809635641
-114,Ringfort possible site,Earthwork,,Naul Road,Loughmain/Cabinhill,,DU004-011,53.5742215515111,-6.28689488225797
-112,Mounds,Group of three burial mounds,,Lecklinstown Lane,Kitchenstown,,DU004-01201 to 01203,53.5733816877829,-6.25550705960346
-113,Mounds,Group of mounds,,Leckinstown Road,Knockbrack,,DU004-01204 to 01207,53.5717499214653,-6.25639410954324
-163,Ring-ditch site,Earthwork,,,Walshestown,,DU004-015,53.563198270409,-6.24677013582129
+9,Potential Site,Earthwork,,,Balscadden,,,53.6096267864811,-6.22966706676075
+97,Whitestown House,"19th century House, outbuildings, walled enclosure, entrance gates & 2 gateloges",,Toberstown Road,Whitestown (Balscadden ED),"11304005, (+06), 11303002",DU004-037,53.6009844988519,-6.24466665869819
+233,Burial(s) Site of,Earthwork,,,Milverton,,DU005-032,53.5658393588361,-6.11686177628535
+181,Ringfort (Rath/Cashel),Earthwork,,,Ardla,,DU005-026,53.5772411024702,-6.13208476185722
+93,Ring-ditch,Earthwork,,,Hampton Demesne,,DU005-015,53.5871470983145,-6.172239503439
+175,Ringfort possible site,Earthwork,,Balrothery to Man O'War Road,Darcystown/Hynespark,,DU005-020,53.5781286870135,-6.19147089138547
+89,Ring-ditch,Earthwork,,,Gibbonsmoor (Balrothery),,DU005-014,53.5846104534453,-6.19733353486627
+79,Potential Site,Earthwork,,Matt Road,Inch,,,53.5904311578917,-6.19469771588559
+77,Ring ditch,Earthwork,,Matt Road,Stephenstown,,DU005-005,53.5930250021277,-6.19846768621618
+95,Ringfort possible site,Earthwork,,,Kilsough,,DU005-00601,53.5946145033885,-6.17859652098917
+174,Potential Site,Earthwork,,,Rowans Big,,,53.5655473033544,-6.20001992074578
+652,Inscribed Stone(s),Archaeological feature,,Old Drogheda Road,Courtlough,,,53.5674600458524,-6.20743946309607
 164,Ringfort possible site,Earthwork,,Balrickard Road,Balrickard,,DU004-016,53.5704701931297,-6.23412080610754
-651,Ringfort possible site,Earthwork,,off Rowans Road,Rowans Big,,DU004-017,53.5676919171177,-6.21507803580455
-139,Burial Mound,Earthwork in fields at end of lane,,Knocklyon Lane,Adamstown,,DU004-018,53.5533152766905,-6.34089946642669
+184,Lifeboat Station (Former),Original stone boathouse replaced with new lifeboat house,,Harbour Road,Skerries,,,53.5858467745864,-6.10564785661809
+100,Ring-Ditch,Earthwork,,Doolagh Road,Doolagh,,DU001-002,53.6091179972111,-6.26208413097521
+116,Enclosure site,Earthwork,,Fourknocks Road,Westown,,DU004-004,53.5832586080891,-6.31013319512162
+120,Ringfort,Earthwork,,off Hedges Road,Commons Upper,,DU003-001,53.5851920498647,-6.3861334349439
+163,Ring-ditch site,Earthwork,,,Walshestown,,DU004-015,53.563198270409,-6.24677013582129
 140,Ringfort Site,Earthwork,,Grallagh Road,Grallagh,,DU004-019,53.5526497892397,-6.32987007361327
-158,Motte possible,Oval mound (4m high),,Mallahow Road,Mallahow,,DU004-020,53.5562770007683,-6.30397697184676
-162,Possible Barrow,Low circular flat-topped mound (.75m high),,Hollywood Road,Hollywood Great,,DU004-021,53.5586811787208,-6.25953331188412
-160,St. Kenny's Well,Holy Well,,Naul Road,Hollywood Great,,DU004-022,53.5564427977601,-6.27064234935488
-161,Church (in ruins),Church in ruins with walled graveyard which is still in use,,Hollywood Road,Hollywood Great,,DU004-02301 +-02302,53.5563367198413,-6.26009193189595
+133,Ringfort possible site,Earthwork,,Fieldstown to Garristown Road,Wyestown,,DU006-004,53.5329177042215,-6.36183455968869
+132,Enclosure site,Earthwork,,off Cornstown Road,Cornstown,,DU006-00302,53.5292467086031,-6.37189002699312
+134,Potential Site,Earthwork,,,Palmerstown,,,53.5170293061513,-6.35932613736417
+150,Ringfort Site,Earthwork,,Drishoge Lane,Grange (Ballyboghil),,DU007-014,53.5203724511175,-6.27568942076994
 165,Ring-ditch site,Earthwork,,,Walshestown,,DU004-024,53.5592250508997,-6.23845711471199
 166,Enclosure Site,Earthwork,,,Walshestown,,DU004-025,53.5589198776629,-6.23760955952207
 167,Enclosure site,Earthwork,,,Rowans Little,,DU004-026,53.5617802017989,-6.22487288871591
-97,Whitestown House,"19th century House, outbuildings, walled enclosure, entrance gates & 2 gateloges",,Toberstown Road,Whitestown (Balscadden ED),"11304005, (+06), 11303002",DU004-037,53.6009844988519,-6.24466665869819
-107,Watermill,Former Naul Mill complex,,Drogheda Road,Naul,11308002,DU004-04501,53.5875676241851,-6.29353821703731
-105,Castle,"Remains of stone tower, known as ""The Black Castle""",,Drogheda Road,Naul,,DU004-04502,53.5881125552283,-6.28959796427902
-103,Lady Well,Holy Well,,Balbriggan Road,Naul,,DU004-04503,53.5878845460167,-6.28742923130564
-104,Church (in ruins) & Cross site,Remains of small chapel dated 1710 & graveyard,,Drogheda Road,Naul,11308004,DU004-04504,53.5870744092388,-6.28883550032913
-75,Chapel site,Archaeological site,,Folkstown Lane,Folkstown Little,,DU005-001,53.598174157737,-6.20271152873431
-76,Well,Possibly holy well,,Folkstown Lane,Stephenstown,,DU005-002,53.5975433485241,-6.20282947191931
-73,Lady Well,Holy Well,,,Stephenstown,,DU005-003,53.5982253075199,-6.19656691507266
-74,Castle (in ruins),Foundations of square tower house,,,Stephenstown,,DU005-004,53.5972842211761,-6.19760806978654
-77,Ring ditch,Earthwork,,Matt Road,Stephenstown,,DU005-005,53.5930250021277,-6.19846768621618
-95,Ringfort possible site,Earthwork,,,Kilsough,,DU005-00601,53.5946145033885,-6.17859652098917
-82,Mound,Earthwork,,Matt Road,Inch (Balrothery),,DU005-008,53.5880286937331,-6.19032347016534
-89,Ring-ditch,Earthwork,,,Gibbonsmoor (Balrothery),,DU005-014,53.5846104534453,-6.19733353486627
-93,Ring-ditch,Earthwork,,,Hampton Demesne,,DU005-015,53.5871470983145,-6.172239503439
-179,Cairn,Burial Mound,,,Barnagerragh,,DU005-01601 +-01602,53.5851400099005,-6.14336645534751
-178,Cairn,Burial mound,,,Barnagerragh,,DU005-01701,53.5833596341411,-6.14198860314762
-189,Martello Tower,19th century circular military stone martello tower,,"Harbour Road, Red Island",Townparks (Skerries),11311005,DU005-018,53.5847319362635,-6.10236514647474
-773,Monastic Complex,Including Church Remains,,,St. Patrick's Island,,DU005-019,53.5852342552857,-6.07423946498312
-175,Ringfort possible site,Earthwork,,Balrothery to Man O'War Road,Darcystown/Hynespark,,DU005-020,53.5781286870135,-6.19147089138547
-177,Cist,Cists are burials built with stone slabs,,Grange Road,Baltrasna,,DU005-023,53.5770720548097,-6.1545922491597
-240,St. Mobhi's Church (in ruins) & Graveyard,"Remains of base of church & graveyard, in grounds of Milverton Demesne",,Balcunnin Road,Grange (Holmpatrick),11310003,DU005-02401,53.5693479076116,-6.15250197426449
-241,St. Mobhi's Well,"Holy Well, in grounds of Milverton Demesne",,Balcunnin Road,Grange (Holmpatrick),,DU005-02402,53.5701037657155,-6.15161656790638
-181,Ringfort (Rath/Cashel),Earthwork,,,Ardla,,DU005-026,53.5772411024702,-6.13208476185722
-230,The Small Windmill,"Restored windmill, unrendered with thatched conical roof & four sails",,Mill Hill,Townparks (Skerries),11311030,DU005-02701,53.5745966944714,-6.1130347978529
-229,The Great Windmill,"Restored circular windmill, rendered with mansard roof & five sails",,Mill Hill,Townparks (Skerries),11311029,DU005-028,53.5750494498577,-6.1100884882182
-228,Skerries Mill,"Former watermill building & complex, incl mill race, millpond, sluice and water wheel",,Mill Hill,Townparks (Skerries),11311031,DU005-029,53.5743187056358,-6.11011111137406
-227,Kibe Well,Holy well,,Mill Hill,Townparks (Skerries),,DU005-030,53.5750528981719,-6.10717046120947
-225,Church (in ruins) & Graveyard,"Ecclesiastical Remains, remains of bell tower & old graveyard",,Millers Lane,Townparks (Skerries),11311033 & 11311041,DU005-031,53.5735653689051,-6.10560394450326
-233,Burial(s) Site of,Earthwork,,,Milverton,,DU005-032,53.5658393588361,-6.11686177628535
-774,Martello Tower,19th century circular military stone martello tower,,,Shenick's Island,11311040,DU005-033,53.5734895375251,-6.08562024233247
-172,Mound site,"Earthwork, possible motte",,,Jordanstown,,DU005-034,53.5543243334189,-6.20604886546952
-243,Lady Well,Holy Well - stone structure fed by stream,,Baldongan Road,Balcunnin,,DU005-036,53.5614742810759,-6.14563565448043
-245,Baldongan Church and Tower (in ruins),"Stone remains of 15th century church, graveyard and site of castle",,,Baldongan,11318008,"DU005-03701, DU005-03702",53.5531310678257,-6.12874180156745
-64,Former Corn Mill,"Four storey former mill, now an apartment block",,Vauxhall Street,Balbriggan,11305037,DU005-050,53.6053642569399,-6.18516743120426
-70,Corn Mill,Former Mill (in ruins),,Mill Lane,Stephenstown,,DU005-051,53.6012006345869,-6.18662870758539
-71,Mill Dam,Part of historic mill complex,,Mill Lane,Stephenstown,,DU005-051,53.6009878555274,-6.18637095261748
-800,White Hart House (incl Carria Geal),"17th century house, sub-divided into two properties - White Hart House & Carria Geal)",,White Hart Lane,Stephenstown (Balbriggan),,DU005-054,53.596351342806,-6.19107838904793
-81,Holy Well,At side of house in village of Balrothery,,Old Coach Road,Balrothery,,DU005-05701,53.5911051581645,-6.18700217011225
-86,Standing Stone,In middle of housing development in Balrothery village,,Old Coach Road,Rosepark (Balrothery),,DU005-05702,53.5873595457103,-6.18564364670796
-84,Former Balrothery Church of Ireland Church,"Church, Inscribed Stone, Graveyard Walls & Gates",,Old Coach Road,Balrothery,2650/2,DU005-05703,53.5865578654001,-6.18980254726307
-83,Church Tower,Medieval tower of Balrothery Church,,,Balrothery,11309002,DU005-05703,53.5865654808552,-6.19014853073036
-85,Castle Tower House,Tower House (in ruins) adjacent to Balrothery Church,,,Glebe South (Balrothery),11309003,DU005-05706,53.5862239046038,-6.18983136840213
-87,Holy Well & Potential Site,In middle of housing development in Balrothery,,Old Coach Road,Rosepark (Balrothery),,DU005-05707,53.5864487054345,-6.18542203233684
-131,Ringgfort and site of armorial stone,"Limestone plaque with coat of arms was sited on lands of property called ""The Court""",,Ballymadun Road,Ballymadun,,DU006-00101,53.5299296149497,-6.40238698127634
-129,Ballymadun Church (in ruins) & Graveyard,"The church with high square tower is in ruins, in graveyard enclosure",,Ballymadun Road,Glebe (Garristown),11319004,DU006-00201 +-00202,53.5328478498033,-6.39770170347543
-132,Enclosure site,Earthwork,,off Cornstown Road,Cornstown,,DU006-00302,53.5292467086031,-6.37189002699312
-133,Ringfort possible site,Earthwork,,Fieldstown to Garristown Road,Wyestown,,DU006-004,53.5329177042215,-6.36183455968869
-141,Grallagh Church (in ruins) & St. Michael's Well,"Church, Graveyard & Holy Well",,Ashgrove Road,Grallagh,11314007,DU007-001 to 00104,53.5463331154166,-6.33036825646105
-142,St. John's Well,Holy Well south of Grallagh Church,,Ashgrove Road,Cottrelstown,,DU007-002,53.5459145609279,-6.33044312978692
-170,Mound site,Earthwork,,off Hollywood Road,Parnelstown,,DU007-003,53.548996952794,-6.24798502015825
-144,Enclosure site,Earthwork,,Naul Road,Brownscross,,DU007-005,53.5316852291699,-6.32890501251446
-146,Former St. Mary's Church of Ireland (in ruins),"Church 'Site of' (also known as Clonmethan Church), outside Oldtown",,Naul Road,Glebe (Clonmethan),11320004,DU007-00601,53.5291709572412,-6.3236490322843
-148,Ringfort,"Impressive ringfort (2m high), outer ditch has been filled in",,Brownscross to Ballyboghil Road,Leastown,,DU007-007,53.5347265950704,-6.31235947087158
-149,Westpalstown Church (in ruins),"Church, Graveyard & Building",,Newtown Lane,Westpalstown,11321010,DU007-008,53.5280214601812,-6.29968341583069
-155,Church (in ruins) & Graveyard,Remains of large medieval church & graveyard which is still in use,,Main Street,Ballyboghill,11321001,DU007-01001 +-01002,53.5237633363648,-6.26993673847415
-156,Enclosure Site,Earthwork,,Naul Road,Ballyboghill,,DU007-011,53.527201160453,-6.26682114146867
-136,Mound site,Earthwork,,Ashgrove Road,Jordanstown,,DU007-012,53.5204856606291,-6.34757408386425
-135,"Church (in ruins), Graveyard & Holy Well",Remains of medieval church in circular burial ground. Holy well is small pool to south,,Fieldstown to Garristown Road,Palmerstown,,DU007-01301 to -01303,53.511553420417,-6.3535163549978
-150,Ringfort Site,Earthwork,,Drishoge Lane,Grange (Ballyboghil),,DU007-014,53.5203724511175,-6.27568942076994
-322,Nunnery (in ruins),Remains of monastic site (Priory of St. Mary) and two Grave-slabs,,Ballyboghil Road,Gracedieu,,DU007-015,53.5094497199702,-6.22191219582711
-321,Lady's Well & St. Bridget's Well,Site of Holy Wells (2) & Mound. Associated with Gracedieu Nunnery,,Ballyboghil Road,Gracedieu,,DU007-01503 to 01505,53.510311176931,-6.21980212389405
-323,St. Bridget's Well,Holy Well in a field.,,off Baldurgan Lane,Baldurgan,,DU007-016,53.5026413206154,-6.250595109846
-324,Mound,Earthwork,,Naul Road,Belinstown/Skidoo,,DU007-017,53.4992554857758,-6.26616146089509
-157,Ring Barrows,Group of three ring barrows (burial mounds),,Ballyboghil to Devines Cross Road,Broomfield,,DU007-026,53.5276300895277,-6.25023942036639
-488,Enclosure,Earthwork,,"Batter Lane, off N1 Road",Belinstown,,DU007-036,53.4927879297039,-6.21109557718506
-308,Castle site,Archaeological site,,Lusk to Skerries Road,Collinstown,,DU008-001,53.5436884755,-6.16279983851162
+310,Mound,Earthwork,,,Ballough,,,53.5298592872215,-6.18948945671349
 307,Enclosure Site,Earthwork,,Lusk to Skerries Road,Collinstown,,DU008-002,53.5417068155836,-6.16321469264588
-254,Castle (in ruins),Remains of tower house,,Skerries Road,Rush Demesne,,DU008-003,53.5389725008585,-6.09419016133277
-256,Church (in ruins) & Graveyard,Church (in ruins) in graveyard enclosure,,Skerries Road,Rush Demesne,11324029,DU008-00401+-00402,53.5382353531075,-6.09252512114311
-257,St. Catherines Well,Holy Well,,Skerries Road,Rush Demesne,,DU008-005,53.5381441743768,-6.09338549961027
-252,Promontory Fort,Archaeological site,,off Skerries Road,Drumanagh,,DU008-00601,53.5414829917796,-6.08250372304545
-253,Martello Tower,19th century circular military stone martello tower,,off Skerries Road,Drumanagh,11318004,DU008-00603,53.5403285085684,-6.07794572555286
-305,Mound,Earthwork,,Quickpenny Lane,Regles (Lusk),,DU008-008,53.5313467914001,-6.17494470633833
-304,Site of Monastic Complex,Covered by greenhouses to rear of buildings on The Green,,The Green,Regles (Lusk),,DU008-01002,53.528896699559,-6.17149217135524
-298,Tower of St. Macculin's C of I Church,Medieval Church Tower (incl early Christian Round Tower & effigal tombs),,Church Road,Lusk,11323010,DU008-01003,53.5262302716759,-6.16724806111862
-297,Community Centre Former St. Macculin's C of I Church,Converted 19th century church structure & Graveyard,,Church Road,Lusk,11323010,DU008-01005,53.5261284893875,-6.16685097885245
-291,Enclosure,Earthwork,,,Effelstown,,DU008-011,53.5236303848614,-6.14203878668054
-276,Windmill (in ruins),A stabilised ruin in open mounded green in middle of Rush,,Chapel Green,Rush,11324016,DU008-012--,53.5213022077696,-6.10445545081926
-259,Passage Tomb & Cist,Stone burial sites,,off Skerries Road,Rush,,DU008-01301 +-01302,53.5328120905623,-6.08529725941538
-274,Well,Well at ford,,Farren's Lane,Rush,,DU008-014,53.5245756674957,-6.09665456229231
-265,Martello Tower,19th century circular military stone martello tower,,Tower Street,Rush,11324023,DU008-015--,53.521125453409,-6.07599091402007
-319,Earthwork,Earthwork,,,Newtowncorduff,,DU008-016,53.5168298140154,-6.20303475733289
-316,St. Catherine's Well,Holy Well 'site of',,,Staffordstown,,DU008-017,53.5155867515199,-6.17444983018512
-317,Bridetree Wells,Site of Holy Well,,,Bridtree,,DU008-018,53.5143566948953,-6.17279246460452
-318,Mound & Long Cist,Earthwork,,,Balleally West,,DU008-01901,53.5124889515192,-6.17105643630794
-281,St. Maur's Well,Holy Well.,,Spout Road,Whitestown (Rush),,DU008-020,53.5173215364292,-6.12475355609253
-279,St. Maur's Church (in ruins),Church (in ruins) & Graveyard,,Whitestown Road,Whitestown (Rush),11324015,DU008-02101 +-02102,53.5174333232996,-6.12155059036573
-275,Tobar Caillin Holy Well,Holy Well,,Bawn Road,Rush,,DU008-022,53.5181098975169,-6.08825533915732
-320,Burial,Earthwork,,,Coldwinters,,DU008-023,53.5003322408978,-6.19300066511447
-492,Turvey House,Site of demolished late 17th century house,,Turvey Avenue,Turvey,11329004,DU008-02401,53.4948566253201,-6.1739338370958
-517,Harbour possible,Archaeological site,,Beaverstown Rod,Beaverstown (Donabate),,DU008-026,53.5001766308151,-6.14359973631109
-516,Beaverstown Viaduct,Eleven-arched railway viaduct over estuary,,Rogerstown Estuary,Beaverstown (Donabate),,DU008-026,53.5019753059435,-6.14902839240066
-518,Windmill (in ruins),Remains of base of circular stone windmill,,off Beaverstown Road,Rahillion (Donabate),,DU008-027,53.4979001069643,-6.13785771731137
-519,Chapel site,Archaeological site,,Burrow Lane,Burrow Portraine,,DU008-028,53.5003494495926,-6.12117451727849
-520,St. Machubd's Well,Holy Well - Now in rear garden of recently renovated house,,Burrow Lane,Burrow Portraine,,DU008-029,53.4991629902862,-6.12034253298508
-521,Stella's Tower (Portraine Castle in ruins),Remains of medieval stone structure,,,Portraine,,DU008-030--,53.4952398298247,-6.11511010439155
-522,St. Catherine's Church (in ruins),"Ecclesiastical Remains, Church, Graveyard & Bullaun",,Portane Village,Portraine,,DU008-03101 to -03103,53.4939823723362,-6.11193919926815
-541,Burial,Archaeological site,,Quay Road,Quay (Portraine),,DU008-032,53.4929381267784,-6.10361344009696
-285,Cist,"In grounds of Knockdromin House, cist is a burial of stone slabs",,Rush to Lusk Road,Beau,,DU008-035,53.5187921673106,-6.13797983648253
-515,Beaverstown House,"House, Barn, Out-offices & Yard",,Beaverstown Road,Beaverstown (Donabate),11329010,DU008-044,53.4936120660139,-6.1454092891586
-783,Earthwork Possible,Earthwork,,,Lambay Island,,DU009-001,53.4920412801935,-6.0151332296147
-775,Lambay Castle,"House comprising Castle, Out-Offices, Memorial, Walled Garden, Rampart Walls & Gates",,,Lambay Island,,DU009-00105 +-00106,53.4916709332418,-6.02518080179351
-782,Chapel & Enclosure,Small chapel enclosed by hedge and wooden gate to the south of The White House,,,Lambay Island,,DU009-00108 +-00109,53.49263007018,-6.02753657880053
-779,Real Tennis Court,Early 20th century enclosed tennis court,,,Lambay Island,,DU009-00110,53.4909595499154,-6.0172129430091
-780,Knockbane Cairn & OS Marker,Ordnance Survey Triangulation Station marker on Knockbane Cairn,,,Lambay Island,,DU009-00112,53.4933623303263,-6.01618633293609
-781,Promontory Fort,"Headland protected by triple rampart, known as Garden Fort",,,Lambay Island,,DU009-00113,53.4953925141658,-6.02352171744362
-777,Coastguard Cottages & Enclosed Courtyard,Six coastguard cottages,,,Lambay Island,,DU009-00115,53.4921399689132,-6.02881666111698
-328,Ringfort,Earthwork,,Fieldstown to Swords Road,Newbarn,,DU011-001,53.4902749618552,-6.32527375128664
-326,St. Catherine's Church,Ecclesiastical Remains,,Fieldstown to Oldtown Road,Fieldstown,,DU011-00201 + -00202,53.4918490995065,-6.31934241099698
-327,St. Catherine's Well,Holy Well,,Fieldstown to Oldtown Road,Fieldstown,,DU011-00204,53.4915132963699,-6.31723770566623
-329,Mound,Earthwork,,Fieldstown to Swords Road,Newbarn,,DU011-004,53.4897900733323,-6.3198419889157
-335,Killossery Church (in ruins),"Ecclesiastical remains, church, font, graveyard & enclosure",,Rowlestown Village,Killossery,11327005,DU011-00501 to -00503,53.4885057158312,-6.3044928504394
-650,Ruins of Mountstuart House,Remains of house & dwellings site (low earthworks),,,Mountstuart,,DU011-00601 + -00602,53.478082485847,-6.29473566332519
-659,Ringfort (Rath/Cashel),"Platform type ringfort (46m in diameter), surrounded by deep ditch",,,Dunmucky,,DU011-008,53.4672166145291,-6.3509757821427
-656,Kilsallaghan Cross,Site of cross,,,Kilsallaghan,,DU011-010,53.4743967330366,-6.31964092555569
-653,Saint David's Church (C of I),"Church of Ireland church, plus site of earlier church & Graveyard",,Fieldstown Road,Castlefarm,11333001,DU011-011,53.4764348579229,-6.31807577630487
-654,Kilsallaghan Castle,Remains of castle ruins,,Fieldstown Road,Castlefarm,,DU011-01104,53.4758765735047,-6.31820691360092
-655,Kilsallaghan Motte,Earthwork mound,,Fieldstown Road,Castlefarm,,DU011-01106,53.4751918851743,-6.31828949932464
-649,Settlement deserted,Earthwork,,,Surgalstown South,,DU011-012,53.4682412141501,-6.30633674095268
-648,Mound site,Earthwork,,off Leas Road,Surgalstown South,,DU011-013,53.4659912374344,-6.29358937675058
-338,Rathbeale Hall,Main house plus outbuildings & gatelodges (x2),,Rathbeale Road,Rathbeal (Swords),11334001,DU011-014,53.4725588046067,-6.26682655474239
-377,Dwelling Site,Earthwork,,off Rathbeale Road,Rathbeal,,DU011-015,53.4664401664276,-6.26412681390646
-378,Fortifications possible,Earthwork,,off Rathbeale Road,Rathbeal (Swords),,DU011-016,53.4669307005425,-6.26187452084903
-370,Glasmore Abbey & St. Cronan's Well,Abbey and Well. Church in ruins.  Fenced off in open space of Lioscian housing estate,,"Lioscian Estate, St. Cronan's Ave",Mooretown (Swords),,"DU011-018, DU011-019",53.4645019796413,-6.24263199217827
-644,Freedagh Mound,Motte possible,,off Fieldstown to Skephubble Rd,Corrstown,,DU011-020,53.4624412147897,-6.31538365860838
-642,Enclosure(s),Earthwork,,,Newpark,,DU011-021,53.4533351050129,-6.31987549616992
-641,Chapelmidway Church,Church (ruins) in graveyard enclosure. Graveyard still in use,,off Fieldstown to Skephubble Rd,Corrstown,,DU011-02201,53.4555803977842,-6.31046530333558
-640,Enclosure & graveyard,Earthwork,,,Common,,DU011-02301 + -02302,53.4503942197184,-6.30860060820016
-638,Fulacht Fiadh possible,"Earthwork, Fulacht Fiadh denotes cooking place.",,"St. Margaret's Golf Club, Toburburr Road",Toberburr,,DU011-024,53.4506963042615,-6.29640088699156
-635,Ringfort (Rath/Cashel),Earthwork,,Killeek Lane,Killeek,,DU011-025,53.4495922454767,-6.28736427794582
-365,Motte,Large man-made mound at edge of ravine on north bank of River Ward,,Brackenstown Road,Brazil (Swords),,DU011-027,53.4581127490179,-6.26665838451525
-367,Knocksedan Bridge,Large single arch stone bridge over river with footpaths at each side,,Naul Road,Knocksedan/Brazil,11342001,DU011-028,53.4573906237903,-6.26686707706085
-368,Mound,Earthwork,,Naul Road,Knocksedan,,DU011-029,53.4566233097901,-6.26789421103873
-633,Killeek Chuch & graveyard,"Ecclesiastical Remains, graveyard still in use",,Killeek Lane,Killeek,11342010,DU011-031,53.4533558563049,-6.27849274707153
-375,Cemetery,Old graveyard,,Naul Road,Brackenstown,,DU011-032,53.4496149810071,-6.25846142390705
-351,Swords Castle,"Remains of Episcopial Manor, terminates north end of Main St. Set in town park",,Main Street,Townparks (Swords),,DU011-03401,53.4599695941473,-6.22056526338198
-360,St. Columba's Church of Ireland Church,"19th century church plus ecclesiastical remains, Round Tower, Graveyard, Whetstone, Cross, Sheela-na-gig",,Church Road,Swords Glebe (Swords),11343007,DU011-03402 to 03411,53.4572412976943,-6.22458863859442
-355,Earthwork Unclassified,Earthwork,,Seatown Road,Seatown West (Swords),,DU011-036,53.4620613306034,-6.21268092999663
-661,Church Well,Holy Well in field adjoining Ward Lower Church,,Ward Road,Ward Lower,,DU011-038,53.4415319564333,-6.35053679222582
-660,Church & Graveyard (in ruins),Church in ruins,,Ward Road,Ward Lower,,DU011-03901 + -03902,53.4422021076662,-6.3494391417115
-637,Mound,Earthwork,,Shallon Road,Shallon,,DU011-040,53.4466861338521,-6.31213635845534
-632,Ringfort site,Earthwork situated on elevated positions.,,Killeek Lane,Killeek,,DU011-041,53.4465094629758,-6.27501372556006
-630,Chapel site & burial ground,Ecclesiastical remains,,Killeck Lane,Forrest Great,,DU011-04201,53.4461060882469,-6.26710253153334
-629,Ringfort site,Earthwork,,Naul Road,Forrest Great,,DU011-043,53.4392375069029,-6.26493692074426
-631,Dwelling,Earthwork,,Cooks Road,Forrest Great,,DU011-044,53.4404817268462,-6.25824954801663
-371,St. Werburgh's Well,Holy Well - A small well enclosed by a low stone wall in a wet drain,,"Airside Business Park, Lakeshore Drive",Crowcastle (Swords),,DU011-045,53.4498353815826,-6.21637335477298
-610,Ringfort site,Earthwork site,,Naul Road,Cloghran (Swords),,DU011-046,53.4352986796353,-6.23554998378185
-356,St. Columcille's Church,"Catholic Church, font, graveyard",,Chapel Lane,Swords Demense,11343010,DU011-070,53.4580094112502,-6.21722975035945
-341,Lissenhall Bridge,Stone bridge over Broadmeadow River,,Estuary Road,Lissenhall (Swords),11335019,DU011-081,53.4711449863162,-6.21237784326924
-340,Balheary Bridge,Stone bridge over Broadmeadow River,,River Ward Park,Balheary (Swords),11335018,DU011-081,53.470149848441,-6.21272303320172
-791,Roganstown Bridge,Historic five-arch stone bridge,,Naul Road,Roganstown (Swords),11327003,DU011-082,53.4884347534163,-6.27044695153475
-487,Castle site & Enclosure,Archaeological complex possibly including Belinstown Castle,,"Batter Lane, off N1 Road",Belinstown,,DU012-001,53.4890599333261,-6.20774158497584
-486,Ringfort possible site,Earthwork,,N1 Road,Lissenhall Little,,DU012-002,53.485574976056,-6.20057469875612
-485,Ring-ditch,Earthwork,,off N1 Road,Lissenhall Little (Swords),,DU012-003,53.4838367402968,-6.20519441971893
-493,Lanestown Castle (in ruins),Remains of square tower house,,Grounds of Newbridge House,Newbridge Demesne,,DU012-004,53.483081037157,-6.1780995719862
-508,St. Patrick's Church of Ireland Church,"18th century Church, remains of square pre-1700 tower, memorial slab & graveyard",,The Square,Donabate,11336013,DU012-005--,53.4856612280722,-6.15442458366101
-497,Ringfort possible site,Earthwork,,off Portrane Road,Lanestown,,DU012-006,53.4781312324036,-6.17090544164587
-540,Chink Well,A well in a cave on the seashore which is covered by high tide,,in grounds of St. Ita's Hospital,Quay (Portrane),,DU012-007,53.4857825520388,-6.10209240948221
-543,Martello Tower,19th century circular military stone martello tower,,Balcarrick Road,Balcarrick (Donabate),11337001,DU012-008--,53.4783248331518,-6.11535884094303
-538,Church & St. Kenny's Well,Site of Church & Holy Well,,in grounds of St. Ita's Hospital,Portraine Demesne,,DU012-00901 +-00902,53.4838186697076,-6.10845006459552
-542,"""Tower House""",Former Martello Tower adapted to residental use,,Quay Road,Quay (Portrane),,DU012-010,53.4899922197229,-6.09690802672977
-484,Church (in ruins) & Graveyard,"Oval raised area enclosed by wall, rectangular sunken area indicates site of church",,Ballymadrough Road,Ballymadrough,,DU012-01301 +-01302,53.4736197011457,-6.1838133229036
-496,Motte possible,Mound in field to west of Kilcrea Road,,off Kilcrea Road,Ballymadrough,,DU012-014,53.4779744059026,-6.17392242632651
-343,Ringfort site possible,Earthwork,,,Lissenhall Great,,DU012-015,53.4695633953191,-6.20507948621483
-499,Church (in ruins) & Graveyard,Remains of small single chamber church,,Kilcrea Road,Kilcrea,,DU012-01601,53.4755269654061,-6.16703333259088
-498,Ringfort possible site,Earthwork,,Kilcrea Road,Kilcrea,,DU012-017,53.4774154008104,-6.16455667222619
-501,Tidal Mill Possible,Stone remains of mill marked on Rocque map of 1756,,off Kilcrea Road,Kilcrea,,DU012-018,53.4741003721851,-6.15908981520813
-503,Earthwork site,Earthwork,,Corballis Road,Corballis,,DU012-019,53.4767594327487,-6.14672241873133
-504,Corballis House,House & Outoffice & site of Castle,,Corballis Road,Corballis (Donabate),,DU012-020,53.4739361047073,-6.14101888777061
-379,Seatown House,"House, out-offices and tower house/castle remains, over looking Malahide Estuary",,Estuary Road,Seatown East (Swords),,DU012-021,53.4621047335636,-6.1966557102963
-390,St. Sylversters Well,Holy Well - enclosed circular stone structure with conical roof,,Old Street,Malahide,11344011,DU012-02301,53.4512401589172,-6.15486752083697
-389,St. Sylvester's Catholic Church,19th century Catholic Church & Parish Hall,,Dublin Road,Malahide,11344010,DU012-02301 to -02303,53.4509146374068,-6.15497430873997
-450,Mound,Earthwork,,Streamstown Lane,Auburn,,DU012-028,53.4380660759359,-6.18277047652086
-442,Earthwork'Site of',Earthwork in grounds of Malahide Castle,,,Malahide Demesne,,DU012-029,53.4458276142208,-6.16836368345467
-383,Malahide Castle,"Castle, gatelodges (x4), stone outbuildings, entrance gates & piers",,Dublin Road,Malahide Demesne,11344019,DU012-030,53.4449296317744,-6.16457164748415
-384,Malahide Abbey (in ruins),"Church in ruins, Graveyard and Sheela-na-gig within grounds of Malahide Castle",,off Dublin Road,Malahide Demesne,11344020,DU012-03101 to 03106,53.4449621576689,-6.16359453954021
-474,Ringfort Site,Earthwork,,The Hill,Broomfield/Grange (Malahide),,DU012-033,53.4349351797508,-6.15623472489339
-445,Motte & Bailey,"Anglo-Norman earthwork of former castle and settlement site, in field north of Wheatfield House",,Blackwood Lane,Sainthelens (Malahide),,DU012-034,53.4375858404533,-6.14612665761133
-421,Hicks Tower,Former Martello Tower adapted for residental use,,Coast Road,Robswalls (Malahide),11344040,DU012-035,53.4476977602556,-6.13566337115818
-422,Robswalls Castle,Five-bay two-storey house connected to 15th century stone tower house,,Coast Road,Robswall (Malahide),11345001,DU012-036,53.4445350150397,-6.12802626469982
-443,Settlement,Earthwork,,Elner Court,Robswalls (Portmarnock),,DU012-037,53.4384316674063,-6.13011992569708
-444,St. Patrick's Well,Holy Well,,off Coast Road,Robswall (Malahide),,DU012-038,53.4410537025286,-6.12844836012505
-476,Martello Tower,Former Martello Tower adapted for residental use,,Strand Road,Carrickhill (Portmarnock),11345002,DU012-040,53.4359240696197,-6.12230662656487
-481,Bridge near Newport House,Disused double-arched random rubble stone bridge at end of Ballymadrough Road,,Ballymadrough Road,Ballymadrough,11336007,DU012-042,53.4667455749539,-6.18753363101604
-494,Newbridge House,"Main house plus outbuildings, walled gardens, gates & gate piers",,Lissenhall to Donabate Road,Newbridge Demesne (Donabate),11329001,DU012-060,53.4867915787068,-6.16809410363744
-669,Enclosure Site,Earthwork,,,Kilmartin,,DU013-001,53.4340146041977,-6.41719240348918
-668,Kilmartin Church (in ruins),"Ecclesiastical remains, church, ecclesiastical enclosure",,Kilmartin Lane,Kilmartin,,DU013-002 to -00202,53.4337517904675,-6.40327338633171
-667,"Earthwork ""site of""",Earthwork,,,Kilmartin,,DU013-003,53.4332669983039,-6.39144948671508
-666,Mound,Earthwork,,"Hollystown Golfcourse, Rathoath Rd",Hollystown,,DU013-004,53.432402170394,-6.38283965596337
-673,Tyrrelstown House,Five-bay two-storey house & Out-offices,,Powerstown Road,Tyrrelstown,11346002,DU013-006,53.4164049633105,-6.39464113027113
-676,Field System Site,Earthwork,,,Goddamendy,,DU013-007,53.4165645123273,-6.36740909456049
-674,Cloghran Church (in ruins) & Graveyard,Church in ruins within graveyard,,Rathoath Road,Cloughran (Castleknock),,"DU013-008, DU014-046",53.414456618099,-6.35869462766392
-671,Lady's Well,Enclosed Holy Well in vaulted structure,,Church Road,Tyrrelstown,11353010,DU013-009,53.4084384502545,-6.3918576189053
-670,Mulhuddart Church (in ruins) & Graveyard,Church in ruins & graveyard still in use,,Church Road,Buzzardstown,11346003,DU013-01001 + -01002,53.4104736721264,-6.3893933516578
-679,Mound,Comprises a circular round-topped mound (2m high). Notated 'Moat' on OS Map,,off Warrenstown Green,Corduff,,DU013-012,53.4026787986196,-6.38205044145139
-678,Mound,Circular earthern mound incorporated into carpark to form traffic island,,"Blanchardstown Industrial Park, Snugborough Rd",Corduff,,DU013-014,53.403004211707,-6.36943398188085
-680,Ringfort possible,"Remains of platform ringfort (3m high) in grounds of Corduff House, to south west of house",,Old Corduff Road,Corduff,,DU013-015,53.3981982092852,-6.38056456254259
-705,St. Mary's Church,Church of Ireland Church and archaeological site of earlier church,,Clonsilla Road,Clonsilla,11353005,DU013-01701,53.3842663971208,-6.42260740758434
-708,Ring Barrows possible,3 conjoined enclosures beside railway line at Green Mount house.,,Clonsilla Road,Kellystown,,DU013-018,53.3823004903553,-6.42190470299906
-701,Coolmine Church (in ruins),"Ecclesiastical remains, church site & graveyard",,Blanchardstown Road,Coolmine,,DU013-019,53.3901033318866,-6.3994033737275
-684,Church (in ruins) & Graveyard,Remains of small church & burial ground,,Snugsborough Road,Abbotstown,11354005,"DU013-020, DU014-031",53.3883659677858,-6.35883765973089
-717,Westmanstown Park House,Three-bay two-storey over basement house,,Barnhill to Lucan Road,Westmanstown,11360001,DU013-034,53.3809103348831,-6.45686813478765
-662,Kilshane Moat,Possible Motte site.,,N2 (Ashbourne) Road,Kilshane,,DU014-001,53.4329339596772,-6.33839162792553
-626,St. Margaret's Church (in ruins),"Ecclesiastical remains, church, architectural fragments, graveyard & church site",,St. Margaret's Village,St. Margaret's,11348001,DU014-002,53.4335978592145,-6.29957671819135
-624,St. Bridget's Well,Holy Well located west of Catholic Church,,St. Margaret's Village,St. Margaret's,,DU014-003,53.4311458788968,-6.30270027188671
-623,Dunsoghly Castle,15th century Tower House with its original timber roof,,off N2 Road,Dunsoghly,,DU014-00501,53.4257060717743,-6.31968307431691
-619,Ringfort (Rath/Cashel) Enclosure(s) site,Earthwork,,,Newtown (Finglas),,DU014-00601 + -00602,53.4202290278608,-6.31570353903135
-620,Ringfort possible site,Earthwork,,,Newtown (Finglas),,DU014-007,53.4218745759801,-6.31269311138033
-609,Cloghran Church (in ruins) & Graveyard,Site of 18th century church now demolished on site of earlier church. Enclosed graveyard,,Stockhole Lane,Cloghran (Swords),,DU014-00901,53.4328877751595,-6.22785289824042
-607,Lady Well,"Site of Holy Well, in field to south of Lane.",,Stockhole Lane,Cloghran (Coolock),,DU014-010,53.4306892514249,-6.22433636914554
-663,Kilshane Church (in ruins) & Holy Well,"Ecclesiastical remains, church possible, graveyard, holy well",,off N2 (Ashbourne) Road,Kilshane,,DU014-012,53.4185477960066,-6.33035995201829
-675,Enclosure(s) Site,Enclosures & souterrain possible.,,Rathoath Road,Cloghran,,DU014-014,53.4140280845481,-6.35532395551711
-622,Enclosure,Earthwork,,off Ashbourne Road,Coldwinter,,DU014-015,53.4119803360612,-6.31736306536029
-621,Enclosure,Earthwork,,R122 Road,Dubber,,DU014-017,53.4131696166502,-6.3061180475338
-616,Dubber Castle,Site of Castle,,Dubber Lane,Dubber,,DU014-018,53.4142088376332,-6.30056682161765
-617,Dubber House,House on archaeological site,,Dubber Lane,Dubber,,DU014-019,53.4138947096133,-6.30071702583134
-615,Meakstown Castle,Site of Castle opposite Meakstown House,,St. Margaret's Road,Meakstown,,DU014-020,53.4063253505692,-6.29235697139363
-618,Field System possible site,Earthwork,,off St. Margaret's Road,Silloge,,DU014-021,53.4146557434439,-6.28199457549349
-614,Ringfort site,Earthwork,,St. Margaret's Road,Balcurris,,DU014-022,53.4061120299544,-6.27812155618386
-602,Holy Well,Holy well site,,off Swords Road,Toberbunny,,DU014-023,53.4195956370572,-6.23015721620715
-681,Castle 'Site of',Archaeological site,,Ballycoolin Road,Cappoge,,DU014-027,53.3976253771509,-6.33786305379903
-682,Ringfort,"""Tumulus"" - circular mound in field opposite Cappagh Orthopaedic Hospital",,Cappagh Road,Cappoge,,DU014-029,53.396732448173,-6.32482634680982
-685,Mound,Impressive mound in a field.,,Dunsink Lane,Dunsink,,DU014-032,53.3883553880071,-6.35177431731633
-689,Cemetery,Archaeological site,,River Road,Castleknock,,DU014-034,53.3831825370403,-6.35606074927531
-605,Mound,Earthwork,,off Clonshaugh Road,Cloghran (Swords),,DU015-001,53.4288121140094,-6.21044679059585
-455,Church (in ruins) & Graveyard,Remains of church,,Chapel Road,Kinsaley,11350033,DU015-00201 +-00202,53.4245488263875,-6.16857157702974
-473,Ringfort Site,Earthwork,,Drumnigh Road,Grange Malahide,,DU015-004,53.4325567079513,-6.15617848766396
-472,Ringfort Site,Earthwork,,Drumnigh Road,Grange Malahide,,DU015-005,53.4302872003066,-6.15548055665387
-477,Ring-ditch possible site,Earthwork,,Strand Road,Burrow Malahide (Portmarnock),,DU015-006,53.4305031783491,-6.12632279249355
-478,Church (in ruins),"Ecclesiastical Remains, Church, Holy Well, site of Ogham Stone",,Strand Road,Burrow Malahide (Portmarnock),11351005,DU015-007 to -00705,53.427024028705,-6.12796051567055
-601,Ringfort,Earthwork,,off Clonshaugh Road,Middletown,,DU015-008,53.4209037910532,-6.20277377145382
-459,St. Doolaghs Church & Well & St. Catherine's Well,"Ecclesiastical Remains, Church, Graveyard, Cross and Holy Well (x2)",,Malahide Road,Saint Doolaghs,11350016 & 11350017,DU015-00901 to 00906,53.4152141813143,-6.17913100716121
-465,Ringfort possible,Earthwork,,off Malahide Road,Kinsaley,,DU015-010,53.416925849233,-6.17253574618951
-467,Ring-ditch possible site,Earthwork site,,,Saintdoolaghs,,DU015-011,53.414301832842,-6.17352382197933
-469,Balgriffin Park Church,"Ecclesiastical Remains, Church Site, Grave slab fragment",,off Balgriffin Road,Balgriffin Park,,DU015-01201,53.4086192803518,-6.17076838702548
-475,Mound,Earthwork,,Station Road,Portmarnock,,DU015-014,53.4178188333284,-6.14599626872899
-589,Martello Tower,19th century circular military stone martello tower,,,Ireland's Eye,11359042,DU015-016,53.4082940722249,-6.06976454050934
-552,Mound,Mound forms part of landscaped garden of residence (3m high),,Claremount Road,Quarry (Sutton),,DU015-020,53.3923641067005,-6.09425786875755
-549,Kilbarrack Church & Graveyard,Church is in ruins but walled graveyard has been extended and is still in use,,Dublin Road,Kilbarrack Lower,,DU015-02101 +-02102,53.3874232268742,-6.13307437703031
-590,Cemetery,Archaeological site,,"Sutton RFC, Station Road",Burrow Howth,,DU015-022,53.3904804665845,-6.11591384571512
-591,Site of Burial Mound,Earthwork,,Dublin Road,Sutton,,DU015-023,53.3894184851178,-6.11264504549986
-551,Corr Castle,Remains of 16th century castle of St. Lawrence family in open space at centre of apartment development,,Howth Road,Howth Demesne,,DU015-025,53.3899059705303,-6.09409804083682
+113,Mounds,Group of mounds,,Leckinstown Road,Knockbrack,,DU004-01204 to 01207,53.5717499214653,-6.25639410954324
+231,Rail Bridge,Bridge over Road,,Dublin Road,Townparks (Skerries),11311037,,53.5711814026637,-6.11643761081975
+232,Engine House,"Single-storey stone building with bell-cote, linked to porta-cabins",,"Roadstone Quarry, Dublin Road",Milverton,,,53.5678336109947,-6.11962271245114
+234,Front Lodge,Main Gatelodge and entrance gates & piers of Milverton Demesne,,"Milverton Demesne, Grange Road",Milverton,11317003,,53.5696484197441,-6.13278068291959
+773,Monastic Complex,Including Church Remains,,,St. Patrick's Island,,DU005-019,53.5852342552857,-6.07423946498312
+17,Martello Tower,Former Martello Tower,,"King Strand, off Bath Road",Tankardstown (Balbriggan),11305009,DU002-004,53.6157715243007,-6.18320724241868
+18,Bath House,Former stone boat house,,"King Strand, off Bath Road",Tankardstown,,,53.6162444711088,-6.18391844939501
+19,Chimney of Former Hosiery Factory,Freestanding redbrick chimney stack,,"Seabanks, off Bath Road",Tankardstown,11305008,,53.6138857616365,-6.18433976911776
+28,Marian House,"Former convent, currently used as school building",,Convent Lane,Balbriggan,11305006,,53.6124501106205,-6.18378423490628
+30,Balbriggan Railway Station,Station building and stone outbuilding,,Railway Street,Balbriggan,11305001,,53.6117229399261,-6.18244399650515
+27,Peacock House,Two-storey house recessed from street,79,Drogheda Street,Tankardstown (Balbriggan),,,53.6126632767295,-6.18798099835526
+16,Tankard Ville,Thatched house,,Brecan Close,Tankardstown (Balbriggan),,DU002-011,53.6125110292638,-6.19139338592028
+26,,Fa�ade only of terraced house with decorative mouldings & shopfront,72,Drogheda Street,Tankardstown (Balbriggan),11305011,,53.6117260829255,-6.18712970114999
+29,Chimney of Smyth's Factory,Freestanding redbrick chimney,,Convent Lane,Balbriggan,11305007,,53.6113825464497,-6.18419580359376
+32,Former Smyth's  Factory,Facades of former Hosiery Factory (incl redbrick structures & buildings with commemorative medallions),,Railway Street (both sides of street),Balbriggan,11305003 & 11305004,,53.6113571701028,-6.18341973532026
+31,Station Masters House,Former station master's house,,Railway Street,Balbriggan,11305002,,53.6114815584205,-6.18266008916443
+24,Reynolds Shop,Fa�ade only including timber shopfront,29,Drogheda Street,Balbriggan,,,53.6108917358957,-6.18499402020799
+22,The Fashion Hall,Corner building including shopfront,19,Drogheda Street,Balbriggan,11305013,,53.6105831886895,-6.18436726171144
+23,National Irish Bank,Bank building (Former Northern Bank),20,Drogheda Street,Balbriggan,11305014,,53.6104811041575,-6.18480592827382
+20,Fingal House (Medical Centre),Fa�ade only of corner building,2,Drogheda Street,Balbriggan,,,53.6098970681711,-6.18393958339564
+33,Former Gallen's Factory,Former Cotton & Linen Factory,,Mill Street,Balbriggan,11305012,,53.6107337606573,-6.1826465084534
+39,,Fa�ade only of 2-storey house (excluding garages to east),30,Clonard Street,Balbriggan,,,53.609075448382,-6.18508016210734
+41,,2-storey over basement structure with canopied shopfront,19,Bridge Street,Balbriggan,11305042,,53.6096797991306,-6.18330912606771
+349,Former New Borough Female School,Thirteen-bay single-storey former School building to rear of No. 44 North Street,,rear of 44 North Street,Townparks (Swords),11335006,,53.4610635709457,-6.21716148336106
+352,Mill Bridge,Stone single arched bridge carrying road over River Ward,,Bridge Street,Townparks (Swords),11343002,,53.4593714543141,-6.22167432997407
+572,,One of pair of redbrick gable-fronted Edwardian houses with traditional timber shops on ground floor,14,Main Street,Howth,11359022 & 11359023,,53.385056230007,-6.06525779396795
+569,Howth College,Stone walls of pre-1700 building,,Abbey Street,Howth,,DU015-030,53.3871644298061,-6.06572291451318
 557,Church (ruin),Chapel ruins  in grounds of and close to Howth Castle.,,Grounds of Howth Castle,Howth Demesne,,DU015-026,53.386898647964,-6.07981169491995
 556,Howth Castle,"Castle, Wings, Tower, Stables, Gates, and Chapel Grounds",,,Howth Demesne,11358029,DU015-02701,53.3861134413286,-6.07938537994962
-566,Burial Mound site,Earthwork,,Harbour Road,Howth,,DU015-02801 + -02802,53.3884555430979,-6.07187568471321
-568,St. Mary's Abbey (in ruins),"Church in ruins, incl belfry and graveyard",,Abbey Street,Howth,11359010,DU015-029,53.3876135004347,-6.06609197410166
-569,Howth College,Stone walls of pre-1700 building,,Abbey Street,Howth,,DU015-030,53.3871644298061,-6.06572291451318
-575,St. Fintan's Church (in ruins) & Graveyard,Remains of church & graveyard,,Carrickbrack Road,Sutton South,11358033,DU015-03102,53.3776828410529,-6.09082263736843
-582,Portal Tomb,"Known as 'Aideen's Grave', in grounds of Deer Park Golf Course, Howth Castle",,"Deerpark Golfcourse, Howth Castle",Howth Demesne,,DU015-032,53.3796805867988,-6.08170227410707
-463,Belcamp Hall,"""Belcamp College"" school complex (incl House, Chapel, Washington Monument, bridge, ballcourt, & ice-house)",,"Belcamp College, N32 Road",Belcamp,11350024,DU015-033,53.4074466253824,-6.18741093293274
-792,Springhill,Early 19th century house and stone outbuildings,,"Limekiln Lane, off Malahide Road",Springhill (St. Doolaghs),11350013,DU015-056,53.4158575332638,-6.19049417408932
-588,St. Nessan's Church,Remains of medieval church,,,Irelands Eye,,DU016-00101,53.4058113511323,-6.06474426501487
-570,Martello Tower,"19th century circular military stone martello tower overlooking Howth Harbour, accessed from Abbey Street.",,off Abbey Street,Howth,11359033,DU016-00202,53.3876643043157,-6.06362308267395
+554,The Manse (Prebyterian),"Detached three-bay two-storey Tudor-Gothic style house, associated with Presbyterian Church",,Howth Road,Burrow (Howth),11358025 & 11358024,,53.3903786760421,-6.08586492888557
+555,Presbyterian Church,Late 19th century Presbyterian Church with castellated tower,,Howth Road,Howth,,,53.3903183969919,-6.08625742000123
 585,The Great & Little Baily Promontory Fort,"Promontory Fort, Cashel & Midden - major archaeological complex",,off Thormanby Road,Howth,,DU016-003,53.3657885597481,-6.05576927352671
 586,Old Baily Lighthouse Keeper's Cottages,Pair of semi-detached three-bay single-storey lighthouse keepers houses with dormer attics,,The Bailey,Howth,11367006,DU016-003,53.362878007122,-6.05356464413765
 587,The Baily Lighthouse,"Coastguard station comprising of Lighthouse, Out offices and Tank.",,off Thormanby Road,Howth,11367007 & 11367008,DU016-00304,53.3615682506321,-6.05242003113227
-714,St. Catherine's Wells,Holy Well - Two small adjoining low grotto stone lined holy wells,,The Avenue,St. Catherine's Park (Leixlip),11360003,DU017-00201 to -00202,53.3669655787407,-6.47280332076205
-716,Church (in ruins),Ruined rubble stone church,,The Avenue,St. Catherine's Park (Leixlip),,DU017-003,53.3651919128655,-6.47198404639688
-723,Luttrelstown Castle,"Main building plus outbuildings, gatelodges, follies, gates & gate piers",,Luttrellstown Road,Woodlands,11361036,DU017-004,53.3734882016062,-6.43101678086213
-730,Ring ditch,Earthwork beside St. Mochta's Church,,Luttrellstown Road,Porterstown,,DU017-005,53.3711916921394,-6.40504133839839
-733,Mound,"Possible ringfort, in SE corner of level arable field (1.75m high)",,"off Lower Road, Strawberry Beds",Astagob,,DU017-007,53.3656778506045,-6.40411558621501
-765,St. Brigid's Church of Ireland Church,19th century church & graveyard,,Castleknock Road,Castleknock,11362003,DU017-00801,53.3732153484088,-6.36406568581934
-764,St. Brigid's Well,Holy Well - marked by cast iron pump,,College Road,Castleknock,,DU017-009,53.3728348750612,-6.36266279273509
-732,Habitation Site,Earthwork,,,Diswellstown,,DU017-010,53.36656248591,-6.38209870715239
-738,Rag Well,Holl Well slabbed over at road junction. The rear wall is inscribed with the words 'Ragwell',,Luttrellstown Road,Diswellstown,,DU017-011,53.3671391397172,-6.37848147313586
-748,Castleknock Castle (in ruins),"Motte and Bailey, Castle, Well (2), graveyard",,"Castleknock College, College Road",Castleknock,11362021 & 11362017,DU017-01201 to - 01204,53.3679749015167,-6.37002241198426
-751,Windmill (in ruins),Remains of circular stone tower on mound,,"Castleknock College, College Road",Castleknock,,DU017-01302,53.3681514652389,-6.36595071712133
-720,Coldblow Bridge (remains),"Bridge & piers of old bridge, in grounds of ""Bleach Green"" house",,off Barnhill Cross Roads,Coldblow (Lucan),,DU017-016,53.3586641750113,-6.4522560948385
-721,Sunday Well,Holy Well,,Barnshill Cross Road,Laraghcon,,DU017-017,53.3600613641058,-6.4496907384547
-722,"Castle ""Site of """,Archaeological site,,Lucan Road,Laraghcon (Lucan),,DU017-018,53.3608778011788,-6.44513243521778
-726,Anna Liffey Mill,Former Flour Mill (incl turbines),,Lower Road,Woodlands,11361034,DU017-076,53.3684729934013,-6.4329303662814
-576,St. Fintan's Well,Holy Well.,,"""Iniscara"", Carrickbrack Road",Sutton South,,DU019-002,53.375007081336,-6.09009851388116
-581,Passage Grave Cairn,"Cairn. Located within Howth Castle Demesne, south of Deerpark Hotel.",,Shielmartin,Sutton South,,DU019-003,53.3734874698639,-6.08353163157076
-583,Tumulus at Dunhill,Cairn & Disc-Barrow - stone burial mounds,,Howth Head,Howth Demesne,,DU019-00401,53.3756278851319,-6.07690733998771
-579,Martello Tower,Former Martello Tower adapted to residence,,off Shielmartin Road,Sutton South,11366017,DU019-005,53.3693467323528,-6.0960316356197
 584,Cairn at Blackheath,"Stone burial mound on Howth Head, in grounds of Howth Castle",,"Howth Head, off Windgate Road",Howth Demesne,,DU019-006,53.3698478025099,-6.07155196857733
 580,Drumleck Castle,Site of Castle in grounds of Drumleck House,,Ceanchor Road,Censure (Howth),,DU019-007,53.3613494989824,-6.07829551298703
+583,Tumulus at Dunhill,Cairn & Disc-Barrow - stone burial mounds,,Howth Head,Howth Demesne,,DU019-00401,53.3756278851319,-6.07690733998771
+581,Passage Grave Cairn,"Cairn. Located within Howth Castle Demesne, south of Deerpark Hotel.",,Shielmartin,Sutton South,,DU019-003,53.3734874698639,-6.08353163157076
+589,Martello Tower,19th century circular military stone martello tower,,,Ireland's Eye,11359042,DU015-016,53.4082940722249,-6.06976454050934
+588,St. Nessan's Church,Remains of medieval church,,,Irelands Eye,,DU016-00101,53.4058113511323,-6.06474426501487
+551,Corr Castle,Remains of 16th century castle of St. Lawrence family in open space at centre of apartment development,,Howth Road,Howth Demesne,,DU015-025,53.3899059705303,-6.09409804083682
+552,Mound,Mound forms part of landscaped garden of residence (3m high),,Claremount Road,Quarry (Sutton),,DU015-020,53.3923641067005,-6.09425786875755
+578,Sutton Castle (Formerly Sutton House Hotel),Four-storey Victorian Tudour-style house & gates,,Shielmartin Road,Sutton South,11366001,,53.3715017419696,-6.09385435526067
+579,Martello Tower,Former Martello Tower adapted to residence,,off Shielmartin Road,Sutton South,11366017,DU019-005,53.3693467323528,-6.0960316356197
+577,"""Sutton South""","Early 20th century structure, reputed to be designed by Frank Gibney",13,Carrickbrack Road,Sutton South,11366009,,53.3748770877799,-6.08899327527301
+576,St. Fintan's Well,Holy Well.,,"""Iniscara"", Carrickbrack Road",Sutton South,,DU019-002,53.375007081336,-6.09009851388116
+582,Portal Tomb,"Known as 'Aideen's Grave', in grounds of Deer Park Golf Course, Howth Castle",,"Deerpark Golfcourse, Howth Castle",Howth Demesne,,DU015-032,53.3796805867988,-6.08170227410707
+545,Thatched House,Three-bay single-storey thatched dwelling,1,Main Street,Baldoyle,11358037,,53.3998131631193,-6.12857635809105
+547,Station Master's House,Former Station Masters House,,Station Road,Sutton,,,53.3915985806809,-6.11561246289593
+546,Sutton Railway Station,"Railway Station, Signal Box and cast-iron wall-mounted postbox in station wall",,Station Road,Sutton,11358014 & 11358015,,53.3919368516319,-6.11601397733022
+550,Milestone,"Cast-iron milestone in granite setting in boundary wall of 'Ominica', No. 127 Dublin Road",,Dublin Road,Burrow (Sutton),,,53.3890969689652,-6.114491016944
+549,Kilbarrack Church & Graveyard,Church is in ruins but walled graveyard has been extended and is still in use,,Dublin Road,Kilbarrack Lower,,DU015-02101 +-02102,53.3874232268742,-6.13307437703031
+548,Milestone,Cast-iron milestone in granite setting in boundary wall of No. 28 Dublin Road,,Dublin Road,Kilbarrack Lower,11358047,,53.3861349396529,-6.13797875856655
+553,Milestone,Cast-iron milestone in granite setting in boundary wall of railway line at Howth Rd near overbridge leading to Claremont Road,,Howth Road,Quarry (Howth),,,53.3909850493845,-6.09065919431475
+125,Windmill (in ruins),"Remains of base of circular stone windmill, dated 1736 & hillfort site",,Windmill Road/Ashbourne Road,Garristown,11313005,DU003-00402,53.5635647545311,-6.39337094540533
+70,Corn Mill,Former Mill (in ruins),,Mill Lane,Stephenstown,,DU005-051,53.6012006345869,-6.18662870758539
+71,Mill Dam,Part of historic mill complex,,Mill Lane,Stephenstown,,DU005-051,53.6009878555274,-6.18637095261748
+72,Mill Race,Part of historic mill complex,,Mill Lane,Stephenstown,,,53.6010038313646,-6.1860472074549
+63,Parochial House,Early 20th century Parochial House to St. Peter's & Paul's Roman Catholic Church,90,Dublin Street,Balbriggan,11305036,,53.6037487587791,-6.1840399623824
+62,St. Peter & Paul's Church,Mid-19th century Roman Catholic Church,,Dublin Street,Balbriggan,11305035,,53.6041885098309,-6.18387717694255
+37,Lighthouse,Tapered cicular lighthouse,,Balbriggan Harbour,Balbriggan,11305017,,53.6129575488912,-6.17845082086396
+225,Church (in ruins) & Graveyard,"Ecclesiastical Remains, remains of bell tower & old graveyard",,Millers Lane,Townparks (Skerries),11311033 & 11311041,DU005-031,53.5735653689051,-6.10560394450326
+124,Thatched Dwelling,Four-bay single-story thatched dwelling with galvanised extension,,Dublin Road,Garristown,11313003,,53.5609278910058,-6.38473072311805
+317,Bridetree Wells,Site of Holy Well,,,Bridtree,,DU008-018,53.5143566948953,-6.17279246460452
+316,St. Catherine's Well,Holy Well 'site of',,,Staffordstown,,DU008-017,53.5155867515199,-6.17444983018512
+277,'Millbank',L-shaped single-storey thatched dwelling,,Chapel Green,Rush,11324001,,53.5210806927391,-6.1050559862209
+522,St. Catherine's Church (in ruins),"Ecclesiastical Remains, Church, Graveyard & Bullaun",,Portane Village,Portraine,,DU008-03101 to -03103,53.4939823723362,-6.11193919926815
+617,Dubber House,House on archaeological site,,Dubber Lane,Dubber,,DU014-019,53.4138947096133,-6.30071702583134
+99,Grange Mount,19th century House & gatelodge,,Toberstown Road,Grange (ED Balscadden),,,53.6099901552991,-6.24938250049634
+727,Home Villa,Four-bay two-storey 19th century former presbytery,,Porterstown Road,Kellystown,11361008,,53.3739429050145,-6.40791871024422
+772,Rockabill Lighthouse,Lighthouse on island off Skerries coast,,,Rockabill Island,,,53.597042844619,-6.00430494692268
+2,Knocknagin House,House & Outoffices,,Drogheda Road (N1),Knocknagin,11302001,DU001-012,53.6305336016055,-6.21568769957695
+5,St. Brigid's Well,Holy Well,,Tobersool Lane,Tobersool,,DU001-001,53.6272869858849,-6.23832144264639
+7,Balscadden Church (in ruins) & St. Mary's Well,"Church ruins, Graveyard & Holy Well",,Flemingtown to Toberstown Rd,Tobertown (Balscadden),11304010,DU001-003 to -00304,53.617356600281,-6.23692982564276
+8,Former Thatched Dwelling,Vernacular building with corrugated iron roof,,Flemingtown to Toberstown Rd,Tobertown Commons (Balscadden),,,53.6166010900727,-6.23758088362063
+12,Railway Bridge,Stone rail bridge over laneway,,off Drogheda Road,Bremore,11304001,,53.6197521122584,-6.19050236118498
+13,St. Molaga's Church (in ruins) & Graveyard,Remains of nave & chancel of church with some decorative stonework,,off Drogheda Street,Bremore,,"DU002-00202, DU002-00203",53.6166149411933,-6.19083150944949
+14,Bremore Castle,Remains of 16th century medieval stone castle,,off Drogheda Road,Bremore,,DU002-00201,53.6172585427976,-6.19072827267038
+15,Bremore Cottage,Thatched dwelling and Out-offices,,Drogheda Road,Bremore,11304003,,53.616844024269,-6.19407689297564
+75,Chapel site,Archaeological site,,Folkstown Lane,Folkstown Little,,DU005-001,53.598174157737,-6.20271152873431
+76,Well,Possibly holy well,,Folkstown Lane,Stephenstown,,DU005-002,53.5975433485241,-6.20282947191931
+80,Blackhall House,Mid-19th century house on elevated site,,Dublin Road,Blackhall (Balrothery),,,53.5948909271059,-6.18516901134476
+81,Holy Well,At side of house in village of Balrothery,,Old Coach Road,Balrothery,,DU005-05701,53.5911051581645,-6.18700217011225
+78,Inch House,18th century House & Out-offices,,Matt Road,Inch,11309001,,53.5911294725423,-6.19578057074651
+92,Hampton Hall,"Six-bay two-storey house, former home of Hamiltion family",,"Hampton Lane, off Dublin Road",Hampton Demesne (Balbriggan),,,53.5932490595599,-6.1652188027587
+94,Ardgillan House,"Castle, Ice-house, walled garden, grounds & Former Steward's House (excluding later extension)",,,Ardgillan Demesne,11310001,,53.5865382759733,-6.1601635872536
+82,Mound,Earthwork,,Matt Road,Inch (Balrothery),,DU005-008,53.5880286937331,-6.19032347016534
+88,Glebe House,Formerly Glebe House overlooking Balrothery,,Old Drogheda Road,Glebe South (Balrothery),11309004,,53.5848038370015,-6.1910080631942
+90,Reservoir & Sluices,Known locally as Wavin Lake or Bowhill Lake,,off Old Drogheda Road,Knock (Balrothery),,,53.5847181022981,-6.19969870727663
+179,Cairn,Burial Mound,,,Barnagerragh,,DU005-01601 +-01602,53.5851400099005,-6.14336645534751
+180,Thatched Dwelling,Four-bay single-storey thatched dwelling,,Skerries Road,Barnageeragh,,,53.5865489641485,-6.142150384317
+177,Cist,Cists are burials built with stone slabs,,Grange Road,Baltrasna,,DU005-023,53.5770720548097,-6.1545922491597
+239,Stables & Outbuildings of Milverton House,Quality cut stone stables and outbuildings of Milveton House,,Milverton Demesne,Milverton Demesne,11310004,,53.5705048574415,-6.14367402988098
+235,Balcunnin Lodge,Gatelodge and entrance gates & piers of Milverton Demesne,,"Milverton Demesne, Skerries Road",Milverton,,,53.5661516697402,-6.14268071227131
+236,St. Movee's Lodge,"Gatelodge & gates of Milverton Demesne. Opposite road to Home Farm, with St. Mobhi's cemetery to south",,"Milverton Demesne, Balcunnin Road",Milverton,,,53.5662167067052,-6.14920548569648
+237,Church Field Lodge,"Gatelodge & gates of Milverton Demesne. One of pair of lodges near Milverton School, this is lodge on north side of gates",,"Milverton Demesne, Balcunnin Road",Milverton,,,53.5664010800365,-6.14944031941031
+241,St. Mobhi's Well,"Holy Well, in grounds of Milverton Demesne",,Balcunnin Road,Grange (Holmpatrick),,DU005-02402,53.5701037657155,-6.15161656790638
+238,South Lodge,"Gatelodge & gates of Milverton Demesne. One of pair of lodges near Milverton School, this is lodge on south side of gates",,"Milverton Demesne, Balcunnin Road",Milverton,,,53.569894280508,-6.15326534468927
+242,Home Farm,Five-bay two-storey house and fine cut stone outbuildings,,St. Monica's Road,Killalane,,,53.569338050509,-6.15587047402766
+244,Courtlough House & Cottage complex,Remains of Courlough House (former Man O'War Coachhouse) plus Courtlough cottage & walled enclosure,,,Courtlough,,,53.563384820304,-6.18375620581467
+747,Knockmaroon House,"House, stable residences, stables, lodges (2), gates & piers",,College Road,Castleknock,11362024,,53.3639398767207,-6.37226326534573
+751,Windmill (in ruins),Remains of circular stone tower on mound,,"Castleknock College, College Road",Castleknock,,DU017-01302,53.3681514652389,-6.36595071712133
+753,Castlemount,"House, lodge, front boundary wall & gate piers",,Tower Road,Castleknock,11362046,,53.3612315300697,-6.36159249847297
+755,Pumphouse of Mardyke House,Pumphouse of former Iron Mill,,Lower Road,Castleknock,11362060,,53.3589790104702,-6.36048145953185
+765,St. Brigid's Church of Ireland Church,19th century church & graveyard,,Castleknock Road,Castleknock,11362003,DU017-00801,53.3732153484088,-6.36406568581934
+763,Child & Family Centre & Gatelodge,Yellow and red brick five-bay two-storey former dispensary and gatelodge,,Castleknock Road,Castleknock,11362047 & 11362048,,53.3715269501296,-6.35857649624829
+758,Mount Hybla House,Three-bay two-storey over basement 18th century house,,White's Road,Castleknock,11362052,,53.367833863345,-6.35973220354282
+752,Gatelodge of Castleknock College,"Lodge at cross roads of College Rd, Whyte's Rd & Tower Rd",,"Castleknock College, College Road",Castleknock,11362022,,53.3673557604004,-6.36473932153817
+749,McNamera Building,"Original 18th century school buildings with later additions, incl Chapel",,"Castleknock College, College Road",Castleknock,"11362018, 11362019",,53.3679834504175,-6.36890904965459
+750,Cregan Building,South facing front elevation only of mid 20th century building,,"Castleknock College, College Road",Castleknock,11362020,,53.3687796360371,-6.36714939595196
+754,Guinness Bridge & Bridge Lodge,Private pedestrian cast iron bridge over River Liffey with stone piers & lodge,,"Lower Road, Strawberry Beds",Palmerstown Lower,11362030,,53.3609136215447,-6.36568165584013
+738,Rag Well,Holl Well slabbed over at road junction. The rear wall is inscribed with the words 'Ragwell',,Luttrellstown Road,Diswellstown,,DU017-011,53.3671391397172,-6.37848147313586
+737,Oatlands,"House, lodge, out-offices & gates",,Luttrellstown Road,Diswellstown,11361030,,53.3635610271925,-6.38374480756383
+731,Diswellstown House,"House, outbuildings, gate piers & gates",,Luttrellstown Road,Diswellstown,11361031,,53.3677468403739,-6.38823716361392
+736,Summerton House,"House, outbuildings, walled garden, lodge, boundary railings & gates.",,Sommerton Road,Diswellstown,11361029,,53.3636936681666,-6.39268293650921
+734,Weir,Weir in Liffey opposite The Wren's Nest,,"At Wren's Nest, Strawberry Beds",Astagob,,,53.3619450440215,-6.40322176181952
+735,The Wren's Nest,Three-bay two-storey 19th century house now Public House (excluding late 20th century extensions),,"Lower Road, Strawberry Beds",Astagob,11361026,,53.3625910052732,-6.40174686143941
+729,St. Mochta's Catholic Church,Gothic style Roman Catholic Church,,Luttrellstown Road,Porterstown,11361011,,53.3716901521286,-6.40567969158598
+728,Annfield,Five-bay two-storey over basement 18th century house,,Luttrellstown Road,Annfield,11361009,,53.3730568797817,-6.40654301309666
+697,Kirkpatrick Bridge,Stone arched bridge over Royal Canal,,"Royal Canal, Coolmine Road",Diswellstown,11361032,,53.3776176425893,-6.39205897206832
+696,Granard Bridge,Stone arched bridge over Royal Canal,,"Royal Canal, Castleknock Road",Blanchardstown,11354002,,53.3819238644553,-6.37036423330478
+695,Talbot Bridge,Stone arched bridge over Royal Canal. Also known as Old Bridge,,"Roayal Canal, Old Navan Road",Blanchardstown,11354003,,53.3825021429113,-6.36570951562768
+694,Ranelagh Bridge,"Stone arched bridge over Royal Canal, just before M50 on closed off section of road",,Royal Canal,Blanchardstown,11354004,,53.3826414416686,-6.36113118517572
+699,Keeper's Cottage,Rail Keeper's Cottage at rail crossing,,Porterstown Road,Clonsilla,11361005,,53.3793966837463,-6.40592846858344
+703,St. Brigid's Catholic Church,19th centuyr Catholic Church excluding recent extension,,Church Avenue,Blanchardstown,11354001,,53.3850767499618,-6.37491642805101
+701,Coolmine Church (in ruins),"Ecclesiastical remains, church site & graveyard",,Blanchardstown Road,Coolmine,,DU013-019,53.3901033318866,-6.3994033737275
+705,St. Mary's Church,Church of Ireland Church and archaeological site of earlier church,,Clonsilla Road,Clonsilla,11353005,DU013-01701,53.3842663971208,-6.42260740758434
+711,Packenham Bridge,Stone single arched road bridge over the Royal Canal at Barberstown railway crossing.,,"Royal Canal, Baberstown Lane",Barnhill,11352002,,53.3839874464509,-6.44027383525166
+717,Westmanstown Park House,Three-bay two-storey over basement house,,Barnhill to Lucan Road,Westmanstown,11360001,DU013-034,53.3809103348831,-6.45686813478765
+713,Collins Bridge,Bridge over Royal Canal,,"Royal Canal, Barnhill Cross Roads",St. Catherine's Park,11360002,,53.3716284163474,-6.45704480679167
+715,Lodge & entrance of St. Catherine's Park,"Lodge, castellated gateway & wing walls",,The Avenue,St. Catherine's Park (Leixlip),11360005,,53.3655103353937,-6.47306606036092
+718,Glenwood,"House, out-offices & gates",,Barnhill Cross Roads,Coldblow (Lucan),11360006,,53.3627154069585,-6.4563336099273
+719,Hillsboro House,House and outbuildings,,Barnhill Cross Roads,Laraghcon (Lucan),11360007,,53.3609884512098,-6.45516398129186
+724,Weir,Weir in River Liffey,,"At Anna Liffey Mill, Lower Road",Woodlands,,,53.3686083515938,-6.4350918637261
+725,Mill House,Former Mill Owners House,,"Anna Liffey Mills, Lower Road",Woodlands,11361035,,53.368518291256,-6.43366410760156
+726,Anna Liffey Mill,Former Flour Mill (incl turbines),,Lower Road,Woodlands,11361034,DU017-076,53.3684729934013,-6.4329303662814
+723,Luttrelstown Castle,"Main building plus outbuildings, gatelodges, follies, gates & gate piers",,Luttrellstown Road,Woodlands,11361036,DU017-004,53.3734882016062,-6.43101678086213
+710,Beech Park House,"House, lodge & gates",,Luttellstown Road,Clonsilla,11353002 & 11353001,,53.3822843047584,-6.43005701554343
+709,"The Courtyard, Beech Park House",Former outbuildings of Beech Park House,,Luttrellstown Road,Clonsilla,11353002 & 11353001,,53.3826119118253,-6.43056189714608
+712,Barnhill Bridge,Stone arched bridge with single arch over disused Dublin to Navan railway line,,Barnhill to Lucan Road,Barnhill,11352001,,53.3898210340843,-6.44914822695033
+704,Allandale,19th century three-bay single-storey over basement house and entrance gates (excludes outbuildings),,Hansfield Road,Clonsilla,,,53.3901922745322,-6.43026302638412
+702,Phibblestown House,Three-bay two-storey over basement house and walled garden,,Hansfield Road,Castaheany,11352004,,53.3992089494293,-6.43705166815454
+685,Mound,Impressive mound in a field.,,Dunsink Lane,Dunsink,,DU014-032,53.3883553880071,-6.35177431731633
+687,Observatory House,Late 18th century house plus outbuildings,,"Dunsink Observatory, Dunsink Lane",Dunsink,11354008,,53.387395129276,-6.33867748969949
+688,South Dome,Rotunda with copper dome housing telescope,,"Dunsink Observatory, Dunsink Lane",Dunink,11354009,,53.3868198242811,-6.33748694320746
+682,Ringfort,"""Tumulus"" - circular mound in field opposite Cappagh Orthopaedic Hospital",,Cappagh Road,Cappoge,,DU014-029,53.396732448173,-6.32482634680982
+683,Abbotstown House,"Five-bay two-storey house with six-bay wing, now Veterinary Research Lab",,Snugsborough Road,Sheephill,11354006,,53.3923553990927,-6.35788066666988
+670,Mulhuddart Church (in ruins) & Graveyard,Church in ruins & graveyard still in use,,Church Road,Buzzardstown,11346003,DU013-01001 + -01002,53.4104736721264,-6.3893933516578
+673,Tyrrelstown House,Five-bay two-storey house & Out-offices,,Powerstown Road,Tyrrelstown,11346002,DU013-006,53.4164049633105,-6.39464113027113
+665,Hollywoodrath House,"Seven-bay two-storey house plus logde, gates & gate piers",,Rathoath Road,Hollywood,11347001 & 11347003,,53.4305452295013,-6.37007287869111
+668,Kilmartin Church (in ruins),"Ecclesiastical remains, church, ecclesiastical enclosure",,Kilmartin Lane,Kilmartin,,DU013-002 to -00202,53.4337517904675,-6.40327338633171
+624,St. Bridget's Well,Holy Well located west of Catholic Church,,St. Margaret's Village,St. Margaret's,,DU014-003,53.4311458788968,-6.30270027188671
+626,St. Margaret's Church (in ruins),"Ecclesiastical remains, church, architectural fragments, graveyard & church site",,St. Margaret's Village,St. Margaret's,11348001,DU014-002,53.4335978592145,-6.29957671819135
+628,Windmill (in ruins),"Now a circular tower ruin in field, north east of St. Margaret's",,R122 Road,Millhead,,,53.43350957435,-6.29338931351483
+627,Kilreesk Bridge,Bridge over stream on road from St. Margarets to Killsallaghan,,,Kilreesk,11342008,,53.4382579498215,-6.29708114007664
+637,Mound,Earthwork,,Shallon Road,Shallon,,DU011-040,53.4466861338521,-6.31213635845534
+636,Thatched Dwelling,Six-bay single-storey thatched dwelling,,Tobercurr Road,Killeek,11342006,,53.4467990028474,-6.29331434638093
+625,St. Margaret's Church (RC),19th century catholic church,,Main Street,St. Margarets,,,53.4308835409496,-6.30127678017731
+344,Thatched Dwelling,Three-bay single-storye thatched dwelling hidden behind high boundary wall,,Rathbeale Road,Commons West (Swords),11335014,,53.4611350892548,-6.22755656848405
+345,Scotchstone Bridge,Fine stone road bridge over River Ward,,Balheary Road,Balheary Demesne (Swords),11335008,,53.4639294283126,-6.21881430198653
+363,"Mill ponds, Millrace & Sluice System",Brackenstown Mill site located along River Ward valley,,"River Ward, off Brackenstown Rd",Brackenstown (Swords),,,53.4577992609906,-6.25248953031799
+364,Brackenstown House,"Seven-bay two-storey house plus gates, lodge & gardens",,Naul Road,Brackenstown,11343018,,53.4562601274055,-6.25454449790753
+370,Glasmore Abbey & St. Cronan's Well,Abbey and Well. Church in ruins.  Fenced off in open space of Lioscian housing estate,,"Lioscian Estate, St. Cronan's Ave",Mooretown (Swords),,"DU011-018, DU011-019",53.4645019796413,-6.24263199217827
+338,Rathbeale Hall,Main house plus outbuildings & gatelodges (x2),,Rathbeale Road,Rathbeal (Swords),11334001,DU011-014,53.4725588046067,-6.26682655474239
+339,Newton House,Five-bay three-storey over basement former house (now in use as offices) & out-buildings,,Balheary Road,Newtown,11335009,,53.469984187073,-6.22347775775263
+374,Church of the Immaculate Conception (RC),19th century gable-fronted catholic church,,Balheary Road,Balheary,11335021,,53.4815229686779,-6.23562059339916
+373,Murrays Bridge,Stone Bridge,,Balheary Road,Balheary (Swords),11335020,,53.4843072158977,-6.24224149684996
+342,Lissen Hall,"House, Out-offices & entrance gates",,off Estuary Road,Lissenhall Great (Swords),,,53.4686768027791,-6.2059999135322
+379,Seatown House,"House, out-offices and tower house/castle remains, over looking Malahide Estuary",,Estuary Road,Seatown East (Swords),,DU012-021,53.4621047335636,-6.1966557102963
+480,Prospect Point,"House & Stables, overlooking Malahide estuary",,Hutchinsons Strand,Seapoint East (Swords),11336006,,53.4647486654081,-6.19068666378275
+481,Bridge near Newport House,Disused double-arched random rubble stone bridge at end of Ballymadrough Road,,Ballymadrough Road,Ballymadrough,11336007,DU012-042,53.4667455749539,-6.18753363101604
+482,Gates of Seafield House,"Gates & Gate piers. Originally entrance gates to Seafield House, now in separate ownership",,Ballymadrough Road,Ballymadrough,,,53.4724509680889,-6.1827873017588
+484,Church (in ruins) & Graveyard,"Oval raised area enclosed by wall, rectangular sunken area indicates site of church",,Ballymadrough Road,Ballymadrough,,DU012-01301 +-01302,53.4736197011457,-6.1838133229036
+483,Seafield House,"House, incl interior, stableyard, outoffices & gatelodge",,Kilcrea Road,Ballymadrough,11336024,,53.4723675775522,-6.1757573015994
+496,Motte possible,Mound in field to west of Kilcrea Road,,off Kilcrea Road,Ballymadrough,,DU012-014,53.4779744059026,-6.17392242632651
+499,Church (in ruins) & Graveyard,Remains of small single chamber church,,Kilcrea Road,Kilcrea,,DU012-01601,53.4755269654061,-6.16703333259088
+500,Kilcrea House,House & Outoffices,,Kilcrea Road,Kilcrea,11336025,,53.4744729180769,-6.16574373458488
+504,Corballis House,House & Outoffice & site of Castle,,Corballis Road,Corballis (Donabate),,DU012-020,53.4739361047073,-6.14101888777061
+543,Martello Tower,19th century circular military stone martello tower,,Balcarrick Road,Balcarrick (Donabate),11337001,DU012-008--,53.4783248331518,-6.11535884094303
+537,Round Tower (Memorial),19th century memorial in grounds of St. Ita's Hospital,,St. Ita's Hospital Complex,Portraine,,,53.4873971940485,-6.10720270906206
+540,Chink Well,A well in a cave on the seashore which is covered by high tide,,in grounds of St. Ita's Hospital,Quay (Portrane),,DU012-007,53.4857825520388,-6.10209240948221
+539,Priest's Chamber,Feature in grounds of St. Ita's,,in grounds of St. Ita's Hospital,Quay (Portrane),,,53.4859884723717,-6.10158491879903
+487,Castle site & Enclosure,Archaeological complex possibly including Belinstown Castle,,"Batter Lane, off N1 Road",Belinstown,,DU012-001,53.4890599333261,-6.20774158497584
+489,Lanistown North,Five-bay two-storey house,,Cobbes Back Road,Lanestown,,,53.4886244026486,-6.1892833071228
+493,Lanestown Castle (in ruins),Remains of square tower house,,Grounds of Newbridge House,Newbridge Demesne,,DU012-004,53.483081037157,-6.1780995719862
+494,Newbridge House,"Main house plus outbuildings, walled gardens, gates & gate piers",,Lissenhall to Donabate Road,Newbridge Demesne (Donabate),11329001,DU012-060,53.4867915787068,-6.16809410363744
+502,Railway Bridge,Stone rail bridge over road,,Corballis Road,Kilcrea,11336027,,53.4767117034957,-6.1527263096821
+506,The Cottage,Five-bay two-storey 19th century house,,The Square,Donabate,11336011,,53.4850541503263,-6.15407770782754
+512,St. Patrick's Roman Catholic Church,Redbrick 19th century catholic church,,Main Street,Donabate,11329006,,53.4861152492901,-6.14813183732573
+513,An Dun (Formerly Warington's House),"Four-bay two-storey stone house including walls & pump, adjacent to St. Patrick's Church",,Main Street,Ballalease West (Donabate),11329007,,53.486782685596,-6.14824226956704
+514,The Cottage (Thatched Dwelling),Three-bay single-storey thatched dwelling,,Ballisk Street,Ballisk Common (Donabate),11329015,,53.4886612624124,-6.14979488313303
+507,Waterpump,Cast-iron pump of rounded profile,,The Square,Donabate,11336001,,53.4852363515373,-6.15432889971957
+291,Enclosure,Earthwork,,,Effelstown,,DU008-011,53.5236303848614,-6.14203878668054
+318,Mound & Long Cist,Earthwork,,,Balleally West,,DU008-01901,53.5124889515192,-6.17105643630794
+517,Harbour possible,Archaeological site,,Beaverstown Rod,Beaverstown (Donabate),,DU008-026,53.5001766308151,-6.14359973631109
+523,The Farm,Vernacular building complex,,Portrane to Donabate Road,Portraine Demesne,,,53.4934218586921,-6.11684081162096
+492,Turvey House,Site of demolished late 17th century house,,Turvey Avenue,Turvey,11329004,DU008-02401,53.4948566253201,-6.1739338370958
+320,Burial,Earthwork,,,Coldwinters,,DU008-023,53.5003322408978,-6.19300066511447
+319,Earthwork,Earthwork,,,Newtowncorduff,,DU008-016,53.5168298140154,-6.20303475733289
+333,Rowelstown Bridge,Stone road bridge over Broadmeadow River,,Rowelstown Village,Rowelstown East,,,53.4890800205878,-6.30390262492227
+331,Detached House & former thatched cottage,"Three-bay two-storey house, plus stable yard, single-storey former thatched cottage and outbuilding just south of Rowelstown House",,Rowlestown Village,Rowelstown West,11327006,,53.4901403932869,-6.30502560900274
+332,St. Brigid's Church (RC),19th century Catholic Church,,Rowelstown Village,Rowelstown East,11327001,,53.4899991770765,-6.3004799745267
+656,Kilsallaghan Cross,Site of cross,,,Kilsallaghan,,DU011-010,53.4743967330366,-6.31964092555569
+328,Ringfort,Earthwork,,Fieldstown to Swords Road,Newbarn,,DU011-001,53.4902749618552,-6.32527375128664
+645,Potential Site,Earthwork,,,Kilcoskan,,,53.4644628132411,-6.3216271728165
+649,Settlement deserted,Earthwork,,,Surgalstown South,,DU011-012,53.4682412141501,-6.30633674095268
+642,Enclosure(s),Earthwork,,,Newpark,,DU011-021,53.4533351050129,-6.31987549616992
+640,Enclosure & graveyard,Earthwork,,,Common,,DU011-02301 + -02302,53.4503942197184,-6.30860060820016
+638,Fulacht Fiadh possible,"Earthwork, Fulacht Fiadh denotes cooking place.",,"St. Margaret's Golf Club, Toburburr Road",Toberburr,,DU011-024,53.4506963042615,-6.29640088699156
+646,Potential Site,Earthwork,,,Westerweave,,,53.4596425338916,-6.28855310288284
+635,Ringfort (Rath/Cashel),Earthwork,,Killeek Lane,Killeek,,DU011-025,53.4495922454767,-6.28736427794582
+783,Earthwork Possible,Earthwork,,,Lambay Island,,DU009-001,53.4920412801935,-6.0151332296147
+355,Earthwork Unclassified,Earthwork,,Seatown Road,Seatown West (Swords),,DU011-036,53.4620613306034,-6.21268092999663
+618,Field System possible site,Earthwork,,off St. Margaret's Road,Silloge,,DU014-021,53.4146557434439,-6.28199457549349
+614,Ringfort site,Earthwork,,St. Margaret's Road,Balcurris,,DU014-022,53.4061120299544,-6.27812155618386
+615,Meakstown Castle,Site of Castle opposite Meakstown House,,St. Margaret's Road,Meakstown,,DU014-020,53.4063253505692,-6.29235697139363
+632,Ringfort site,Earthwork situated on elevated positions.,,Killeek Lane,Killeek,,DU011-041,53.4465094629758,-6.27501372556006
+591,Site of Burial Mound,Earthwork,,Dublin Road,Sutton,,DU015-023,53.3894184851178,-6.11264504549986
+590,Cemetery,Archaeological site,,"Sutton RFC, Station Road",Burrow Howth,,DU015-022,53.3904804665845,-6.11591384571512
+442,Earthwork'Site of',Earthwork in grounds of Malahide Castle,,,Malahide Demesne,,DU012-029,53.4458276142208,-6.16836368345467
+443,Settlement,Earthwork,,Elner Court,Robswalls (Portmarnock),,DU012-037,53.4384316674063,-6.13011992569708
+477,Ring-ditch possible site,Earthwork,,Strand Road,Burrow Malahide (Portmarnock),,DU015-006,53.4305031783491,-6.12632279249355
+472,Ringfort Site,Earthwork,,Drumnigh Road,Grange Malahide,,DU015-005,53.4302872003066,-6.15548055665387
+473,Ringfort Site,Earthwork,,Drumnigh Road,Grange Malahide,,DU015-004,53.4325567079513,-6.15617848766396
+474,Ringfort Site,Earthwork,,The Hill,Broomfield/Grange (Malahide),,DU012-033,53.4349351797508,-6.15623472489339
+470,Potential Site,Earthwork,,,Drumnigh,,,53.4151503786513,-6.1574592393389
+465,Ringfort possible,Earthwork,,off Malahide Road,Kinsaley,,DU015-010,53.416925849233,-6.17253574618951
+109,Nativity of Our Lady Church (RC),Early 19th century Roman Catholic Church,,"Main Street, Naul",Westown (Naul),11308001,,53.5851068156774,-6.29109577443511
+324,Mound,Earthwork,,Naul Road,Belinstown/Skidoo,,DU007-017,53.4992554857758,-6.26616146089509
+325,Fieldstown House,18th century country house & stone outbuildings,,Fieldstown to Oldtown Road,Fieldstown,,,53.4924995223575,-6.32065933997836
+327,St. Catherine's Well,Holy Well,,Fieldstown to Oldtown Road,Fieldstown,,DU011-00204,53.4915132963699,-6.31723770566623
+172,Mound site,"Earthwork, possible motte",,,Jordanstown,,DU005-034,53.5543243334189,-6.20604886546952
+306,Rose Cottage,Five-bay single-storey thatched dwelling halfway between Skerries and Lusk,,Skerries Road,Greatcommon,11323022,,53.5366844231841,-6.16129296238152
+246,Bridge,Road bridge over railway line,,Featherbed Lane,Ballykea,,,53.5480547069681,-6.11609296875041
+248,Lime Kiln,Remains of stone lime kiln,,off The Mine Road,Popeshall,,,53.5541105372724,-6.0915792916904
+249,'Harbour View',Three-bay single-storey thatched dwelling,,Loughshinny Harbour,Loughshinny,11318006,,53.5473606341443,-6.08003805338465
+250,Boathouse,Single-bay single-storey stone boathouse,,Loughshinny Harbour,Loughshinny,11318005,,53.546875368592,-6.0803017669791
+251,Lizzie's Cottage,L-shaped single-storey thatched dwelling & Out-offices,,Skerries Road,Carnhill,11318002,,53.5430324205912,-6.09657382779988
+252,Promontory Fort,Archaeological site,,off Skerries Road,Drumanagh,,DU008-00601,53.5414829917796,-6.08250372304545
+255,Balluster Lodge,"House, gates & gate piers",,Skerries Road,Rush Demesne,11318003,,53.5395462418484,-6.09373333471896
+257,St. Catherines Well,Holy Well,,Skerries Road,Rush Demesne,,DU008-005,53.5381441743768,-6.09338549961027
+258,Portico of Kenure Park House,"Portico, in open space  at centre of housing estate",,,Rush Demesne,11324028,,53.5346514346205,-6.09736081868633
+260,Kenure Church of Ireland Church,19th century Church of Ireland Church,,Skerries Road,Rush,11324026 & 11324025,,53.5292784174902,-6.09086024145401
+262,Former Parsonage of Kenure C of I Church,"Former Parsonage & Enclosure, including Gates & Railings",,Skerries Road,Rush,,,53.5285184979586,-6.09195761223811
+292,Bridge,Road bridge over Rail,,,Tyrrelstown Big,,,53.5295104859057,-6.13473060146318
+288,Lusk & Rush Station,"Railway Station Buildings, Pedestrian Bridge & Signal Box",,,Effelstown (Rush),11323018 & 11323016,,53.5209136712067,-6.14293585637547
+290,Stable & Coachhouse Complex,Stone stable & farm buildings,,Horestone Road,Effelstown,11323026,,53.5211978428291,-6.13806754274666
+284,Knockdromin House,"Main house, plus outbuildings, gatelodge and gates",,Rush to Lusk Road,Beau,11323020 & 11323019,,53.5182838918517,-6.13585216938559
+285,Cist,"In grounds of Knockdromin House, cist is a burial of stone slabs",,Rush to Lusk Road,Beau,,DU008-035,53.5187921673106,-6.13797983648253
+287,Bridge,Road Bridge over Rail,,Rogerstown Lane Old,Rogerstown,,,53.5163470794255,-6.14646918520506
+294,Remount House,Exterior only of redbrick two-storey house,,Station Road,Racecourse Common (Lusk),,,53.5223213384884,-6.15480888471611
+293,Lusk House,Exterior only of three-bay two-storey house,,Station Road,Racecourse Common (Lusk),,,53.5220127092961,-6.1534694032122
+280,Bridge & Sluice,Stone arched road bridge over mill stream,,Whitestown Road,Whitestown (Rush),,,53.514237355215,-6.12474967443184
+282,Whitestown Mill (former),"Corn Mill, Sluice & Millrace",,Whitestown Road,Whitestown (Rush),,,53.518334283108,-6.12618716028401
+283,Whitestown House,Former mill owners house,,Whitestown Road,Whitestown (Rush),11324014,,53.5190025235163,-6.12656832736244
+286,Bridge,Rail Bridge over road,,Rogerstown Lane New,Rogerstown,,,53.5101777566979,-6.14784957849694
+516,Beaverstown Viaduct,Eleven-arched railway viaduct over estuary,,Rogerstown Estuary,Beaverstown (Donabate),,DU008-026,53.5019753059435,-6.14902839240066
+518,Windmill (in ruins),Remains of base of circular stone windmill,,off Beaverstown Road,Rahillion (Donabate),,DU008-027,53.4979001069643,-6.13785771731137
+515,Beaverstown House,"House, Barn, Out-offices & Yard",,Beaverstown Road,Beaverstown (Donabate),11329010,DU008-044,53.4936120660139,-6.1454092891586
+521,Stella's Tower (Portraine Castle in ruins),Remains of medieval stone structure,,,Portraine,,DU008-030--,53.4952398298247,-6.11511010439155
+541,Burial,Archaeological site,,Quay Road,Quay (Portraine),,DU008-032,53.4929381267784,-6.10361344009696
+315,Thatched Dwelling,Three-bay single-storey thatched dwelling in village of Corduff,,"Droghedea Road, Lusk",Corduff (Hackett),11323013,,53.5171087817519,-6.19070687252496
+314,Thatched Dwelling,Four-bay single-storey thatched dwelling,,"School Lane, Lusk",Corduff (Hackett),11323025,,53.5160384820679,-6.18806361142823
+309,Glebe House,Former Glebe House & Out-offices,,Minsters Road,Lusk,11323007,,53.5250998033397,-6.1832198320683
+313,Corduff House,"House, Outbuildings, Entrance Gates & Piers, & cast-iron wall-mounted postbox in gate pier",,Drogheda Road (N1),Corduff,11329018,,53.5108384117589,-6.18786309733959
+312,Thatched Dwelling,Four-bay single-storey semi-detached thatched dwelling,,"Droghedea Road, Lusk",Corduff Hall,11328001,,53.510538617057,-6.19225436531638
+311,Thatched Dwelling,Detached four-bay single-storey thatched dwelling in gated vernacular complex,,"Droghedea Road, Lusk",Corduff (part of),11323014,,53.5073615820526,-6.1941178653945
+491,Sluice,On stream feeding into Rogerstown estuary,,,Turvey,,,53.4994182649391,-6.17610159572039
+322,Nunnery (in ruins),Remains of monastic site (Priory of St. Mary) and two Grave-slabs,,Ballyboghil Road,Gracedieu,,DU007-015,53.5094497199702,-6.22191219582711
+321,Lady's Well & St. Bridget's Well,Site of Holy Wells (2) & Mound. Associated with Gracedieu Nunnery,,Ballyboghil Road,Gracedieu,,DU007-01503 to 01505,53.510311176931,-6.21980212389405
+276,Windmill (in ruins),A stabilised ruin in open mounded green in middle of Rush,,Chapel Green,Rush,11324016,DU008-012--,53.5213022077696,-6.10445545081926
+273,Gatelodge of Kenure Park,"Gateway, Piers, Railings & Lodge",,Whitestown Road,Rush Demesne,11324008 & 11324009,,53.5233343879438,-6.09988055338135
+274,Well,Well at ford,,Farren's Lane,Rush,,DU008-014,53.5245756674957,-6.09665456229231
+263,Thatched Dwelling,Four-bay single-storey thatched dwelling with long extension to side,,Skerries Road,Rush,11324024,,53.5267519927672,-6.09102134548739
+261,Cricket clubhouse,Former lodge of Kenure Park,,Skerries Road,Rush,11324027,,53.5290951583527,-6.09161361828934
+267,,Four-bay single-storey thatched dwelling adoining post office,14,Main Street,Rush,11324021,,53.521926250798,-6.09234828732015
+266,,Five-bay two-storey thatched dwelling,16,Main Street,Rush,11324022,,53.5218125048066,-6.08995935948967
+264,Old Kilbush House,Seven-bay single-storey thatched dwelling with attic storey,,Kilbush Lane,Rush,11324032,,53.5236515630955,-6.08443821415864
+265,Martello Tower,19th century circular military stone martello tower,,Tower Street,Rush,11324023,DU008-015--,53.521125453409,-6.07599091402007
+275,Tobar Caillin Holy Well,Holy Well,,Bawn Road,Rush,,DU008-022,53.5181098975169,-6.08825533915732
+305,Mound,Earthwork,,Quickpenny Lane,Regles (Lusk),,DU008-008,53.5313467914001,-6.17494470633833
+302,Former Lusk National School,Exterior only of 19th century former school,,Chapel Road,Greatcommon (Lusk),11323001,,53.5300473366359,-6.17123887998611
+301,St. MacCullin's RC Church,"Church, Graveyard, Enclosure & Gates",,Chapel Road,Lusk,11323003,,53.5298781202599,-6.17034275848402
+300,Chaplain's House,Exterior only of early 20th century house,,Chapel Road,Greatcommon (Lusk),,,53.5295398555493,-6.16934352140906
+304,Site of Monastic Complex,Covered by greenhouses to rear of buildings on The Green,,The Green,Regles (Lusk),,DU008-01002,53.528896699559,-6.17149217135524
+303,Lusk Community Centre,Former Carnegie Library built 1908,,The Green,Greatcommon (Lusk),11323005,,53.5289655197511,-6.17089404527217
+86,Standing Stone,In middle of housing development in Balrothery village,,Old Coach Road,Rosepark (Balrothery),,DU005-05702,53.5873595457103,-6.18564364670796
+87,Holy Well & Potential Site,In middle of housing development in Balrothery,,Old Coach Road,Rosepark (Balrothery),,DU005-05707,53.5864487054345,-6.18542203233684
+85,Castle Tower House,Tower House (in ruins) adjacent to Balrothery Church,,,Glebe South (Balrothery),11309003,DU005-05706,53.5862239046038,-6.18983136840213
+84,Former Balrothery Church of Ireland Church,"Church, Inscribed Stone, Graveyard Walls & Gates",,Old Coach Road,Balrothery,2650/2,DU005-05703,53.5865578654001,-6.18980254726307
+1,Knocknagin Viaduct,Rail bridge over River Delvin,,off Drogheda Road,Knocknagin,,,53.6335576057196,-6.21347072835615
+268,Shamrock Cottage,Four-bay single-storey thatched dwelling at junction of Sandy Road with Main Street,,Sandy Road,Rush,11324019,,53.5225065646129,-6.0967629596258
+269,Tigin,"Two-bay single-storey thatched dwelling, near junction with Main Street",,Sandy Road,Rush,11324018,,53.5225049271953,-6.09710733264401
+270,Thatched Structure,"Three-bay single-storey former thatched shop adjacent to ""Tigin"" and ""Shamrock Cottage""",,Sandy Road,Rush,11324017,,53.5224591128454,-6.09736614146823
+430,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,3,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4494090444355,-6.15376500932187
+431,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,4,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4492772751956,-6.15374368660315
+432,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,5,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4491314375208,-6.15370752329112
+433,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,6,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4490273214635,-6.15368500129987
+434,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,7,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4488657117979,-6.15367270190303
+435,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,8,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4487548006568,-6.15365820031131
+598,Kilrock House & Lodge,Late 19th century three-bay two-storey redbrick house and gatelodge,,Kilrock Road,Howth,11359030 & 11359029,,53.3851698070959,-6.05957551686828
+91,Hampton Hall Farm,Former outbuildings of Hampton Hall,,Hampton Lane,Hampton Demesne,,,53.5934310700376,-6.1659911115218
+654,Kilsallaghan Castle,Remains of castle ruins,,Fieldstown Road,Castlefarm,,DU011-01104,53.4758765735047,-6.31820691360092
+655,Kilsallaghan Motte,Earthwork mound,,Fieldstown Road,Castlefarm,,DU011-01106,53.4751918851743,-6.31828949932464
+733,Mound,"Possible ringfort, in SE corner of level arable field (1.75m high)",,"off Lower Road, Strawberry Beds",Astagob,,DU017-007,53.3656778506045,-6.40411558621501
+279,St. Maur's Church (in ruins),Church (in ruins) & Graveyard,,Whitestown Road,Whitestown (Rush),11324015,DU008-02101 +-02102,53.5174333232996,-6.12155059036573
+272,Rush Library (Former St. Maur's Church),"Renovated Former 19th century Roman Catholic Church, now community centre & library",,Chapel Green,Rush,11324004,,53.5218614136398,-6.10186754726665
+254,Castle (in ruins),Remains of tower house,,Skerries Road,Rush Demesne,,DU008-003,53.5389725008585,-6.09419016133277
+245,Baldongan Church and Tower (in ruins),"Stone remains of 15th century church, graveyard and site of castle",,,Baldongan,11318008,"DU005-03701, DU005-03702",53.5531310678257,-6.12874180156745
+240,St. Mobhi's Church (in ruins) & Graveyard,"Remains of base of church & graveyard, in grounds of Milverton Demesne",,Balcunnin Road,Grange (Holmpatrick),11310003,DU005-02401,53.5693479076116,-6.15250197426449
+247,Lime Kiln (double),Stone remains of double limekiln,,Curkeen Hill,Ballykea,,,53.5554883066091,-6.10245376778007
+38,Balbriggan Harbour,Harbour with two limestone piers,,,Balbriggan,11305018,,53.6120149065767,-6.1779076894348
+157,Ring Barrows,Group of three ring barrows (burial mounds),,Ballyboghil to Devines Cross Road,Broomfield,,DU007-026,53.5276300895277,-6.25023942036639
+153,Thatched Dwelling,Five-bay single-storey thatched dwelling,,Drishoge Lane,Drishoge,,,53.5104475931252,-6.29007785998264
+152,Genista Cottage,Three-bay two-storey thatched dwelling with bonnetted gable,,"Drishogue Lane, Ballyboghill",Drishoge,,,53.5107650083946,-6.2895150860868
+330,Rowlestown House,"House, Out-offices, Gates & Piers",,Rowlestown Village,Rowlestown,11327007,,53.4916703107808,-6.30528603173036
+335,Killossery Church (in ruins),"Ecclesiastical remains, church, font, graveyard & enclosure",,Rowlestown Village,Killossery,11327005,DU011-00501 to -00503,53.4885057158312,-6.3044928504394
+326,St. Catherine's Church,Ecclesiastical Remains,,Fieldstown to Oldtown Road,Fieldstown,,DU011-00201 + -00202,53.4918490995065,-6.31934241099698
+648,Mound site,Earthwork,,off Leas Road,Surgalstown South,,DU011-013,53.4659912374344,-6.29358937675058
+647,Mount Ambrose House,"Six-bay two-storey house, out-offices, gates & piers",,Leas Road,Montambrose Little,11334009,,53.4667689783742,-6.28651136876971
+365,Motte,Large man-made mound at edge of ravine on north bank of River Ward,,Brackenstown Road,Brazil (Swords),,DU011-027,53.4581127490179,-6.26665838451525
+644,Freedagh Mound,Motte possible,,off Fieldstown to Skephubble Rd,Corrstown,,DU011-020,53.4624412147897,-6.31538365860838
+323,St. Bridget's Well,Holy Well in a field.,,off Baldurgan Lane,Baldurgan,,DU007-016,53.5026413206154,-6.250595109846
+141,Grallagh Church (in ruins) & St. Michael's Well,"Church, Graveyard & Holy Well",,Ashgrove Road,Grallagh,11314007,DU007-001 to 00104,53.5463331154166,-6.33036825646105
+142,St. John's Well,Holy Well south of Grallagh Church,,Ashgrove Road,Cottrelstown,,DU007-002,53.5459145609279,-6.33044312978692
+158,Motte possible,Oval mound (4m high),,Mallahow Road,Mallahow,,DU004-020,53.5562770007683,-6.30397697184676
+159,Saint Canice's Church (RC),Five-bay Roman Catholic Church with bellcote,,Mallahow Road,Damastown,11315002,,53.5559675900533,-6.28573809472618
+161,Church (in ruins),Church in ruins with walled graveyard which is still in use,,Hollywood Road,Hollywood Great,,DU004-02301 +-02302,53.5563367198413,-6.26009193189595
+170,Mound site,Earthwork,,off Hollywood Road,Parnelstown,,DU007-003,53.548996952794,-6.24798502015825
+115,Mound,Bell Barrow (burial mound) on hilltop,,Naul Road,Westown,,DU004-005,53.5802469133953,-6.3073809635641
+490,Sluice,On stream north of Rogerstown estuary,,,New Haggard,,,53.5008012819264,-6.17868282768358
+83,Church Tower,Medieval tower of Balrothery Church,,,Balrothery,11309002,DU005-05703,53.5865654808552,-6.19014853073036
+32,Former Smyth's  Factory,Facades of former Hosiery Factory (incl redbrick structures & buildings with commemorative medallions),,Railway Street (both sides of street),Balbriggan,11305003 & 11305004,,53.6111634520183,-6.18318816831662
+662,Kilshane Moat,Possible Motte site.,,N2 (Ashbourne) Road,Kilshane,,DU014-001,53.4329339596772,-6.33839162792553
+666,Mound,Earthwork,,"Hollystown Golfcourse, Rathoath Rd",Hollystown,,DU013-004,53.432402170394,-6.38283965596337
+671,Lady's Well,Enclosed Holy Well in vaulted structure,,Church Road,Tyrrelstown,11353010,DU013-009,53.4084384502545,-6.3918576189053
+469,Balgriffin Park Church,"Ecclesiastical Remains, Church Site, Grave slab fragment",,off Balgriffin Road,Balgriffin Park,,DU015-01201,53.4086192803518,-6.17076838702548
+595,Howth Harbour,19th century granite piers and seawalls,,,Howth,11359041,,53.3929629509779,-6.06849215150076
+609,Cloghran Church (in ruins) & Graveyard,Site of 18th century church now demolished on site of earlier church. Enclosed graveyard,,Stockhole Lane,Cloghran (Swords),,DU014-00901,53.4328877751595,-6.22785289824042
+602,Holy Well,Holy well site,,off Swords Road,Toberbunny,,DU014-023,53.4195956370572,-6.23015721620715
+350,Court House,Mid-19th century stone courthouse building,,North Street,Townparks (Swords),11335002,,53.4600009955756,-6.21876821826578
+348,,One of pair of semi-detached former Residences of New Borough Female School,42,North Street,Townparks (Swords),11335015,,53.4611265195557,-6.21835259021172
+347,,One of pair of semi-detached former Residences of New Borough Female School,44,North Street,Townparks (Swords),11335015,,53.4612997960758,-6.21833337868212
+346,Carnegie Library,Three-bay two-storey yellow and red brick library building with projecting central canted bay,,"North Street, Swords",Townparks (Swords),11335007,,53.4615783929937,-6.21820218938678
+375,Cemetery,Old graveyard,,Naul Road,Brackenstown,,DU011-032,53.4496149810071,-6.25846142390705
+368,Mound,Earthwork,,Naul Road,Knocksedan,,DU011-029,53.4566233097901,-6.26789421103873
+131,Ringgfort and site of armorial stone,"Limestone plaque with coat of arms was sited on lands of property called ""The Court""",,Ballymadun Road,Ballymadun,,DU006-00101,53.5299296149497,-6.40238698127634
+130,Saint Josephs Church (RC),19th century catholic church,,Ballymadun Road,Ballymadun,11319003,,53.5330885497734,-6.39467136527149
+136,Mound site,Earthwork,,Ashgrove Road,Jordanstown,,DU007-012,53.5204856606291,-6.34757408386425
+148,Ringfort,"Impressive ringfort (2m high), outer ditch has been filled in",,Brownscross to Ballyboghil Road,Leastown,,DU007-007,53.5347265950704,-6.31235947087158
+149,Westpalstown Church (in ruins),"Church, Graveyard & Building",,Newtown Lane,Westpalstown,11321010,DU007-008,53.5280214601812,-6.29968341583069
+171,Cosy Cottage,Three-bay single storey thatched dwelling with slated one-bay extension,,Knightstown Road,Johnstown,,,53.5472456846582,-6.23843399655036
+634,Killeek Bridge,Road bridge over stream,,Killeek to Brazil Road,Killeek,11342011,,53.4553080763859,-6.27652578140459
+633,Killeek Chuch & graveyard,"Ecclesiastical Remains, graveyard still in use",,Killeek Lane,Killeek,11342010,DU011-031,53.4533558563049,-6.27849274707153
+641,Chapelmidway Church,Church (ruins) in graveyard enclosure. Graveyard still in use,,off Fieldstown to Skephubble Rd,Corrstown,,DU011-02201,53.4555803977842,-6.31046530333558
+119,Thatched Dwelling,Three-bay single-storey thatched house,,"Critchies Lane, off Ardcath Road",Commons Upper (Garristown),,,53.5897846726513,-6.3869944431858
+334,Corn Mill Complex & House,Mill complex in ruins & former thatched dwelling,,Rowlestown Village,Killossery,,,53.4890829855831,-6.30530779085422
+707,Clonsilla Signal House & Overbridge,Station demolished and replaced by modern structure. Original bridge & signal box remain,,Clonsilla Road,Clonsilla,11353004,,53.3830144118293,-6.42365736738066
+424,Rosca,One of pair of semi-detached two-storey two-bay redbrick houses,,Dublin Road,Malahide,,,53.4501930964032,-6.16077072377569
+393,,Terrace of seven three-storey 19th century houses incl gates & front railings,3,"Castle Terrace, Dublin Road",Malahide,11344005,,53.4498242780398,-6.15594911515376
+395,,Terrace of seven three-storey 19th century houses incl gates & front railings,5,"Castle Terrace, Dublin Road",Malahide,11344005,,53.4499593168306,-6.15581216483008
+397,,Terrace of seven three-storey 19th century houses incl gates & front railings,7,"Castle Terrace, Dublin Road",Malahide,11344005,,53.4500507720486,-6.15566607465488
+398,,Terrace of four three-bay three-storey 19th century houses incl gates & front railings recessed from street by common garden,1,"Killeen Terrace, Dublin Road",Malahide,11344004,,53.4503242965094,-6.15542737257122
+394,,Terrace of seven three-storey 19th century houses incl gates & front railings,4,"Castle Terrace, Dublin Road",Malahide,11344005,,53.4500789394355,-6.15600698740592
+391,,Terrace of seven three-storey 19th century houses incl gates & front railings,1,"Castle Terrace, Dublin Road",Malahide,11344005,,53.4498872092699,-6.15631235367235
+392,,Terrace of seven three-storey 19th century houses incl gates & front railings,2,"Castle Terrace, Dublin Road",Malahide,11344005,,53.4501893570951,-6.15628100243375
+399,,Terrace of four three-bay three-storey 19th century houses incl gates & front railings recessed from street by common garden,2,"Killeen Terrace, Dublin Road",Malahide,11344004,,53.4500141738348,-6.15514646011989
+401,,Terrace of four three-bay three-storey 19th century houses incl gates & front railings recessed from street by common garden,4,"Killeen Terrace, Dublin Road",Malahide,11344004,,53.4501365269652,-6.15485289308565
+400,,Terrace of four three-bay three-storey 19th century houses incl gates & front railings recessed from street by common garden,3,"Killeen Terrace, Dublin Road",Malahide,11344004,,53.4501676929202,-6.15517568310256
+396,,Terrace of seven three-storey 19th century houses incl gates & front railings,6,"Castle Terrace, Dublin Road",Malahide,11344005,,53.4502192662162,-6.15584164340614
+390,St. Sylversters Well,Holy Well - enclosed circular stone structure with conical roof,,Old Street,Malahide,11344011,DU012-02301,53.4512401589172,-6.15486752083697
+121,"Church (in ruins), Graveyard & Whetstone",Remains of 19th century church & older graveyard,,Chapel Road/Watery Lane,Garristown,11313010,DU003-011,53.5683209967038,-6.38411384386435
+146,Former St. Mary's Church of Ireland (in ruins),"Church 'Site of' (also known as Clonmethan Church), outside Oldtown",,Naul Road,Glebe (Clonmethan),11320004,DU007-00601,53.5291709572412,-6.3236490322843
+154,Church of the Assumption (RC),19th century catholic church,,Main Street,Ballyboghil,11321005,,53.5209140278065,-6.26751428450153
+664,St. Thomas Church,Church of Ireland Church and Graveyard,,Rathoath Road,Hollystown,11346001,,53.4330769372411,-6.37730341122151
+660,Church & Graveyard (in ruins),Church in ruins,,Ward Road,Ward Lower,,DU011-03901 + -03902,53.4422021076662,-6.3494391417115
+661,Church Well,Holy Well in field adjoining Ward Lower Church,,Ward Road,Ward Lower,,DU011-038,53.4415319564333,-6.35053679222582
+623,Dunsoghly Castle,15th century Tower House with its original timber roof,,off N2 Road,Dunsoghly,,DU014-00501,53.4257060717743,-6.31968307431691
+674,Cloghran Church (in ruins) & Graveyard,Church in ruins within graveyard,,Rathoath Road,Cloughran (Castleknock),,"DU013-008, DU014-046",53.414456618099,-6.35869462766392
+678,Mound,Circular earthern mound incorporated into carpark to form traffic island,,"Blanchardstown Industrial Park, Snugborough Rd",Corduff,,DU013-014,53.403004211707,-6.36943398188085
+178,Cairn,Burial mound,,,Barnagerragh,,DU005-01701,53.5833596341411,-6.14198860314762
+679,Mound,Comprises a circular round-topped mound (2m high). Notated 'Moat' on OS Map,,off Warrenstown Green,Corduff,,DU013-012,53.4026787986196,-6.38205044145139
+669,Enclosure Site,Earthwork,,,Kilmartin,,DU013-001,53.4340146041977,-6.41719240348918
+714,St. Catherine's Wells,Holy Well - Two small adjoining low grotto stone lined holy wells,,The Avenue,St. Catherine's Park (Leixlip),11360003,DU017-00201 to -00202,53.3669655787407,-6.47280332076205
+720,Coldblow Bridge (remains),"Bridge & piers of old bridge, in grounds of ""Bleach Green"" house",,off Barnhill Cross Roads,Coldblow (Lucan),,DU017-016,53.3586641750113,-6.4522560948385
+706,Callaghan Bridge,Bridge over Royal Canal,,"Royal Canal, Clonsilla Road",Clonsilla,11353003,,53.382892932727,-6.42274497055301
+700,Former Clonsilla School,Three-storey former school building,,Porterstown Road,Clonsilla,11361001,,53.3801382771788,-6.40732525343248
+450,Mound,Earthwork,,Streamstown Lane,Auburn,,DU012-028,53.4380660759359,-6.18277047652086
+455,Church (in ruins) & Graveyard,Remains of church,,Chapel Road,Kinsaley,11350033,DU015-00201 +-00202,53.4245488263875,-6.16857157702974
+573,,One of pair of redbrick gable-fronted Edwardian houses with traditional timber shops on ground floor,15,Main Street,Howth,,,53.3848849887205,-6.06524022621492
+684,Church (in ruins) & Graveyard,Remains of small church & burial ground,,Snugsborough Road,Abbotstown,11354005,"DU013-020, DU014-031",53.3883659677858,-6.35883765973089
+680,Ringfort possible,"Remains of platform ringfort (3m high) in grounds of Corduff House, to south west of house",,Old Corduff Road,Corduff,,DU013-015,53.3981982092852,-6.38056456254259
+690,Ashton House,"Victorian Italianate house, out-offices, lodge & gates",,Ashtown Road,Ashtown,11362065,,53.3766202760269,-6.33666509284815
+764,St. Brigid's Well,Holy Well - marked by cast iron pump,,College Road,Castleknock,,DU017-009,53.3728348750612,-6.36266279273509
+757,Farmleigh & Farmleigh Lodge,"Main House, outbuildings, walled garden, gatelodge on Tower Rd & Tower",,Phoenix Park,Castleknock,11362029 & 11362033,,53.3650466662775,-6.36177761201835
+756,Glenmaroon House & Glen College complex,"Complex of buildings on both sides of Knockmaroon Hill, incl houses (x2) , lodges, railing & gates",,Knockmaroon Hill,Castleknock,11362043,,53.3561380001034,-6.35509478834638
+756,Glenmaroon House & Glen College complex,"Complex of buildings on both sides of Knockmaroon Hill, incl houses (x2) , lodges, railing & gates",,Knockmaroon Hill,Castleknock,11362043,,53.356287822842,-6.35407564571407
+768,,one of six Semi-Detached Houses east of St. Brigid's Church,1,Castleknock Road,Castleknock,,,53.3735778514179,-6.36304209378902
+769,Parkside House,one of six Semi-Detached Houses east of St. Brigid's Church,2,Castleknock Road,Castleknock,,,53.3737396519673,-6.36260065356689
+771,,one of six Semi-Detached Houses east of St. Brigid's Church,4,Castleknock Road,Castleknock,,,53.3739157358774,-6.36279892603099
+243,Lady Well,Holy Well - stone structure fed by stream,,Baldongan Road,Balcunnin,,DU005-036,53.5614742810759,-6.14563565448043
+308,Castle site,Archaeological site,,Lusk to Skerries Road,Collinstown,,DU008-001,53.5436884755,-6.16279983851162
+253,Martello Tower,19th century circular military stone martello tower,,off Skerries Road,Drumanagh,11318004,DU008-00603,53.5403285085684,-6.07794572555286
+256,Church (in ruins) & Graveyard,Church (in ruins) in graveyard enclosure,,Skerries Road,Rush Demesne,11324029,DU008-00401+-00402,53.5382353531075,-6.09252512114311
+281,St. Maur's Well,Holy Well.,,Spout Road,Whitestown (Rush),,DU008-020,53.5173215364292,-6.12475355609253
+271,Thatched Dwelling,Three-bay single-storey thatched dwelling opposite Presbytery & Former St. Maur's Church at Chapel Green,,Sandy Road,Rush,11324005,,53.5214842870996,-6.10156583964319
+259,Passage Tomb & Cist,Stone burial sites,,off Skerries Road,Rush,,DU008-01301 +-01302,53.5328120905623,-6.08529725941538
+129,Ballymadun Church (in ruins) & Graveyard,"The church with high square tower is in ruins, in graveyard enclosure",,Ballymadun Road,Glebe (Garristown),11319004,DU006-00201 +-00202,53.5328478498033,-6.39770170347543
+173,Enclosure,Earthwork,,,Jordanstown,,,53.55553712132,-6.20275749301911
+135,"Church (in ruins), Graveyard & Holy Well",Remains of medieval church in circular burial ground. Holy well is small pool to south,,Fieldstown to Garristown Road,Palmerstown,,DU007-01301 to -01303,53.511553420417,-6.3535163549978
+653,Saint David's Church (C of I),"Church of Ireland church, plus site of earlier church & Graveyard",,Fieldstown Road,Castlefarm,11333001,DU011-011,53.4764348579229,-6.31807577630487
+4,Gormanstown Bridge,Stone bridge over River Delvin,,Gormanstown Road,Tobersool,,DU001-010,53.6287715542,-6.23088411542306
+98,Ringfort,Platform type ringfort enclosed by slight fosse,,Toberstown Road,Grange (Balscadden),,DU004-001,53.6073932470628,-6.24463459745857
+11,Lady Well,Holy Well,,Flemingtown Lane,Flemingtown,,DU001-004,53.615526380965,-6.21364222152724
+3,Passage Grave Cemetery,Group of five mounds (incl group of cairns),,off Drogheda Road,Bremore,,DU002-001,53.6302009998934,-6.19086853037131
+54,Maryville/McAvinue House,19th century semi-detached house,,Seapoint Lane,Balbriggan,11305025,,53.6100744980757,-6.1778999921168
+55,Seapoint House,Early 19th century house with bowed extension,,Seapoint Lane,Balbriggan,11305024,,53.6102503909824,-6.17783733558411
+74,Castle (in ruins),Foundations of square tower house,,,Stephenstown,,DU005-004,53.5972842211761,-6.19760806978654
+73,Lady Well,Holy Well,,,Stephenstown,,DU005-003,53.5982253075199,-6.19656691507266
+441,Muldowney House,"Three-bay two-storey 19th century house, home of artist Nathenial Hone",,Coast Road,Robswalls (Malahide),11344039,,53.4482664421021,-6.13746227078191
+440,Seamount House & Gatelodge,Tudor Revival style house and gatelodge,,Seamount Road,Malahide,11344033 & 11344032,,53.4415096844709,-6.13947032988343
+776,Harbour & Boathouse,Small stone harbour and boathouse,,,Lambay Island,,,53.493818914595,-6.03142494517035
+775,Lambay Castle,"House comprising Castle, Out-Offices, Memorial, Walled Garden, Rampart Walls & Gates",,,Lambay Island,,DU009-00105 +-00106,53.4916709332418,-6.02518080179351
+777,Coastguard Cottages & Enclosed Courtyard,Six coastguard cottages,,,Lambay Island,,DU009-00115,53.4921399689132,-6.02881666111698
+778,The White House,Large detached house to south of Coastguard cottages complex,,,Lambay Island,,,53.491329222126,-6.02925433293979
+782,Chapel & Enclosure,Small chapel enclosed by hedge and wooden gate to the south of The White House,,,Lambay Island,,DU009-00108 +-00109,53.49263007018,-6.02753657880053
+781,Promontory Fort,"Headland protected by triple rampart, known as Garden Fort",,,Lambay Island,,DU009-00113,53.4953925141658,-6.02352171744362
+779,Real Tennis Court,Early 20th century enclosed tennis court,,,Lambay Island,,DU009-00110,53.4909595499154,-6.0172129430091
+780,Knockbane Cairn & OS Marker,Ordnance Survey Triangulation Station marker on Knockbane Cairn,,,Lambay Island,,DU009-00112,53.4933623303263,-6.01618633293609
+422,Robswalls Castle,Five-bay two-storey house connected to 15th century stone tower house,,Coast Road,Robswall (Malahide),11345001,DU012-036,53.4445350150397,-6.12802626469982
+421,Hicks Tower,Former Martello Tower adapted for residental use,,Coast Road,Robswalls (Malahide),11344040,DU012-035,53.4476977602556,-6.13566337115818
+476,Martello Tower,Former Martello Tower adapted for residental use,,Strand Road,Carrickhill (Portmarnock),11345002,DU012-040,53.4359240696197,-6.12230662656487
+445,Motte & Bailey,"Anglo-Norman earthwork of former castle and settlement site, in field north of Wheatfield House",,Blackwood Lane,Sainthelens (Malahide),,DU012-034,53.4375858404533,-6.14612665761133
+446,Wheatfield,"House, yard & out-offices, previously known as ""St. Helen's""",,Blackwood Lane,Sainthelens (Malahide),,,53.4357554935155,-6.14584358978184
+478,Church (in ruins),"Ecclesiastical Remains, Church, Holy Well, site of Ogham Stone",,Strand Road,Burrow Malahide (Portmarnock),11351005,DU015-007 to -00705,53.427024028705,-6.12796051567055
+479,Thatched Dwelling,"L-shaped singel-storey thatched dwelling (formerly two, now linked together)",,"Strand Road, Portmarnock",Burrow Malahide,11351006,,53.4255663890133,-6.13128874802417
+475,Mound,Earthwork,,Station Road,Portmarnock,,DU015-014,53.4178188333284,-6.14599626872899
+471,Hazelbrook House,Large 18th century country house,,Drumnigh,Hazelbrook,,,53.4276364840206,-6.15508303899919
+457,St. Marnock's Church,"Former Presbyterian Church & graveyard, now disused",,Drumnigh Road,Portmarnock,11350030,,53.4224915940496,-6.156022398398
+456,Kinsaley Hall,"Three-bay two-storey house, out-offices, lodge & gates",,Chapel Road,Kinsaley,11350007 & 11350008,,53.4266169563052,-6.16452178292555
+454,St. Nicholas' Catholic Church,"19th century catholic church, tower & school building",,Malahide Road,Kinsaley,11350003,,53.4253785152517,-6.17601947249602
+453,Milestone,Cast-iron milestone in granite setting in boundary wall of Abbeville House,,Malahide Road,Abbeyville,,,53.4279278004637,-6.17792060090913
+458,Emsworth,"Five-bay two-storey house, designed by James Gandon & Out-offices",,Malahide Road,Bohammer,11350010,,53.4215529903908,-6.1824124288018
+452,Abbeville House,Nine-bay two-storey 18th century house &  outbuildings,,Malahide Road,Abbeyville,11350002,,53.4271605484599,-6.18452173317637
+460,St. Doolaghs Park,Five-bay two-storey 19th century house & gates,,Malahide Road,Saintdoolaghs,11350019 & 11350018,,53.4142571314261,-6.17562017586399
+463,Belcamp Hall,"""Belcamp College"" school complex (incl House, Chapel, Washington Monument, bridge, ballcourt, & ice-house)",,"Belcamp College, N32 Road",Belcamp,11350024,DU015-033,53.4074466253824,-6.18741093293274
+461,Gatelodge of St Doolaghs Park,"Former Gatelodge to St Doolaghs Park, now in separate ownership",,Malahide Road,Saintdoolaghs,,,53.4156235601118,-6.17790968721074
+468,Wellfield House,Five-bay two-storey house with belvedere,,Malahide Road,St. Doolaghs,11350021,,53.4127600720435,-6.17878825321147
+464,Kinsaley House,Five-bay two-storey 18th century house with farmyard complex,,Chapel Road,Kinsaley,11350009,,53.4230271602376,-6.16764191767944
+451,Lime Kiln,Remains of stone limekiln,,"Felrim Quarry, Feltrim Road",Feltrim Hill,,,53.4378363722858,-6.19081552142397
+448,Auburn House,"House, Out-Offices & Pigeon Loft",,Dublin Road,Auburn (Malahide),,,53.4430307057704,-6.18059920327443
+447,Milestone,Freestanding cast-iron milestone in granite setting at footpath near entrance to Little Auburn House,,Dublin Road,Auburn (Malahide),11344043,,53.4421061540398,-6.17454598234977
+605,Mound,Earthwork,,off Clonshaugh Road,Cloghran (Swords),,DU015-001,53.4288121140094,-6.21044679059585
+606,Former Cloghran Stud Farm,"Main house (former Glebe House) & entrance gates, excluding stable complex",,Stockhole Lane,Swords Glebe (part of),,,53.4310315354284,-6.22134141032437
+611,Castlemoate House,"Five-bay two-storey house, out-offices & gates",,Swords Road,Cloghran (Swords),,,53.4329570601239,-6.23011935355893
+612,1937 Terminal Building,Original terminal building in International Modernist Style,,Dublin Airport,Collinstown,11349006,,53.4293310189884,-6.24621380425612
+608,Holy Well,Enclosed stone well at base of steps under tree in field,,"off Stockhole Lane, Cloghran",Swords Glebe (part of),,,53.4328788347311,-6.22405113445844
+371,St. Werburgh's Well,Holy Well - A small well enclosed by a low stone wall in a wet drain,,"Airside Business Park, Lakeshore Drive",Crowcastle (Swords),,DU011-045,53.4498353815826,-6.21637335477298
+366,Old Knocksedan Post House,Three-bay two-storey house with seven-bay two-storey wing. Cast-iron wall-mounted postbox in end wall,,Naul Road,Brazil,11342005,,53.4588446547715,-6.26794318114244
+367,Knocksedan Bridge,Large single arch stone bridge over river with footpaths at each side,,Naul Road,Knocksedan/Brazil,11342001,DU011-028,53.4573906237903,-6.26686707706085
+369,Knocksedan House,"Three-bay three-storey 18th century house, Out-offices",,Naul Road,Knocksedan,11342004,,53.4557302427129,-6.26631729933776
+425,Sonas,One of pair of semi-detached two-storey two-bay redbrick houses,,Dublin Road,Malahide,,,53.4500648447448,-6.16029746387837
+104,Church (in ruins) & Cross site,Remains of small chapel dated 1710 & graveyard,,Drogheda Road,Naul,11308004,DU004-04504,53.5870744092388,-6.28883550032913
+708,Ring Barrows possible,3 conjoined enclosures beside railway line at Green Mount house.,,Clonsilla Road,Kellystown,,DU013-018,53.3823004903553,-6.42190470299906
+698,Kennan Bridge,Bridge over Royal Canal,,"Royal Canal, Porterstown Road",Porterstown/Clonsilla,11361004,,53.3795675852025,-6.40473947113389
+509,Smyth's Public House,"House, Barns & Out-offices",,Donabate Village,Donabate,11336022,,53.4851633464383,-6.15117652266871
+510,Station Masters House,Former Station Masters House,,Donabate Village,Beaverstown (Donabate),,,53.4855600078786,-6.15145823304291
+511,Donabate Railway Station,"Railway Station, Signal Box & Pedestrian Bridge",,Donabate Village,Beaverstown (Donabate),11336015 & 11336018,,53.4857976068803,-6.15144789537447
+126,Mound,"Semi-circular mound, 1.5m high, cut by field boundary",,Adamstown Road,Garristown,,DU003-005,53.5626637332531,-6.38034954792651
+467,Ring-ditch possible site,Earthwork site,,,Saintdoolaghs,,DU015-011,53.414301832842,-6.17352382197933
+601,Ringfort,Earthwork,,off Clonshaugh Road,Middletown,,DU015-008,53.4209037910532,-6.20277377145382
+607,Lady Well,"Site of Holy Well, in field to south of Lane.",,Stockhole Lane,Cloghran (Coolock),,DU014-010,53.4306892514249,-6.22433636914554
+610,Ringfort site,Earthwork site,,Naul Road,Cloghran (Swords),,DU011-046,53.4352986796353,-6.23554998378185
+631,Dwelling,Earthwork,,Cooks Road,Forrest Great,,DU011-044,53.4404817268462,-6.25824954801663
+630,Chapel site & burial ground,Ecclesiastical remains,,Killeck Lane,Forrest Great,,DU011-04201,53.4461060882469,-6.26710253153334
+629,Ringfort site,Earthwork,,Naul Road,Forrest Great,,DU011-043,53.4392375069029,-6.26493692074426
+538,Church & St. Kenny's Well,Site of Church & Holy Well,,in grounds of St. Ita's Hospital,Portraine Demesne,,DU012-00901 +-00902,53.4838186697076,-6.10845006459552
+503,Earthwork site,Earthwork,,Corballis Road,Corballis,,DU012-019,53.4767594327487,-6.14672241873133
+497,Ringfort possible site,Earthwork,,off Portrane Road,Lanestown,,DU012-006,53.4781312324036,-6.17090544164587
+498,Ringfort possible site,Earthwork,,Kilcrea Road,Kilcrea,,DU012-017,53.4774154008104,-6.16455667222619
+485,Ring-ditch,Earthwork,,off N1 Road,Lissenhall Little (Swords),,DU012-003,53.4838367402968,-6.20519441971893
+486,Ringfort possible site,Earthwork,,N1 Road,Lissenhall Little,,DU012-002,53.485574976056,-6.20057469875612
+343,Ringfort site possible,Earthwork,,,Lissenhall Great,,DU012-015,53.4695633953191,-6.20507948621483
+377,Dwelling Site,Earthwork,,off Rathbeale Road,Rathbeal,,DU011-015,53.4664401664276,-6.26412681390646
+378,Fortifications possible,Earthwork,,off Rathbeale Road,Rathbeal (Swords),,DU011-016,53.4669307005425,-6.26187452084903
+616,Dubber Castle,Site of Castle,,Dubber Lane,Dubber,,DU014-018,53.4142088376332,-6.30056682161765
+622,Enclosure,Earthwork,,off Ashbourne Road,Coldwinter,,DU014-015,53.4119803360612,-6.31736306536029
+681,Castle 'Site of',Archaeological site,,Ballycoolin Road,Cappoge,,DU014-027,53.3976253771509,-6.33786305379903
+677,Earthwork Unclassified,Earthwork,,,Ballycoolen,,,53.4050067713205,-6.35494011266666
+675,Enclosure(s) Site,Enclosures & souterrain possible.,,Rathoath Road,Cloghran,,DU014-014,53.4140280845481,-6.35532395551711
+620,Ringfort possible site,Earthwork,,,Newtown (Finglas),,DU014-007,53.4218745759801,-6.31269311138033
+667,"Earthwork ""site of""",Earthwork,,,Kilmartin,,DU013-003,53.4332669983039,-6.39144948671508
+732,Habitation Site,Earthwork,,,Diswellstown,,DU017-010,53.36656248591,-6.38209870715239
+730,Ring ditch,Earthwork beside St. Mochta's Church,,Luttrellstown Road,Porterstown,,DU017-005,53.3711916921394,-6.40504133839839
+721,Sunday Well,Holy Well,,Barnshill Cross Road,Laraghcon,,DU017-017,53.3600613641058,-6.4496907384547
+722,"Castle ""Site of """,Archaeological site,,Lucan Road,Laraghcon (Lucan),,DU017-018,53.3608778011788,-6.44513243521778
+689,Cemetery,Archaeological site,,River Road,Castleknock,,DU014-034,53.3831825370403,-6.35606074927531
+108,Seamus Ennis Centre,Curved eight-bay thatched structure,,Main Street,Naul,,,53.586160710914,-6.28976852308965
+66,,One of two pairs of semi-detached mid-19th century houses,1,"The Bower, Fancourt",Balbriggan,,,53.6077901377613,-6.169449057415
+68,,One of two pairs of semi-detached mid-19th century houses,3,"The Bower, Fancourt",Balbriggan,,,53.6075794261697,-6.16858688013468
+743,,"Terrace of single-storey, three-bay cottages",5,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.367877849115,-6.37557900335876
+351,Swords Castle,"Remains of Episcopial Manor, terminates north end of Main St. Set in town park",,Main Street,Townparks (Swords),,DU011-03401,53.4599695941473,-6.22056526338198
+564,Harbour Master's Office (Former),Five-bay two-storey structure at end of pier,,West Pier,Howth,11359035,,53.3923919256612,-6.06954503171294
+568,St. Mary's Abbey (in ruins),"Church in ruins, incl belfry and graveyard",,Abbey Street,Howth,11359010,DU015-029,53.3876135004347,-6.06609197410166
+574,,External front fa�ade only of three-bay single-storey vernacular house.,20,Main Street,Howth,,,53.3845181450122,-6.06568602686781
+597,Church of the Assumption (R.C.),Late 19th century Roman Catholic church with bell tower,,Main Street,Howth,11359024,,53.3848336965594,-6.06458073716788
+575,St. Fintan's Church (in ruins) & Graveyard,Remains of church & graveyard,,Carrickbrack Road,Sutton South,11358033,DU015-03102,53.3776828410529,-6.09082263736843
+144,Enclosure site,Earthwork,,Naul Road,Brownscross,,DU007-005,53.5316852291699,-6.32890501251446
+155,Church (in ruins) & Graveyard,Remains of large medieval church & graveyard which is still in use,,Main Street,Ballyboghill,11321001,DU007-01001 +-01002,53.5237633363648,-6.26993673847415
+156,Enclosure Site,Earthwork,,Naul Road,Ballyboghill,,DU007-011,53.527201160453,-6.26682114146867
+659,Ringfort (Rath/Cashel),"Platform type ringfort (46m in diameter), surrounded by deep ditch",,,Dunmucky,,DU011-008,53.4672166145291,-6.3509757821427
+676,Field System Site,Earthwork,,,Goddamendy,,DU013-007,53.4165645123273,-6.36740909456049
+663,Kilshane Church (in ruins) & Holy Well,"Ecclesiastical remains, church possible, graveyard, holy well",,off N2 (Ashbourne) Road,Kilshane,,DU014-012,53.4185477960066,-6.33035995201829
+619,Ringfort (Rath/Cashel) Enclosure(s) site,Earthwork,,,Newtown (Finglas),,DU014-00601 + -00602,53.4202290278608,-6.31570353903135
+459,St. Doolaghs Church & Well & St. Catherine's Well,"Ecclesiastical Remains, Church, Graveyard, Cross and Holy Well (x2)",,Malahide Road,Saint Doolaghs,11350016 & 11350017,DU015-00901 to 00906,53.4152141813143,-6.17913100716121
+444,St. Patrick's Well,Holy Well,,off Coast Road,Robswall (Malahide),,DU012-038,53.4410537025286,-6.12844836012505
+501,Tidal Mill Possible,Stone remains of mill marked on Rocque map of 1756,,off Kilcrea Road,Kilcrea,,DU012-018,53.4741003721851,-6.15908981520813
+508,St. Patrick's Church of Ireland Church,"18th century Church, remains of square pre-1700 tower, memorial slab & graveyard",,The Square,Donabate,11336013,DU012-005--,53.4856612280722,-6.15442458366101
+519,Chapel site,Archaeological site,,Burrow Lane,Burrow Portraine,,DU008-028,53.5003494495926,-6.12117451727849
+520,St. Machubd's Well,Holy Well - Now in rear garden of recently renovated house,,Burrow Lane,Burrow Portraine,,DU008-029,53.4991629902862,-6.12034253298508
+528,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",39,Red Square,Portrane,,,53.4930653604184,-6.11209648238476
+530,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",41,Red Square,Portrane,,,53.4929395372108,-6.11212940730803
+532,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",43,Red Square,Portrane,,,53.4928145107822,-6.11212270829192
+536,St. Ita's Hospital Complex,Extensive 19th century mental hospital complex (of around 100 structures including 2 chapels),,,Portraine Demesne,11330001 & 11330002,,53.4872644580849,-6.11263819205058
+716,Church (in ruins),Ruined rubble stone church,,The Avenue,St. Catherine's Park (Leixlip),,DU017-003,53.3651919128655,-6.47198404639688
+56,Former Foresters Hall,Detached house with mouldings to front elevation,17,Hampton Street,Balbriggan,11305032,,53.6079486887065,-6.18120329084526
+25,The Harvest Inn,Fa�ade only of Public House,32-34,Drogheda Street,Tankardstown (Balbriggan),,,53.6108738898993,-6.18560967677429
+21,,Two-storey corner building,13,Drogheda Street,Balbriggan,,,53.6104939018086,-6.18406281825386
+195,,Three-bay single-storey thatched dwelling,5,Convent Lane,Townparks (Skerries),11311025,,53.5798228819397,-6.10818821983255
+211,,Three-bay single-storey terraced house with decorative external plasterwork,5,New Street,Skerries,11311027,,53.5788548903529,-6.11014670330292
+221,,Terrace of eleven buildings - No. 8 is three-bay two-storey house with oriel window,8,Holmpatrick Terrace,Skerries,,,53.5735502647314,-6.10235770583118
+219,,Terrace of eleven buildings - No. 6 is three-bay two-storey house with oriel window,6,Holmpatrick Terrace,Skerries,,,53.5733801804047,-6.10214647896818
+217,,Terrace of eleven buildings - No. 4 is one of three three-bay single-storey houses,4,Holmpatrick Terrace,Skerries,,,53.5732257165978,-6.10193455399213
+222,,Terrace of eleven buildings - No. 9 is three-bay single-storey house,9,Holmpatrick Terrace,Skerries,,,53.5736798253109,-6.1023868704171
+220,,Terrace of eleven buildings - No. 7 is three-bay single-storey house,7,Holmpatrick Terrace,Skerries,,,53.5735228960314,-6.10218380597278
+218,,Terrace of eleven buildings - No. 5 is one of three three-bay single-storey houses,5,Holmpatrick Terrace,Skerries,,,53.5733473982787,-6.10195969083135
+216,,Terrace of eleven buildings - No. 3 is one of three three-bay single-storey houses,3,Holmpatrick Terrace,Skerries,,,53.5731825902371,-6.10175260633061
+214,,Terrace of eleven buildings - No. 1 is one of pair of two-bay two-storey houses,1,Holmpatrick Terrace,Skerries,,,53.5730647084682,-6.10154779389468
+215,,Terrace of eleven buildings - No. 2 is one of pair of two-bay two-storey houses,2,Holmpatrick Terrace,Skerries,,,53.5730770867241,-6.10174931175519
+686,Elm Green,"Five-bay two-storey over basement 19th century house, now clubhouse of Elmgreen Golfcourse",,Dunsink Lane,Dunsink,11354007,,53.3869316168927,-6.34896398129581
+770,,one of six Semi-Detached Houses east of St. Brigid's Church,3,Castleknock Road,Castleknock,,,53.3737905144068,-6.36344202408027
+409,Garda Station,Group of twelve terraced houses - No1 & 2 are interlinked semi-detached two-bay two-storey former houses now in use as garda station,1 & 2,St. James's Terrace,Malahide,11344001,,53.4510716195359,-6.15193846374844
+403,,Group of six sem-detached three-bay three-storey 19th century houses incl railings & gates,2,"Windsor Terrace, Church Road",Malahide,11344027,,53.4498168823999,-6.15286955043393
+429,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,2,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4496006450904,-6.15377587723979
+428,,One of terrace of four pairs of semi-detached redbrick houses built in 1859,1,"Carlisle Terrace, Church Road",Malahide,11344048,,53.4497133973241,-6.15379970543539
+402,,Group of six sem-detached three-bay three-storey 19th century houses incl railings & gates,1,"Windsor Terrace, Church Road",Malahide,11344027,,53.4499750786149,-6.15295078963721
+408,Malahide Library,Redbrick Carnegie Library with dutch-billy gable incl front railings & gates,,The Mall,Malahide,11344002,,53.4506060970467,-6.15243440027106
+389,St. Sylvester's Catholic Church,19th century Catholic Church & Parish Hall,,Dublin Road,Malahide,11344010,DU012-02301 to -02303,53.4509146374068,-6.15497430873997
+411,,Group of twelve mid 19th century terraced houses - No. 4 is two-bay three-storey house,4,St. James's Terrace,Malahide,11344001,,53.4513121994223,-6.15212831931515
+418,,Group of twelve mid 19th century terraced houses - No. 11 is two-bay two-storey house,11,St. James's Terrace,Malahide,11344001,,53.4518173921361,-6.15201265119979
+533,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",44,Red Square,Portrane,,,53.4927247988243,-6.11237794958648
+534,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",45,Red Square,Portrane,,,53.4927515441357,-6.11266861390089
+527,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",38,Red Square,Portrane,,,53.4931201656652,-6.11232758506446
+529,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",40,Red Square,Portrane,,,53.4930021683851,-6.11231232119106
+531,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",42,Red Square,Portrane,,,53.4928888871391,-6.11232385259198
+526,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",37,Red Square,Portrane,,,53.4933265852513,-6.11246095663676
+524,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",35,Red Square,Portraine,,,53.4933380658949,-6.11270507712571
+525,,"Three-bay single-storey redbrick terraced cottages, formerly staffing quarters of St. Ita's Hospital",36,Red Square,Portrane,,,53.4932052611307,-6.11256703886546
+462,Milestone,Cast-iron milestone in entrance wall to Lime Hill House,,Malahide Road,Saintdoolaghs,11350029,,53.4137787126922,-6.17901133643554
+360,St. Columba's Church of Ireland Church,"19th century church plus ecclesiastical remains, Round Tower, Graveyard, Whetstone, Cross, Sheela-na-gig",,Church Road,Swords Glebe (Swords),11343007,DU011-03402 to 03411,53.4572412976943,-6.22458863859442
+357,Old Borough School,Nine-bay two-storey former national school,,Main Street,Swords Demesne,11343014,,53.4562981743946,-6.22204782935727
+107,Watermill,Former Naul Mill complex,,Drogheda Road,Naul,11308002,DU004-04501,53.5875676241851,-6.29353821703731
+278,,Thatched Dwelling.,6,Chanel Road,Rush,2791/30,,53.5206160436557,-6.10613758942855
+137,Potential Site,Earthwork,,Ashgrove Road,Jordanstown,,,53.5295914873553,-6.34171635512453
+114,Ringfort possible site,Earthwork,,Naul Road,Loughmain/Cabinhill,,DU004-011,53.5742215515111,-6.28689488225797
+6,St. Mary's Church,"Roman Catholic Church, Graveyard, Enclosure & Gates",,The Square,Commons (Balscadden),11304008,,53.6183308753953,-6.23137692346369
+650,Ruins of Mountstuart House,Remains of house & dwellings site (low earthworks),,,Mountstuart,,DU011-00601 + -00602,53.478082485847,-6.29473566332519
+145,Clonmethan Glebe,Early 19th century former glebe house,,Naul Road,Glebe Clonmethan (Oldtown),11320003 & 11320005,,53.5296541286249,-6.32215233182207
+505,Vernacular House & Former Forge,"House, forge, wheel shoeingstone & stone trough",,Hearse Road,Donabate,11336026,,53.4812138744137,-6.15873076781528
+571,Renaissance House,"Former Roman Catholic Chapel, now in use as offices",,Church Street,Howth,11359017,,53.3862617441276,-6.06629740360022
+353,Accord,Former Residence New Borough Male School,,Seatown Road,Townparks (Swords),11335004,,53.4601600643218,-6.21715951860972
+354,Swords Youth & Resource Centre,Six-bay two-storey former New Borough Male School,,Seatown Road,Townparks (Swords),11343005,,53.4602607470854,-6.21673699107269
+34,Old Mill Bridge,Road bridge over River Delvin,,Old Mill Road,Coolfores,11303001,,53.6013411346148,-6.27181325743854
+101,Reynoldstown House,"House, Lodge, Gates & Piers",,Naul Road,Reynoldstown,11308006 & 11308008,,53.5946458417094,-6.27146985718002
+102,Naul House,Fine stone 19th century house and outbuildings,,Naul Road,Naul,,,53.5914905185511,-6.27720205032758
+111,"Dam, Weirs & Valve Tower",Associated with reservoir,,"Moonlawn Lane, Off Naul Road",Hynestown,,,53.5804856743463,-6.27296630960154
+110,Reservoir,Man-made reservoir,,Lecklinstown Lane,Hynestown,,,53.5793957156595,-6.27601825002609
+560,Mariner's Hall (Former),"Five-bay Howth stone structure, former church",,West Pier,Howth,11359038,,53.3913305711258,-6.07072165564805
+562,Lifeboat Station (Former),Single-bay gable-fronted boathouse with slipway to rear,,West Pier,Howth Demesne,,,53.3918690467939,-6.06995254545344
+563,Coastguard Station (Former),Two-bay two-storey structure with oriel window near end of pier,,West Pier,Howth Demesne,11359037,,53.3921419656611,-6.06962367047293
+559,Howth Station,"Railway Station, Signal Box",,Harbour Road,Howth Demesne,11359004 & 11359001,,53.3889774800479,-6.07421647811061
+558,Station Masters House,Former Station Masters House,,Harbour Road,Howth,,,53.3888691037686,-6.07508707392555
+566,Burial Mound site,Earthwork,,Harbour Road,Howth,,DU015-02801 + -02802,53.3884555430979,-6.07187568471321
+567,Former Courthouse,Four-bay single-storey former courthouse,,Harbour Road,Howth,11359006,,53.3882726324722,-6.07054353224412
+561,Milestone,Cast-iron milestone in granite setting set into front wall of St. Lawrence Quay apartment block,,Harbour Road,Howth,,,53.3876795178889,-6.06759169430306
+565,Lighthouse,19th century three-torey granite ashlar lighthouse with two-storey lighthouse keepers house attached,,East Pier,Howth,11359034,,53.3933508586645,-6.06670994518274
+596,Howth Garda Station,"Three-bay three-storey over basement former house, now used as garda station",,Howth Terrace,Howth,11359009,,53.3873135120534,-6.06896886353819
+595,Howth Harbour,19th century granite piers and seawalls,,,Howth,11359041,,53.3914931138783,-6.06289075803764
+600,Drumleck,19th century Jameson house,,Ceanchor Road,Censure (Howth),,,53.3627554540165,-6.07833732710981
+599,The Tansey,18th century gentleman's residence,,Ceanchor Road,Censure (Howth),,,53.3633702810789,-6.07975253404272
+593,Eskeragh,Tudor Revival style red brick house,18,Burrow Road,Burrow (Howth),11358018,,53.3920367199895,-6.10219379878561
+544,St. Peter and Paul's Church (RC),19th century Church & single-storey structures adjoining (former Boy's & Girl's National Schools),,Strand Road,Baldoyle,11358038,,53.3991966175781,-6.1271800474214
+570,Martello Tower,"19th century circular military stone martello tower overlooking Howth Harbour, accessed from Abbey Street.",,off Abbey Street,Howth,11359033,DU016-00202,53.3876643043157,-6.06362308267395
+787,Apsley,19th century L-shaped house,25,Holmpatrick,Townparks (Skerries),,,53.5745490727338,-6.10361708362287
+789,Belcamp Hutchinson,"18th century five-bay three-storey house, walled garden and gatelodges",,"Carr's Lane, off Malahide Road",Belcamp,,,53.4098110000257,-6.1831703266157
+790,Bohomer,"18th century five-bay two-storey house, gatelodge, walled garden and outbuildings",,"Malahide Road,",Bohammer (St. Doolaghs),11350011,,53.4177713677029,-6.17964635526998
+797,Craigview,One of pair of semi-detached mid-19th century houses,,Claremont Road,Quarry (Howth),,,53.3917615781764,-6.08831206293883
+798,Vernacular House,19th century two-storey three-bay vernacular house,,Turvey Avenue,Beaverstown (Donabate),,,53.4863038313775,-6.1549119299045
+796,Glengyle,One of pair of semi-detached mid-19th century houses,,Claremont Road,Quarry (Howth),,,53.3917283607335,-6.08810963138057
+786,Vernacular House & Outbuildings,Unusual vernacular house with half-hipped roof and outbuilding complex,,Lispopple Cross Roads,Lispopple (Swords),,,53.4839315796023,-6.28538912408909
+785,The Old Barracks,19th century two-storey five-bay former RIC Barracks,,Main Street,Garristown,11313009,,53.5676799759428,-6.382871398167
+791,Roganstown Bridge,Historic five-arch stone bridge,,Naul Road,Roganstown (Swords),11327003,DU011-082,53.4884347534163,-6.27044695153475
+793,Roxboro,Mid 19th century villa-type structure with veranda,,Old Carrickbrack Road,Howth,,,53.3668806179663,-6.06937074333967
+788,Former Signalman's House,Two-storey 19th century red-brick house,,"Howth Junction DART Station, Kilbarrack Road",Kilbarrack Upper,,,53.3903822803205,-6.15695230393549
+792,Springhill,Early 19th century house and stone outbuildings,,"Limekiln Lane, off Malahide Road",Springhill (St. Doolaghs),11350013,DU015-056,53.4158575332638,-6.19049417408932
+794,St. Dominic's Convent,"Original 19th century house (now convent), entrance avenue & walled garden only",,"Santa Sabina, Greenfield Road",Burrow (Sutton),11358001,,53.3868233150507,-6.0998088585277
+795,St. Mary's,"Early 20th century building, former Christian Brother Retirement Home",,Dublin Street,Baldoyle,11358041,,53.3962709558805,-6.12813368582512
+784,Thornton Hall,"19th Century three bay, two-storey over basement house",,,Thorntown (Kilsallaghan),,,53.4701901304182,-6.33692203177988
+799,Vernacular Building,Mud-walled vernacular structure with small loft window & stone outbuilding,,Leckinstown Lane,Kitchenstown (Naul),,,53.5782760608885,-6.2556323379991
+800,White Hart House (incl Carria Geal),"17th century house, sub-divided into two properties - White Hart House & Carria Geal)",,White Hart Lane,Stephenstown (Balbriggan),,DU005-054,53.596351342806,-6.19107838904793
+739,,"Terrace of single-storey, three-bay cottages",1,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.3679609166827,-6.37627989897561
+740,,"Terrace of single-storey, three-bay cottages",2,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.3675120826961,-6.37632805159071
+746,,"Terrace of single-storey, three-bay cottages",8,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.3674786672041,-6.37503849468608
+744,,"Terrace of single-storey, three-bay cottages",6,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.3674678744677,-6.37547731701565
+742,,"Terrace of single-storey, three-bay cottages",4,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.3674881395203,-6.37591863477094
+741,,"Terrace of single-storey, three-bay cottages",3,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.3678738384252,-6.37594411365628
+748,Castleknock Castle (in ruins),"Motte and Bailey, Castle, Well (2), graveyard",,"Castleknock College, College Road",Castleknock,11362021 & 11362017,DU017-01201 to - 01204,53.3679749015167,-6.37002241198426
+745,,"Terrace of single-storey, three-bay cottages",7,"Sandpits Cottages, Luttrellstown Rd",Castleknock,11362054,,53.3678811983467,-6.37483125818088
+760,White's Gates,Cast-iron gates to Phoenix Park,,Phoenix Park,Castleknock,,,53.3660999286499,-6.3516238252785
+759,White's Gatelodge,Single-storey gatelodge of Phoenix Park,,"Phoenix Park, White's Road",Castleknock,,,53.3666365824903,-6.35169029626254
+766,Village House,one of six Semi-Detached Houses east of St. Brigid's Church,,Castleknock Road,Castleknock,,,53.3732485285933,-6.36295610637424
+693,Longford Bridge,Stone single-arched bridge over Royal Canal at Ashtown Railway Station.,,"Royal Canal, Ashtown Road",Ashtown,11362066,,53.3755129311787,-6.33270217193642
+692,Mill Pond,Associated with Former Polish Mill at Ashtown,,Ashtown Road,Ashtown,,,53.3753792558374,-6.33330822898953
+691,Mill,Former mill on bank of Royal Canal at Ashtown,,Ashtown Road,Ashtown,11362067,,53.3749566347864,-6.33315511268019
+767,Post Office House,one of six Semi-Detached Houses east of St. Brigid's Church,,Castleknock Road,Castleknock,,,53.3733609271674,-6.36238723312425
+189,Martello Tower,19th century circular military stone martello tower,,"Harbour Road, Red Island",Townparks (Skerries),11311005,DU005-018,53.5847319362635,-6.10236514647474
+186,,One of terrace of four two-bay two-storey houses,29,Harbour Road,Skerries,,,53.5853218542729,-6.10433796260795
+185,,One of terrace of four two-bay two-storey houses,28,Harbour Road,Skerries,11311004,,53.5851863041187,-6.10445875388019
+188,,One of terrace of four two-bay two-storey houses (excluding bay window),31,Harbour Road,Skerries,,,53.5853492396352,-6.1038835208883
+187,,One of terrace of four two-bay two-storey houses,30,Harbour Road,Skerries,,,53.5851917749817,-6.1040412582502
+604,Thatched Dwelling,"Three-bay single-storey thatched dwelling, on west side of road, with extension to north end",,Swords Road,Collinstown,11349003,,53.4165766597869,-6.23938748047144
+488,Enclosure,Earthwork,,"Batter Lane, off N1 Road",Belinstown,,DU007-036,53.4927879297039,-6.21109557718506
+651,Ringfort possible site,Earthwork,,off Rowans Road,Rowans Big,,DU004-017,53.5676919171177,-6.21507803580455
+592,Sutton Methodist Church,Limestone Methodist church with corner spire,,junction of Howth Road & Church Road,Burrow (Howth),11358005,,53.389723302948,-6.10471538081103
+594,St. Mary's Church (C of I),Gothic-style 19th century Church of Ireland church with spire,,Howth Road,Howth Demesne,,,53.3882888281848,-6.07893364249349
+223,,Terrace of eleven buildings - No. 10 is one of pair of two-bay two-storey houses,10,Holmpatrick Terrace,Skerries,,,53.5737146607505,-6.10255350533739
+224,,Terrace of eleven buildings - No. 11 is one of pair of two-bay two-storey houses,11,Holmpatrick Terrace,Skerries,,,53.5738399594009,-6.10247873302899
+495,Former Lodge to Newbridge House,"Three-bay single-storey house, at gates on west edge of Newbridge Demesnse",,"Newbridge Ave, off The Square",Newbridge Demense (Donabate),,,53.4848770629899,-6.15707302792686
+621,Enclosure,Earthwork,,R122 Road,Dubber,,DU014-017,53.4131696166502,-6.3061180475338
+341,Lissenhall Bridge,Stone bridge over Broadmeadow River,,Estuary Road,Lissenhall (Swords),11335019,DU011-081,53.4711449863162,-6.21237784326924
+340,Balheary Bridge,Stone bridge over Broadmeadow River,,River Ward Park,Balheary (Swords),11335018,DU011-081,53.470149848441,-6.21272303320172
+774,Martello Tower,19th century circular military stone martello tower,,,Shenick's Island,11311040,DU005-033,53.5734895375251,-6.08562024233247
+542,"""Tower House""",Former Martello Tower adapted to residental use,,Quay Road,Quay (Portrane),,DU012-010,53.4899922197229,-6.09690802672977
