@@ -1,12 +1,21 @@
 class ProtectedStructuresController < ApplicationController
   def index
-    if params[:search].present?
-       @protected_structures = ProtectedStructure.near(params[:search], 3, :order => :distance, :units => :km)
+      if params[:search].present?
+        @protected_structures = ProtectedStructure.near(params[:search], 3, :order => :distance, :units => :km)
         @markers = ProtectedStructure.near(params[:search], 3, :order => :distance, :units => :km).to_gmaps4rails
+      elsif params[:type] == "arche" 
+        @protected_structures = ProtectedStructure.where("protected_structures.rmp_ref IS NOT NULL")
+        @markers = ProtectedStructure.where("protected_structures.rmp_ref IS NOT NULL").to_gmaps4rails
+      elsif params[:type] == "archi"
+        @protected_structures = ProtectedStructure.where("protected_structures.niah_ref IS NOT NULL")
+        @markers = ProtectedStructure.where("protected_structures.niah_ref IS NOT NULL").to_gmaps4rails
+      elsif params[:type] == "other"
+        @protected_structures = ProtectedStructure.where("protected_structures.niah_ref IS NULL and protected_structures.rmp_ref IS NULL", "protected_structures.rmp_ref IS NULL")
+        @markers = ProtectedStructure.where("protected_structures.niah_ref IS NULL and protected_structures.rmp_ref IS NULL", "protected_structures.rmp_ref IS NULL").to_gmaps4rails
       else
         @protected_structures = ProtectedStructure.find(:all, :order => "rps_number ASC")
         @markers = ProtectedStructure.all.to_gmaps4rails
-  end
+      end
     
   end
 

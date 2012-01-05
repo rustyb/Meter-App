@@ -17,3 +17,11 @@
 .button.orange {background-color:#FFA500;}
 .button.red {background-color: #F00;}
 .button.blue {background-color:#00F;}
+
+#map_controls {padding:10px;border:0px solid #EEE;background:#CFD0D2;
+	-moz-border-top-left-radius: 8px;
+	-webkit-top-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	-moz-border-top-right-radius: 8px;
+	-webkit-top-right-left-radius: 8px;
+	border-top-right-radius: 8px;}
