@@ -1,5 +1,9 @@
 <% title "Protected Structures" %>
 <div class="row">
+	<%= render "blurb" %>
+
+</div>
+<div class="row">
 	<p>The list containing all the structures that are protected within Fingal is known as the Record of Protected Structures, or RPS for short.  Prior to an Act in 1999 these buildings or features were known as Listed Buildings, but this title no longer applies.</p>
 
 	<p>The protection, unless otherwise stated in the RPS, includes the exterior and interior of the structure, the land lying within its curtilage (boundary), any other structures and their interiors within the curtilage, plus all fixtures and fittings which form part of the interior or exterior of any of these structures.</p>
@@ -26,7 +30,7 @@
 		    <%= submit_tag "Search Nearest", :name => nil, :class => "button small radius blue" %>
 		  </p>
 		<% end %>
-		<ul class="hide-on-phones" style="height:220px; overflow-y:scroll;">
+		<ul class="hide-on-phones" style="height:420px; overflow-y:scroll;">
 		<% for ps in @protected_structures %>
 		<li>
 		<span class=''>
@@ -49,10 +53,11 @@
 	</div>
 </div>
 
-
+<div class="row">
 <table>
+	<thead>
   <tr>
-    <th>Rps Number</th>
+    <th>Rps No.</th>
     <th>Structure Name</th>
     <th>Description</th>
     <th>Street Number</th>
@@ -60,12 +65,13 @@
     <th>Townland</th>
     <th>Niah Ref</th>
     <th>Rmp Ref</th>
-    <th>Longitude</th>
-    <th>Latitude</th>
+    
   </tr>
+</thead>
+<tbody>
   <% for protected_structure in @protected_structures %>
     <tr>
-      <td><%= protected_structure.rps_number %></td>
+      <td><%= link_to protected_structure.rps_number, protected_structure %></td>
       <td><%= protected_structure.structure_name %></td>
       <td><%= protected_structure.description %></td>
       <td><%= protected_structure.street_number %></td>
@@ -73,13 +79,11 @@
       <td><%= protected_structure.townland %></td>
       <td><%= protected_structure.niah_ref %></td>
       <td><%= protected_structure.rmp_ref %></td>
-      <td><%= protected_structure.longitude %></td>
-      <td><%= protected_structure.latitude %></td>
-      <td><%= link_to "Show", protected_structure %></td>
-      <td><%= link_to "Edit", edit_protected_structure_path(protected_structure) %></td>
-      <td><%= link_to "Destroy", protected_structure, :confirm => 'Are you sure?', :method => :delete %></td>
+      
     </tr>
   <% end %>
+</tbody>
 </table>
 
 <p><%= link_to "New Protected Structure", new_protected_structure_path %></p>
+</div>

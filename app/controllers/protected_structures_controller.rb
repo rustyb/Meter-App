@@ -4,7 +4,7 @@ class ProtectedStructuresController < ApplicationController
        @protected_structures = ProtectedStructure.near(params[:search], 3, :order => :distance, :units => :km)
         @markers = ProtectedStructure.near(params[:search], 3, :order => :distance, :units => :km).to_gmaps4rails
       else
-        @protected_structures = ProtectedStructure.all
+        @protected_structures = ProtectedStructure.find(:all, :order => "rps_number ASC")
         @markers = ProtectedStructure.all.to_gmaps4rails
   end
     
