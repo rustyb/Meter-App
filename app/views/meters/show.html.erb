@@ -76,7 +76,6 @@
 		<div class="large black button radius">€ <%= @meter.tariff %>0 per hour</div>
 		</div> -->
 		<div class="row">
-			
 			<%= gmaps(:markers     => { :data => @json },
 			:map_options => { :container_class => "maps", :id => "map_container_s", :auto_adjust => true, :mapTypeControl => true, :height =>"400px" },
 			:last_map    => true) %>

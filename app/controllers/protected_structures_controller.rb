@@ -12,6 +12,7 @@ class ProtectedStructuresController < ApplicationController
 
   def show
     @protected_structure = ProtectedStructure.find(params[:id])
+    @json = ProtectedStructure.near(@protected_structure, 3, :order => :distance, :units => :km).to_gmaps4rails
   end
 
   def new

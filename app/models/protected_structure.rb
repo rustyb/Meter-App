@@ -8,4 +8,8 @@ class ProtectedStructure < ActiveRecord::Base
        "#{self.rps_number} - #{(self.structure_name).to_s.gsub('"','\"')} <p>#{(self.description).to_s.gsub('"','\"')}<br /><b><a href='#{url_for(:controller => 'protected_structures', :only_path => true, :action => 'show', :id => "#{id}")}'>Get More Info</a></b></p>"  # add here whatever text you desire
   end
   
+  def gmaps4rails_title
+       "#{self.rps_number}"  # add here whatever text you desire
+  end
+  
 end

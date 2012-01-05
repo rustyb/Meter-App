@@ -12,32 +12,53 @@
 			<%= raw(@protected_structure.street_address.to_s.gsub(',',',<br/>')) %><br />
 			<b><%= @protected_structure.townland %></b></em>
 		</p>
-		<p>
+		<div>
 			<span style="font-size:1.5em;">I want to find out more</span><br />
-			On the left is the National Inventory of Architectural heritage reference number, you find extra information on the building on buildingsofireland.ie or by clicking the green number below.
-			<div><% unless @protected_structure.niah_ref.nil? %> 
+			<p>There are a number of resources which will enable you to find out more about this structure including your local libray,  </p>
+			
+			<% unless @protected_structure.niah_ref.nil? %>
+				<div><span style="font-size:1.5em;">Architectural</span><br />
+				<p>This building is part of the National Inventory of Architectural Heritage. The National Inventory of Architectural heritage reference number, you find extra information on the building on buildingsofireland.ie or by clicking the green number below.</p>
 				<%= link_to @protected_structure.niah_ref, "http://www.buildingsofireland.ie/niah/search.jsp?type=record&county=FI&regno=#{@protected_structure.niah_ref}", 
-				:class => "large green button radius", :title =>"Click to View NIAH full Record" %>
+				:class => "large green button radius", :title =>"Click to View NIAH full Record" %></div>
 			<% end %>
 		
 			<% unless @protected_structure.rmp_ref.nil? %>
+			<div><span style="font-size:1.5em;">Archaeology</span><br />
+				<p>This structure is part of the Record of National Monuments and Places. The black box below is this structures reference number in the Record of National Monuments and Places, 
+				and further details of this site can be found on 
+				<%= link_to "archeology.ie","http://archeology.ie" %>. Unfortunately their website is not working fully and only the map viewer is available at this time.</p>
+				<p>Arceology.ie will provide a comprehensive description of the site and structure, including details of known excavation work carried out to date.</p> 
 			<%= link_to @protected_structure.rmp_ref, "#", 
 			:class => "large black button radius", :title =>"The RMP Website is currently unvailable" %>
-			<% end %></div>
-		</p>
-		<p>
+			</div>
+			<% end %>
+			
+		</div>
+		<!-- <p>
 			<%= link_to "Edit", edit_protected_structure_path(@protected_structure) %> |
 			<%= link_to "Destroy", @protected_structure, :confirm => 'Are you sure?', :method => :delete %> |
 			<%= link_to "View All", protected_structures_path %>
-		</p>
+		</p>-->
 	</div>
+	
 	<div class="six columns">
-		
-		<% if @protected_structure.niah_ref.nil? %>
+		<div class="row">
+		<p><% if @protected_structure.niah_ref.nil? %>
+			<div><span style="font-size:1.5em;">Google Street View Image</span></div>
 			<%= image_tag "http://maps.googleapis.com/maps/api/streetview?size=400x400&location=#{@protected_structure.latitude},%20#{@protected_structure.longitude}&fov=120&pitch=10&sensor=false" %>
 		<% else %>
+			<div><span style="font-size:1.5em;">NIAH Database Image of Building</span></div>
 			<%= image_tag "http://www.buildingsofireland.ie/niah/images/survey_specific/fullsize/#{@protected_structure.niah_ref}_1.jpg" %><br />
 			<em>Image: &copy;NIAH</em>
-		<% end %>
+		<% end %></p>
+		</div>
+		
+		<div class="row">
+			<p><div><span style="font-size:1.5em;">Other Protected Structures within 3km</span></div>
+			<%= gmaps(:markers     => { :data => @json },
+			:map_options => { :container_class => "maps", :id => "map_container_s", :auto_adjust => true, :mapTypeControl => true, :height =>"400px" },
+			:last_map    => true) %></p>
+		</div>
 	</div>
 </div>
