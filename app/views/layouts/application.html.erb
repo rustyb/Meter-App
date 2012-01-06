@@ -10,16 +10,33 @@
 	<%= yield(:head) %>
 </head>
 <body>
+	<header>
 	<div class="container">
-
-		<div class="row">
-			<div class="twelve columns">
-				<%# content_tag :h1, yield(:title) if show_title? %><h2><%= link_to "MeterMe - Dublin (beta)", meters_url %> | <%= link_to "RPS Fingal", protected_structures_url %></h2>
-				<div class="alert-box">Currently data is only available for the Dublin City Council Area at present.</div>
-				<hr/>
+		<div id="home_row"class="row">
+			<div class="three columns">
+				<%# content_tag :h1, yield(:title) if show_title? %>
+				<%= image_tag "logo1.png", :height => "60px" %>
+				<!--<h2> <%# link_to "MeterMe - Dublin (beta)", meters_url %>  <%# link_to "RPS Fingal", protected_structures_url %></h2>-->
+			</div>
+			<div class="nine columns">
+				<nav>
+				<ul>
+					<li><%= link_to "HOME", "#" %></li>
+					<li><%= link_to "ABOUT", "#" %></li>
+					<li><%= link_to "#APPS4FINGAL", "#" %></li>
+					<li><%= link_to "CONTACT", "#" %></li>
+				</ul>
+				</nav>
 			</div>
 		</div>
-
+	<div class="row">
+		<hr>
+	<!--<div class="alert-box hide">Currently data is only available for the Dublin City Council Area at present.</div> -->
+	<div class="alert-box">Currently data is only available for the Fingal Council Area.</div>
+	</div>
+	</div>
+	</header>
+<div class="container">
 		<div class="row">
 			<div class="twelve columns">
 			<% flash.each do |name, msg| %>

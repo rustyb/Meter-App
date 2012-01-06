@@ -2,7 +2,7 @@ MetreMap::Application.routes.draw do
   resources :protected_structures
 
   resources :meters
-
+  root :to => 'protected_structures#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -52,7 +52,7 @@ MetreMap::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'meters#index'
+   
 
   # See how all your routes lay out with "rake routes"
 
