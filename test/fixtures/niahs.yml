@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  reg_number: 1
+  rating: MyString
+  number: MyString
+  name: MyString
+  street1: MyString
+  street2: MyString
+  town: MyString
+  county: MyString
+  townland: MyString
+  building_type: MyString
+  year_from: MyString
+  year_to: MyString
+  composition: MyText
+  appraisal: MyText
+  web_link: MyString
+  image_link: MyString
+  longitude: 1.5
+  latitude: MyString
+
+two:
+  reg_number: 1
+  rating: MyString
+  number: MyString
+  name: MyString
+  street1: MyString
+  street2: MyString
+  town: MyString
+  county: MyString
+  townland: MyString
+  building_type: MyString
+  year_from: MyString
+  year_to: MyString
+  composition: MyText
+  appraisal: MyText
+  web_link: MyString
+  image_link: MyString
+  longitude: 1.5
+  latitude: MyString

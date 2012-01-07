@@ -1,0 +1,38 @@
+<div id="niah_record" style="margin-top:20px;">
+	 <h4>NIAH Details</h4>
+	<p>
+		<%= @protected_structure.niah.composition %>...<%= link_to "[Read More]", @protected_structure.niah.web_link, :title => "Full composition at buildingsofireland.ie" %>
+	</p>
+	<ul class="block-grid three-up mobile">
+		<li>
+			<span style="font-size:1.5em;">Rating</span><br />
+			<%= @protected_structure.niah.rating %>
+		</li>
+		<li>
+			<span style="font-size:1.5em;">Type</span><br />
+			<%= @protected_structure.niah.building_type %>
+		</li>
+		<li>
+			<span style="font-size:1.5em;">Dates</span><br />
+			<%= @protected_structure.niah.year_from %> - <%= @protected_structure.niah.year_to %>
+		</li>
+
+		<li>
+			<span style="font-size:1.5em;">Address</span><br />
+			<%= @protected_structure.niah.number %> <%= @protected_structure.niah.name %> <%= @protected_structure.niah.street1 %> <%= @protected_structure.niah.street2 %> <%= @protected_structure.niah.town %>
+		</li>
+		<li>
+			<span style="font-size:1.5em;">County</span><br />
+			<%= @protected_structure.niah.county %>
+		</li>
+		<li>
+			<span style="font-size:1.5em;">Townland</span><br />
+			<%= @protected_structure.niah.townland %>
+		</li>
+	</ul>
+	<p>
+		<span style="font-size:1.5em;">Web Link</span><br />
+		<%= link_to @protected_structure.niah.web_link, @protected_structure.niah.web_link %>
+	</p>
+	
+</div>

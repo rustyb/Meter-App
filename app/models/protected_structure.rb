@@ -1,4 +1,5 @@
 class ProtectedStructure < ActiveRecord::Base
+  has_one :niah, :foreign_key => :reg_number, :primary_key => :niah_ref
   acts_as_gmappable :process_geocoding => false
   reverse_geocoded_by :latitude, :longitude #don't bother trying to geocode when changed
   attr_accessible :rps_number, :structure_name, :description, :street_number, :street_address, :townland, :niah_ref, :rmp_ref, :longitude, :latitude

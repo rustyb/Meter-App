@@ -22,8 +22,7 @@
 		<%= link_to "Show All", protected_structures_path, :class => "medium red button radius" %>
 	</div>
 		<%= gmaps(:markers     => { :data => @markers, :options => {:clusterer_maxZoom => 13} },
-		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true, :libraries => ["places"],
-			:detect_location => true, :center_on_user => true, :auto_zoom => false, :zoom => 12}) %>
+		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true, :libraries => ["places"]}) %>
 		
 				<%# gmaps({
 				    "map_options" => { "type" => "SATELLITE", "center_longitude" => 180, "zoom" => 3, "auto_adjust" => true},
