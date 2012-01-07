@@ -1,11 +1,11 @@
 <% title "Protected Structures" %>
-<div class="row">
 	<%= render "blurb" %>
 
-</div>
 <div class="row">
 	<hr />
-	<h3>I live in Fingal where's my nearest Protected Structure?</h3>
+</div>
+<div id="intro" class="row">
+	<p>Use the map to navigate to a place near you or simply search for a location.</p>
 </div>
 <!--<div class="row">
 	<p>The list containing all the structures that are protected within Fingal is known as the Record of Protected Structures, or RPS for short.  Prior to an Act in 1999 these buildings or features were known as Listed Buildings, but this title no longer applies.</p>
@@ -14,8 +14,8 @@
 	
 </div>-->
 <div class="row">
-	<div class="eight columns ">
-	<div id="map_controls" class="">
+	<div class="eight columns">
+	<div id="map_controls">
 		<%= link_to "Archeology Only ", protected_structures_path(:type => "arche"), :class => "medium black button radius" %> 
 		<%= link_to "Architecture Only ", protected_structures_path(:type => "archi"), :class => "medium green button radius" %>
 		<%= link_to "Fingal Only", protected_structures_path(:type => "other"), :class => "medium green button orange radius" %> 
@@ -32,25 +32,19 @@
 				<%# end %>
 				<%# @markers.to_s %>
 	</div>
-	<div class="four columns ">
-		<div class="alert-box warning">Enter a location in the box below, to find protected structures within 5KM of the location.</div>
-		<%= form_tag protected_structures_path, :method => :get do %>
-		  <p>
-		    <%= text_field_tag :search, params[:search], :style => "font-size:20px;width:100%;" %>
-		    <%= submit_tag "Search Location", :name => nil, :class => "button small radius blue" %>
-		  </p>
-		<% end %>
+	<div class="four columns">
+		<%= render 'search'%>
 		<ul class="hide-on-phones" style="height:420px; overflow-y:scroll;">
 		<% for ps in @protected_structures %>
 		<li>
 		<span class=''>
 			<b><%= link_to "##{ps.rps_number} - #{ps.description}", ps, :title => "Detailed information" %></b><br />
-				<p><b><%= ps.townland %></b> <%= ps.street_address %></p>
+			<em><b><%= ps.townland %></b> <%= ps.street_address %></em><br />
 			<% unless ps.niah_ref.nil? %>
-				<div class='small green button radius'> <%= ps.niah_ref %></div> 
+				<div title="NIAH Iventory Number" class='small green button radius'> <%= ps.niah_ref %></div> 
 			<% end %>
 			<% unless ps.rmp_ref.nil? %>
-				<div class='small black button radius'><%= ps.rmp_ref %></div>
+				<div title="RPM Number"class='small black button radius'><%= ps.rmp_ref %></div>
 			<% end %>
 		</span>
 		</li>
@@ -58,38 +52,5 @@
 		</ul>
 	
 	</div>
-</div>
-
-<div class="row">
-<!--<table>
-	<thead>
-  <tr>
-    <th>Rps No.</th>
-    <th>Structure Name</th>
-    <th>Description</th>
-    <th>Street Number</th>
-    <th>Street Address</th>
-    <th>Townland</th>
-    <th>Niah Ref</th>
-    <th>Rmp Ref</th>
-    
-  </tr>
-</thead>
-<tbody>
-  <%# for protected_structure in @protected_structures %>
-    <tr>
-      <td><%# link_to protected_structure.rps_number, protected_structure %></td>
-      <td><%# protected_structure.structure_name %></td>
-      <td><%# protected_structure.description %></td>
-      <td><%# protected_structure.street_number %></td>
-      <td><%# protected_structure.street_address %></td>
-      <td><%# protected_structure.townland %></td>
-      <td><%# protected_structure.niah_ref %></td>
-      <td><%# protected_structure.rmp_ref %></td>
-      
-    </tr>
-  <%# end %>
-</tbody>
-</table> -->
 </div>
 <%= render "shared/autocomp" %>

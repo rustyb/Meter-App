@@ -15,13 +15,12 @@
 		<div id="home_row"class="row">
 			<div class="three columns">
 				<%# content_tag :h1, yield(:title) if show_title? %>
-				<%= image_tag "logo1.png", :height => "60px" %>
+				<%= link_to (image_tag "logo1.png"), root_url %>
 				<!--<h2> <%# link_to "MeterMe - Dublin (beta)", meters_url %>  <%# link_to "RPS Fingal", protected_structures_url %></h2>-->
 			</div>
 			<div class="nine columns">
 				<nav>
 				<ul>
-					<li><%= link_to "HOME", "#" %></li>
 					<li><%= link_to "ABOUT", "#" %></li>
 					<li><%= link_to "#APPS4FINGAL", "#" %></li>
 					<li><%= link_to "CONTACT", "#" %></li>
@@ -32,7 +31,7 @@
 	<div class="row">
 		<hr>
 	<!--<div class="alert-box hide">Currently data is only available for the Dublin City Council Area at present.</div> -->
-	<div class="alert-box">Currently data is only available for the Fingal Council Area.</div>
+	<!--<div class="alert-box">Currently data is only available for the Fingal Council Area.</div>-->
 	</div>
 	</div>
 	</header>

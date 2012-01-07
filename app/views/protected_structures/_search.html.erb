@@ -1,0 +1,9 @@
+<div class="row">
+	<div class="alert-box">Find protected structures within 5KM of a given location.</div>
+	<%= form_tag protected_structures_path, :method => :get do %>
+	  <p>
+	    <%= text_field_tag :search, params[:search], :style => "font-size:20px;width:100%;" %>
+	    <%= submit_tag "Search Location", :name => nil, :class => "button small radius blue" %>
+	  </p>
+	<% end %>
+</div>
