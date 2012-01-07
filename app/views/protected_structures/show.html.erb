@@ -40,7 +40,7 @@
 				<%= link_to "archaeology.ie","http://archaeology.ie" %>. Unfortunately their website is not working fully and only the map viewer is available at this time.</p>
 				<p>Arceology.ie will provide a comprehensive description of the site and structure, including details of known excavation work carried out to date.</p> 
 			<%= link_to @protected_structure.rmp_ref, "#", 
-			:class => "large black button radius", :title =>"The RMP Website is currently unvailable" %>
+			:class => "large black button radius disabled", :title =>"The RMP Website is currently unvailable" %>
 			</div>
 			<% else %>
 				<div class="alert-box error">Unfortunately it appears that this structure is not listed as part of the Record of Protected Monuments.</div>
@@ -82,4 +82,22 @@
 			:last_map    => true) %></p>
 		</div>
 	</div>
+
+</div>
+<div class="row">
+	<h3>Close by Structures</h3>
+	<ul class="block-grid four-up">
+		<% for ps in @protected_structure.nearbys(5).limit(4) %>
+		<li>
+			<div class="bubble">
+				<div class="field">RPS NUMBER</div>
+				<div class="number"><%= ps.rps_number %></div>
+				<div class="field">DISTANCE</div>
+				<div class="distance"><%= (ps.distance).to_f.round(1) %>km</div>
+			</div>
+			<p><div class="structure_name"><%= link_to "#{ps.description}", ps, :title => "Detailed information" %></div>
+			<em><%= ps.townland %></em></p>
+		</li>
+		<% end %>
+	</ul>
 </div>

@@ -28,3 +28,17 @@ header nav ul li a:hover {background-color:#900000;color:#F3F3F3;}
 text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
 font-size: 25px;
 padding: 5px 0 12px;}
+
+.structure_name {font-weight:bold; font-size:17px;}
+
+ul#list {height:420px; overflow-y:scroll;}
+ul#list li {margin-right:10px;}
+div.bubble {
+width: 117px;
+height: 140px;
+background: url(/images/bubble.png) no-repeat;
+padding: 10px 0;
+text-align: center;}
+.bubble .number {font-size:2.5em; font-weight:bold;margin:5px 5px;}
+.bubble .field {margin:0px 5px;}
+.bubble .distance {font-weight:bold;font-size:1.5em;margin:0px 5px;color: #999;}

@@ -22,7 +22,8 @@
 		<%= link_to "Show All", protected_structures_path, :class => "medium red button radius" %>
 	</div>
 		<%= gmaps(:markers     => { :data => @markers, :options => {:clusterer_maxZoom => 13} },
-		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true, :libraries => ["places"]}) %>
+		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true, :libraries => ["places"],
+			:detect_location => true, :center_on_user => true, :auto_zoom => false, :zoom => 12}) %>
 		
 				<%# gmaps({
 				    "map_options" => { "type" => "SATELLITE", "center_longitude" => 180, "zoom" => 3, "auto_adjust" => true},
@@ -34,11 +35,11 @@
 	</div>
 	<div class="four columns">
 		<%= render 'search'%>
-		<ul class="hide-on-phones" style="height:420px; overflow-y:scroll;">
+		<ul id="list" class="hide-on-phones">
 		<% for ps in @protected_structures %>
 		<li >
-		<span class=''>
-			<b><%= link_to "##{ps.rps_number} - #{ps.description}", ps, :title => "Detailed information" %></b><br />
+		<span>
+			<div class="structure_name"><%= link_to "##{ps.rps_number} - #{ps.description}", ps, :title => "Detailed information" %></div>
 			<em><b><%= ps.townland %></b> <%= ps.street_address %></em><br />
 			<% unless ps.niah_ref.nil? %>
 				<div title="NIAH Iventory Number" class='small green button radius'> <%= ps.niah_ref %></div> 
