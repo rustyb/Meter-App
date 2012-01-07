@@ -36,7 +36,7 @@
 		<%= render 'search'%>
 		<ul class="hide-on-phones" style="height:420px; overflow-y:scroll;">
 		<% for ps in @protected_structures %>
-		<li>
+		<li >
 		<span class=''>
 			<b><%= link_to "##{ps.rps_number} - #{ps.description}", ps, :title => "Detailed information" %></b><br />
 			<em><b><%= ps.townland %></b> <%= ps.street_address %></em><br />
@@ -47,6 +47,7 @@
 				<div title="RPM Number"class='small black button radius'><%= ps.rmp_ref %></div>
 			<% end %>
 		</span>
+		<hr/>
 		</li>
 	<% end %>	
 		</ul>

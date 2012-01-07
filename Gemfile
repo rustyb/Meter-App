@@ -37,6 +37,8 @@ gem 'gmaps4rails'
 # Deploy with Capistrano
 gem 'capistrano'
 
+gem 'newrelic_rpm'
+
 group :production do
   #Fix deploy errors
   gem 'therubyracer'
