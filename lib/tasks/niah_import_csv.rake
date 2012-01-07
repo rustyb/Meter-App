@@ -6,7 +6,7 @@ task :import_niah_csv => [:environment] do
   #p "Starting to import CSV data from #{file}." 
 
   CSV.foreach(file, {:headers => true, :row_sep => :auto}) do |row|
-    Niah.create!(
+    record = Niah.new(
     :reg_number => row[0],
     :rating => row[1],
     :number => row[2],
@@ -16,16 +16,18 @@ task :import_niah_csv => [:environment] do
     :town => row[6],
     :county => row[7],
     :townland => row[8], 
-    :building_type => row[9].to_s.gsub('/',' '),
+    :building_type => row[9].to_s.force_encoding('ISO-8859-1'),
     :year_from => row[10],
     :year_to => row[11],
-    :composition => row[12],
+    :composition => row[12].to_s.force_encoding('ISO-8859-1'),
     :appraisal => row[13],
-    :web_link => row[14], 
-    :image_link => row[15], 
+    :web_link => row[14].to_s.force_encoding('ISO-8859-1'), 
+    :image_link => row[15].to_s.force_encoding('ISO-8859-1'), 
     :longitude => row[16],
     :latitude => row[17] )
+    record.save!
   end
+  
 end
 
 #create the db
