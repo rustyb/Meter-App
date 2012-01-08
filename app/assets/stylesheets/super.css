@@ -10,7 +10,7 @@ a {color:#900000;}
 .green.button:hover, .green.button:focus		{ background-color: #005e00; 	}
 .green.button:hover, .green.button:focus		{ background-color: #ffc411; 	}
 .orange.button:hover, .orange.button:focus		{ background-color: #dd8f00; 	}
-#map_controls {padding:10px;border:0px solid #EEE;background:#CFD0D2;
+#map_controls {padding:10px;border:0px solid #EEE;background:#CFD0D2;text-align: center;
 	-moz-border-top-left-radius: 8px;
 	-webkit-top-bottom-left-radius: 8px;
 	border-top-left-radius: 8px;
@@ -18,11 +18,13 @@ a {color:#900000;}
 	-webkit-top-right-left-radius: 8px;
 	border-top-right-radius: 8px;}
 
-#home_row {margin-top:20px;}	
-header nav ul {margin-top:20px; float:right;}
+header {margin-top:20px;}	
+header nav ul {margin-top:20px; float:right;overflow:hidden;}
 header nav ul li {margin: 0 0 0 30px;padding: 0;display: block;float: left;position: relative;}
 header nav ul li a {font-size: 21px;color:#3D3939;font-family: proxima-nova, "HelveticaNeue", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight: bold;padding:0 10px;}
 header nav ul li a:hover {background-color:#900000;color:#F3F3F3;}
+
+#main_content{margin-bottom:40px;}
 
 #intro {
 text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
@@ -31,7 +33,7 @@ padding: 5px 0 12px;}
 
 .structure_name {font-weight:bold; font-size:17px;}
 
-ul#list {height:420px; overflow-y:scroll;}
+ul#list {height:480px; overflow-y:scroll;}
 ul#list li {margin-right:10px;}
 div.bubble {
 width: 117px;
@@ -42,3 +44,5 @@ text-align: center;}
 .bubble .number {font-size:2.5em; font-weight:bold;margin:5px 5px;}
 .bubble .field {margin:0px 5px;}
 .bubble .distance {font-weight:bold;font-size:1.5em;margin:0px 5px;color: #999;}
+
+footer {padding:40px 0 20px 0; background-color:#000; color:#F3F3F3;border-top:#900000 4px solid;}

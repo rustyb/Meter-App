@@ -45,15 +45,16 @@
 		</div>    
 
 
-		<div class="row">		
+		<div id="main_content" class="row">		
 			<%= yield %>
 		</div>
-		<div class="row">		
-			<hr />
-		</div>
-		<footer class="row">
+		
+</div>
+		<footer>
+			<div class="container">
+				<div class="row">
 			<div class="five columns">
-				<p>@ 2011 Colin Broderick - RPS Data and NIAH Survey DATA courtesy of <%= link_to "Fingal County Council", "http://www.fingalcoco.ie" %> and available at <%= link_to "Fingal Open Data", "http://data.fingal.ie" %> <%= link_to "DubLinked", "http://www.dublinked.ie" %></p>
+				<p>@ 2011 Colin Broderick - RPS Data and NIAH Survey DATA courtesy of <%= link_to "Fingal County Council", "http://www.fingalcoco.ie" %> and available at <%= link_to "Fingal Open Data", "http://data.fingal.ie" %> and <%= link_to "DubLinked", "http://www.dublinked.ie" %></p>
 			</div>
 			<div class="three columns">
 				<p>UrbanRural - built on heritage is an entry in the Apps4Fingal Open Data competition in the Tourism Category. For more information please see <%= link_to "data.fingal.ie", "http://data.fingal.ie" %></p>
@@ -61,9 +62,11 @@
 			<div class="four columns">
 				<p>If you have any issues using the site or have any feedback we would love to hear from you! Email us at <b>colinb@dt106ers.com</b> or simply tweet <b><%= link_to "@Rusty1052", "http://twitter.com/rusty1052" %></b></p>
 			</div>
+			</div>
+			</div>
 		</footer>
 
-	</div>
+	
 
 	<%= yield (:scripts) %> 
 </body>

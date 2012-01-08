@@ -16,10 +16,10 @@
 <div class="row">
 	<div class="eight columns">
 	<div id="map_controls">
-		<%= link_to "Archaeology Only ", protected_structures_path(:type => "arche"), :class => "medium black button radius" %> 
-		<%= link_to "Architecture Only ", protected_structures_path(:type => "archi"), :class => "medium green button radius" %>
-		<%= link_to "Fingal Only", protected_structures_path(:type => "other"), :class => "medium green button orange radius" %> 
-		<%= link_to "Show All", protected_structures_path, :class => "medium red button radius" %>
+		<%= link_to "Archaeology Only ", protected_structures_path(:type => "arche"), :class => "small black button radius" %> 
+		<%= link_to "Architecture Only ", protected_structures_path(:type => "archi"), :class => "small green button radius" %>
+		<%= link_to "Fingal Only", protected_structures_path(:type => "other"), :class => "small green button orange radius" %> 
+		<%= link_to "Show All", protected_structures_path, :class => "small red button radius" %>
 	</div>
 		<%= gmaps(:markers     => { :data => @markers, :options => {:clusterer_maxZoom => 13} },
 		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true, :libraries => ["places"]}) %>
