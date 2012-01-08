@@ -1,7 +1,7 @@
 MetreMap::Application.routes.draw do
   get "pages/about"
   get "pages/contact"
-  resources :protected_structures
+  resources :protected_structures, :only => [:index, :show]
 
   resources :meters
   root :to => 'protected_structures#index'

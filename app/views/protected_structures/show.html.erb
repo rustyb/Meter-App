@@ -1,4 +1,4 @@
-<% title "Protected Structure" %>
+<% title "Home" %>
 <div class="row">
 	<div class="six columns">
 		<h3><strong>RPS#</strong> <%= @protected_structure.rps_number %></h3>
@@ -56,15 +56,11 @@
 		<div>
 			<span style="font-size:1.5em;">I want to find out more</span><br />
 			<p>There are a number of resources which will enable you to find out more about this structure including your local libray,  </p>
+			<p><%= link_to "See what else is Close-By", "#near" %></p>
 			
 			
 			
 		</div>
-		<!-- <p>
-			<%= link_to "Edit", edit_protected_structure_path(@protected_structure) %> |
-			<%= link_to "Destroy", @protected_structure, :confirm => 'Are you sure?', :method => :delete %> |
-			<%= link_to "View All", protected_structures_path %>
-		</p>-->
 	</div>
 	
 	<div class="six columns">
@@ -89,7 +85,7 @@
 
 </div>
 <div class="row">
-	<h3>Close-By Structures</h3>
+	<h3 id="near">Close-By Structures</h3>
 	<ul class="block-grid four-up">
 		<% for ps in @protected_structure.nearbys(5).limit(4) %>
 		<li>

@@ -6,7 +6,7 @@ class ProtectedStructure < ActiveRecord::Base
   
   include Rails.application.routes.url_helpers
   def gmaps4rails_infowindow
-       "#{self.rps_number} - #{(self.structure_name).to_s.gsub('"','\"')} <p>#{(self.description).to_s.gsub('"','\"')}<br /><b><a href='#{url_for(:controller => 'protected_structures', :only_path => true, :action => 'show', :id => "#{id}")}'>Get More Info</a></b></p>"  # add here whatever text you desire
+       "<b>#{self.rps_number} - #{(self.structure_name).to_s.gsub('"','\"')}</b> <p>#{(self.description).to_s.gsub('"','\"')}<br /><b><a href='#{url_for(:controller => 'protected_structures', :only_path => true, :action => 'show', :id => "#{id}")}'>Get More Info</a></b></p>"  # add here whatever text you desire
   end
   
   def gmaps4rails_title

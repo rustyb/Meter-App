@@ -41,10 +41,10 @@
 			<div class="structure_name"><%= link_to "##{ps.rps_number} - #{ps.description}", ps, :title => "Detailed information" %></div>
 			<em><b><%= ps.townland %></b> <%= ps.street_address %></em><br />
 			<% unless ps.niah_ref.nil? %>
-				<div title="NIAH Iventory Number" class='small green button radius'> <%= ps.niah_ref %></div> 
+				<%= link_to ps.niah_ref, protected_structure_path(ps, :anchor =>"nice2"), :title => "NIAH Iventory Number", :class =>"small green button radius" %>
 			<% end %>
 			<% unless ps.rmp_ref.nil? %>
-				<div title="RPM Number"class='small black button radius'><%= ps.rmp_ref %></div>
+			<%= link_to ps.rmp_ref, protected_structure_path(ps, :anchor =>"nice3"), :title => "RPM Number Number", :class =>"small black button radius" %>
 			<% end %>
 		</span>
 		<hr/>

@@ -21,7 +21,8 @@ a {color:#900000;}
 header {margin-top:20px;}	
 header nav ul {margin-top:20px; float:right;overflow:hidden;}
 header nav ul li {margin: 0 0 0 30px;padding: 0;display: block;float: left;position: relative;}
-header nav ul li a {font-size: 21px;color:#3D3939;font-family: proxima-nova, "HelveticaNeue", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight: bold;padding:0 10px;}
+header nav ul li a {font-size: 21px;color:#3D3939;font-family: proxima-nova, "HelveticaNeue", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight: bold;
+padding:10px 10px 10px 10px;}
 header nav ul li a:hover {background-color:#900000;color:#F3F3F3;}
 
 #main_content{margin-bottom:40px;}
@@ -46,3 +47,4 @@ text-align: center;}
 .bubble .distance {font-weight:bold;font-size:1.5em;margin:0px 5px;color: #999;}
 
 footer {padding:40px 0 20px 0; background-color:#000; color:#F3F3F3;border-top:#900000 4px solid;}
+#about p {line-height:1.5; font-size:17px;}
