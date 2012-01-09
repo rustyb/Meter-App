@@ -1,4 +1,4 @@
-<% title "Home" %>
+<% title "RPS ##{@protected_structure.rps_number} Details" %>
 <div class="row">
 	<div class="six columns">
 		<h3><strong>RPS#</strong> <%= @protected_structure.rps_number %></h3>
@@ -55,7 +55,8 @@
 		
 		<div>
 			<span style="font-size:1.5em;">I want to find out more</span><br />
-			<p>There are a number of resources which will enable you to find out more about this structure including your local libray,  </p>
+			<p>There are a number of resources which will enable you to find out more about this structure including your <%= link_to "local library", "http://www.fingalcoco.ie/CommunityRecreationandAmenitiesDepartment/Library/LibraryBranches/" %>, the <%= link_to "Fingal Archives", "http://www.fingalcoco.ie/library/fingalarchives/" %>, the <%= link_to "National Museum", "http://www.museum.ie/" %>, the <%= link_to "National Library", "http://www.nli.ie/" %> and the <%= link_to "Trinity Map Library", "http://www.tcd.ie/Library/map-library/" %>, to name a few.</p>
+			<p>A new section will be added shortly to this website which will give more comprehensive list of other information sources including short summaries of what sort of information you are likely to be able to find through these sources.</p>
 			<p><%= link_to "See what else is Close-By", "#near" %></p>
 		</div>
 	</div>
