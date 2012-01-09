@@ -1,21 +1,25 @@
 <% title "About" %>
+<% content_for :breadcrumbs do %>
+<%= link_to "Home", root_url %> &#62; <%= link_to "About" %>
+<% end %>
 <div class="row">
 	<h2>About</h2>
 </div>
 <div class="row">
 	<div id="about" class="eight columns">
-		<a href="http://www.flickr.com/photos/yeolderusty/3257047426/" title="Stephens Day 2008 - Howth by yeolderusty, on Flickr" style="float:left; margin-right:20px;"><img src="http://farm4.staticflickr.com/3391/3257047426_cbdb26b9e2_m.jpg" width="161" height="240" alt="Stephens Day 2008 - Howth"></a>
+		<!--<a href="http://www.flickr.com/photos/yeolderusty/3257047426/" title="Stephens Day 2008 - Howth by yeolderusty, on Flickr" style="float:left; margin-right:20px;"><img src="http://farm4.staticflickr.com/3391/3257047426_cbdb26b9e2_m.jpg" width="161" height="240" alt="Stephens Day 2008 - Howth"></a>-->
 		<p>There’s a lot of built heritage out there. We want to help you find the bits local to you.</p>
 		<p>The population of Ireland is increasingly becoming more urban, with some 60% of us now living in urban areas. 
 			There is a significant variety of built heritage scattered throughout the country ranging from cairns to megolitic tombs to old mills.
 		</p>
 		<p>A lot of this lay's hidden away from view in many different documents that many care not to read nor know of save those in the professions of spatial planning or heritage conservation.</p>
+		<hr class="show-on-phones">
 	</div>
 	
 	<div class="four columns">
 		<p>This site is made with love and care by the me, Colin Broderick, a spatial planner just graduated with an liking for open data and a slight coffee addiction.</p>
-		<p><%= link_to (image_tag"https://twimg0-a.akamaihd.net/profile_images/1377508776/rusty_twitter.jpg"), "http://twitpic.com/73qw5x", :title => "That&#039;s right a #Rusty t-shirt and all! on Twitpic" %>
-				</p>
+		<%= image_tag"https://twimg0-a.akamaihd.net/profile_images/1377508776/rusty_twitter.jpg", :width => "150px" %>
+		
 		<p>This site has been created as an entrant for the <%= link_to "#apps4fingal", "" %> competition and is entered in the tourism category.</p>
 	</div>
 	

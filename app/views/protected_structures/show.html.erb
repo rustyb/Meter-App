@@ -1,4 +1,7 @@
 <% title "RPS ##{@protected_structure.rps_number} Details" %>
+<% content_for :breadcrumbs do %>
+<%= link_to "Home", root_url %> &#62; <%= link_to "RPS ##{@protected_structure.rps_number} Details" %>
+<% end %>
 <div class="row">
 	<div class="six columns">
 		<h3><strong>RPS#</strong> <%= @protected_structure.rps_number %></h3>
@@ -65,10 +68,10 @@
 		<div class="row">
 		<p><% if @protected_structure.niah_ref.nil? %>
 			<div><span style="font-size:1.5em;">Google Street View Image</span></div>
-			<%= image_tag "http://maps.googleapis.com/maps/api/streetview?size=400x400&location=#{@protected_structure.latitude},%20#{@protected_structure.longitude}&fov=120&pitch=10&sensor=false" %>
+			<%= image_tag "http://maps.googleapis.com/maps/api/streetview?size=500x400&location=#{@protected_structure.latitude},%20#{@protected_structure.longitude}&fov=120&pitch=10&sensor=false" %>
 		<% else %>
 			<div><span style="font-size:1.5em;">NIAH Database Image of Building</span></div>
-			<%= image_tag "http://www.buildingsofireland.ie/niah/images/survey_specific/fullsize/#{@protected_structure.niah_ref}_1.jpg" %><br />
+			<%= image_tag "http://www.buildingsofireland.ie/niah/images/survey_specific/fullsize/#{@protected_structure.niah_ref}_1.jpg"%><br />
 			<em>Image: &copy;NIAH</em>
 		<% end %></p>
 		</div>

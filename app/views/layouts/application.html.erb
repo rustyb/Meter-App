@@ -45,6 +45,11 @@
 			<%= content_tag :div, msg, :class => "alert-box #{name}" %>
 			<% end %>
 			</div>
+			<div class="row">
+			<div class="twelve columns">
+				<%= yield(:breadcrumbs) %>
+			</div>
+			</div>
 		</div>    
 
 
