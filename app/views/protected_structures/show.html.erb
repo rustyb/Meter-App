@@ -2,13 +2,13 @@
 <div class="row">
 	<div class="six columns">
 		<h3><strong>RPS#</strong> <%= @protected_structure.rps_number %></h3>
-		<dl class="nice contained tabs">
+		<dl class="nice contained mobile tabs">
 		  <dd><a href="#nice1" class="active">RPS</a></dd>
 		  <dd><a href="#nice2">Architecture Record</a></dd>
 		  <dd><a href="#nice3">Archaeology Record</a></dd>
 		</dl>
 
-		<ul class="nice tabs-content contained">
+		<ul class="nice tabs-content mobile contained">
 		  <li class="active" id="nice1Tab">
 		  	<p>
 				<span style="font-size:1.5em;">Name</span><br />
@@ -57,9 +57,6 @@
 			<span style="font-size:1.5em;">I want to find out more</span><br />
 			<p>There are a number of resources which will enable you to find out more about this structure including your local libray,  </p>
 			<p><%= link_to "See what else is Close-By", "#near" %></p>
-			
-			
-			
 		</div>
 	</div>
 	
@@ -86,7 +83,7 @@
 </div>
 <div class="row">
 	<h3 id="near">Close-By Structures</h3>
-	<ul class="block-grid four-up">
+	<ul class="block-grid mobile four-up">
 		<% for ps in @protected_structure.nearbys(5).limit(4) %>
 		<li>
 			<div class="bubble">

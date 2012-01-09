@@ -20,7 +20,12 @@
 			</div>
 			<div class="nine columns">
 				<nav>
-				<ul>
+				<ul class="hide-on-phones">
+					<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
+					<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
+					<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
+				</ul>
+				<ul class="show-on-phones">
 					<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
 					<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
 					<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
@@ -30,8 +35,6 @@
 		</div>
 	<div class="row">
 		<hr>
-	<!--<div class="alert-box hide">Currently data is only available for the Dublin City Council Area at present.</div> -->
-	<!--<div class="alert-box">Currently data is only available for the Fingal Council Area.</div>-->
 	</div>
 	</div>
 	</header>

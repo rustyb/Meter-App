@@ -19,15 +19,41 @@ a {color:#900000;}
 	border-top-right-radius: 8px;}
 
 header {margin-top:20px;}	
-header nav ul {margin-top:20px; float:right;overflow:hidden;}
-header nav ul li {margin: 0 0 0 30px;padding: 0;display: block;float: left;position: relative;}
-header nav ul li a {font-size: 21px;color:#3D3939;font-family: proxima-nova, "HelveticaNeue", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight: bold;
-padding:10px 10px 10px 10px;}
-header nav ul li a:hover {background-color:#900000;color:#F3F3F3;}
+header nav ul { 
+	margin:20px 0 0 0;
+	padding:10px 0 0 0;
+	float:right;
+	overflow:hidden;
+	}
+header nav ul li {
+	margin-left:20px;
+	padding: 0;
+	display: block;
+	float: left;
+	position: relative;}
+
+header nav 	ul.show-on-phones li {
+	width: 100%;
+	margin: 0 0 1px 0px;
+	background-color: #900000;
+	color:#F3F3F3;
+	padding: 5px 0;
+	}	
+header nav 	ul.show-on-phones li a {width: 100%; color:#F3F3F3;}
+header nav 	ul.show-on-phones li a:hover {background-color:#000;}
+header nav ul li a {
+	font-size: 21px;
+	color:#3D3939;
+	font-family: proxima-nova, "HelveticaNeue", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	padding:6px 10px;}
+header nav ul li a:hover, header nav ul li a:focus {
+	background-color:#900000;
+	color:#F3F3F3;}
 
 #main_content{margin-bottom:40px;}
 
-#intro {
+#intro p {
 text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
 font-size: 25px;
 padding: 5px 0 12px;}
@@ -41,7 +67,11 @@ width: 117px;
 height: 140px;
 background: url(/images/bubble.png) no-repeat;
 padding: 10px 0;
-text-align: center;}
+text-align: center;
+margin:0 auto;
+/*border-radius:10px;
+border:5px solid #dd8f00;*/}
+
 .bubble .number {font-size:2.5em; font-weight:bold;margin:5px 5px;}
 .bubble .field {margin:0px 5px;}
 .bubble .distance {font-weight:bold;font-size:1.5em;margin:0px 5px;color: #999;}

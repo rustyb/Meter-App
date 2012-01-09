@@ -4,8 +4,11 @@
 <div class="row">
 	<hr />
 </div>
-<div id="intro" class="row">
+<div id="intro" class="row hide-on-phones">
 	<p>Use the map to navigate to a place near you or simply search for a location.</p>
+</div>
+<div id="intro" class="row show-on-phones">
+	<p>Search for protected structures near you.</p>
 </div>
 <!--<div class="row">
 	<p>The list containing all the structures that are protected within Fingal is known as the Record of Protected Structures, or RPS for short.  Prior to an Act in 1999 these buildings or features were known as Listed Buildings, but this title no longer applies.</p>
@@ -14,7 +17,7 @@
 	
 </div>-->
 <div class="row">
-	<div class="eight columns">
+	<div class="eight columns hide-on-phones">
 	<div id="map_controls">
 		<%= link_to "Archaeology Only ", protected_structures_path(:type => "arche"), :class => "small black button radius" %> 
 		<%= link_to "Architecture Only ", protected_structures_path(:type => "archi"), :class => "small green button radius" %>
@@ -23,20 +26,12 @@
 	</div>
 		<%= gmaps(:markers     => { :data => @markers, :options => {:clusterer_maxZoom => 13} },
 		          :map_options => { :container_class => "maps", :id => "map_container_c", :auto_adjust => true, :mapTypeControl => true, :libraries => ["places"]}) %>
-		
-				<%# gmaps({
-				    "map_options" => { "type" => "SATELLITE", "center_longitude" => 180, "zoom" => 3, "auto_adjust" => true},
-				    "markers"     => { "data" => '[{ "description": "", "title": "", "lng": "5.9311119", "lat": "43.1251606", "picture": "", "width": "", "height": "" } ,{ "description": "", "title": "", "lng": "2.3509871", "lat": "48.8566667", "picture": "", "width": "", "height": "" } ]',
-				                                         }}) %>
-				<%# for protected_structure in @protected_structures %>
-				<%# end %>
-				<%# @markers.to_s %>
 	</div>
 	<div class="four columns">
 		<%= render 'search'%>
-		<ul id="list" class="hide-on-phones">
+		<ul id="list">
 		<% for ps in @protected_structures %>
-		<li >
+		<li>
 		<span>
 			<div class="structure_name"><%= link_to "##{ps.rps_number} - #{ps.description}", ps, :title => "Detailed information" %></div>
 			<em><b><%= ps.townland %></b> <%= ps.street_address %></em><br />
