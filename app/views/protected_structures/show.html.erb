@@ -79,7 +79,7 @@
 		<div class="row">
 			<p><div><span style="font-size:1.5em;">Other Protected Structures within 3km</span></div>
 			<%= gmaps(:markers     => { :data => @json },
-			:map_options => { :container_class => "maps", :id => "map_container_s", :auto_adjust => true, :mapTypeControl => true, :height =>"400px" },
+			:map_options => { :container_class => "maps", :id => "map_container_s", :auto_adjust => false, :mapTypeControl => true, :height =>"400px", :center_latitude => @center.latitude, :center_longitude => @center.longitude, :zoom => 13  },
 			:last_map    => true) %></p>
 		</div>
 	</div>
