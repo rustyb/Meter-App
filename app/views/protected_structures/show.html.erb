@@ -57,6 +57,16 @@
 		</ul>
 		
 		<div>
+			<span style="font-size:1.5em;">Share you're new discover with the world</span><br />
+				<div class="row">
+				<div class="fb-send one column" data-href="<%= protected_structure_url(@protected_structure) %>"></div>
+				<div class="one column"><a href="https://twitter.com/share" class="twitter-share-button" data-url="<%= protected_structure_url(@protected_structure) %>" data-lang="en" data-related="rusty1052" data-count="none" data-size="normal" data-text="I just discovered a '<%= @protected_structure.description %>' in #Fingal on #urbanrural">Tweet your Discovery</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	</div>
+				</div>
+			<hr>
+			
+			</div>
+		<div>
 			<span style="font-size:1.5em;">I want to find out more</span><br />
 			<p>There are a number of resources which will enable you to find out more about this structure including your <%= link_to "local library", "http://www.fingalcoco.ie/CommunityRecreationandAmenitiesDepartment/Library/LibraryBranches/" %>, the <%= link_to "Fingal Archives", "http://www.fingalcoco.ie/library/fingalarchives/" %>, the <%= link_to "National Museum", "http://www.museum.ie/" %>, the <%= link_to "National Library", "http://www.nli.ie/" %> and the <%= link_to "Trinity Map Library", "http://www.tcd.ie/Library/map-library/" %>, to name a few.</p>
 			<p>A new section will be added shortly to this website which will give more comprehensive list of other information sources including short summaries of what sort of information you are likely to be able to find through these sources.</p>
@@ -102,3 +112,14 @@
 		<% end %>
 	</ul>
 </div>
+
+<% content_for :head do %>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=147416755353481";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<% end %>
