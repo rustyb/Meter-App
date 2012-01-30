@@ -59,9 +59,27 @@
 				<%= yield(:breadcrumbs) %>
 			</div>
 			</div>
-		</div>    
+		</div>   
+		<div class="row">
+			<div class="twelve columns" style="text-align: center;">
+		<%= link_to "Help us Improve UrbanRural", "#", :id => "buttonForModal", :class => "button large radius black nice" %>
 
-
+		</div>
+		</div>
+		<div id="myModal" class="reveal-modal">
+		     <h2>Help Urban Rural Help You!</h2>
+		     <p class="lead">We're looking for your feedback on how we could make Urban Rural better.</p>
+			<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHVqVGxNOWl6ZUtPUnFsOHRELVRJaFE6MQ" width="520" height="420" frameborder="0" marginheight="0" marginwidth="0" style="background:transparent;">Loading...</iframe>
+		     <a class="close-reveal-modal">&#215;</a>
+		</div>
+		<script type="text/javascript">
+		     $(document).ready(function() {
+		          $('#buttonForModal').click(function() {
+		               $('#myModal').reveal();
+		     });
+		});
+		</script>
+		
 		<div id="main_content" class="row">		
 			<%= yield %>
 		</div>
