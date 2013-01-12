@@ -27,6 +27,7 @@ gem 'jquery-rails'
 gem "simple_form"
 gem 'geocoder'
 gem 'gmaps4rails'
+gem 'friendly_id'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

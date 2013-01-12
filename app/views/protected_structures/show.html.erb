@@ -1,14 +1,17 @@
-<% title "Protected Structure" %>
+<% title "RPS ##{@protected_structure.rps_number} Details" %>
+<% content_for :breadcrumbs do %>
+<%= link_to "Home", root_url %> &#62; <%= link_to "RPS ##{@protected_structure.rps_number} Details" %>
+<% end %>
 <div class="row">
 	<div class="six columns">
 		<h3><strong>RPS#</strong> <%= @protected_structure.rps_number %></h3>
-		<dl class="nice contained tabs">
+		<dl class="nice contained mobile tabs">
 		  <dd><a href="#nice1" class="active">RPS</a></dd>
 		  <dd><a href="#nice2">Architecture Record</a></dd>
 		  <dd><a href="#nice3">Archaeology Record</a></dd>
 		</dl>
 
-		<ul class="nice tabs-content contained mobile">
+		<ul class="nice tabs-content mobile contained">
 		  <li class="active" id="nice1Tab">
 		  	<p>
 				<span style="font-size:1.5em;">Name</span><br />
@@ -54,27 +57,32 @@
 		</ul>
 		
 		<div>
+			<span style="font-size:1.5em;">Share you're new discover with the world</span><br />
+				<div class="row">
+				<%#< div class="fb-send one column" data-href="<%= protected_structure_url(@protected_structure)#"></div> %>
+				<div class="fb-like one column" data-send="true" data-width="100" <div class="fb-like" data-send="true" data-layout="button_count" data-width="100" data-show-faces="false" data-action="recommend"></div>
+				<div class="one column"><a href="https://twitter.com/share" class="twitter-share-button" data-url="<%= protected_structure_url(@protected_structure) %>" data-lang="en" data-related="rusty1052, UrbnRural" data-via="UrbnRural" data-count="none" data-size="normal" data-text="I just discovered a '<%= @protected_structure.description %>' in #Fingal">Tweet your Discovery</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	</div>
+				</div>
+			<hr>
+			
+			</div>
+		<div>
 			<span style="font-size:1.5em;">I want to find out more</span><br />
-			<p>There are a number of resources which will enable you to find out more about this structure including your local libray,  </p>
-			
-			
-			
+			<p>There are a number of resources which will enable you to find out more about this structure including your <%= link_to "local library", "http://www.fingalcoco.ie/CommunityRecreationandAmenitiesDepartment/Library/LibraryBranches/" %>, the <%= link_to "Fingal Archives", "http://www.fingalcoco.ie/library/fingalarchives/" %>, the <%= link_to "National Museum", "http://www.museum.ie/" %>, the <%= link_to "National Library", "http://www.nli.ie/" %> and the <%= link_to "Trinity Map Library", "http://www.tcd.ie/Library/map-library/" %>, to name a few.</p>
+			<p>A new section will be added shortly to this website which will give more comprehensive list of other information sources including short summaries of what sort of information you are likely to be able to find through these sources.</p>
+			<p><%= link_to "See what else is Close-By", "#near" %></p>
 		</div>
-		<!-- <p>
-			<%= link_to "Edit", edit_protected_structure_path(@protected_structure) %> |
-			<%= link_to "Destroy", @protected_structure, :confirm => 'Are you sure?', :method => :delete %> |
-			<%= link_to "View All", protected_structures_path %>
-		</p>-->
 	</div>
 	
 	<div class="six columns">
 		<div class="row">
 		<p><% if @protected_structure.niah_ref.nil? %>
 			<div><span style="font-size:1.5em;">Google Street View Image</span></div>
-			<%= image_tag "http://maps.googleapis.com/maps/api/streetview?size=400x400&location=#{@protected_structure.latitude},%20#{@protected_structure.longitude}&fov=120&pitch=10&sensor=false" %>
+			<%= image_tag "http://maps.googleapis.com/maps/api/streetview?size=500x400&location=#{@protected_structure.latitude},%20#{@protected_structure.longitude}&fov=120&pitch=10&sensor=false" %>
 		<% else %>
 			<div><span style="font-size:1.5em;">NIAH Database Image of Building</span></div>
-			<%= image_tag "http://www.buildingsofireland.ie/niah/images/survey_specific/fullsize/#{@protected_structure.niah_ref}_1.jpg" %><br />
+			<%= image_tag "http://www.buildingsofireland.ie/niah/images/survey_specific/fullsize/#{@protected_structure.niah_ref}_1.jpg"%><br />
 			<em>Image: &copy;NIAH</em>
 		<% end %></p>
 		</div>
@@ -82,14 +90,14 @@
 		<div class="row">
 			<p><div><span style="font-size:1.5em;">Other Protected Structures within 3km</span></div>
 			<%= gmaps(:markers     => { :data => @json },
-			:map_options => { :container_class => "maps", :id => "map_container_s", :auto_adjust => true, :mapTypeControl => true, :height =>"400px" },
+			:map_options => { :container_class => "maps", :id => "map_container_s", :auto_adjust => false, :mapTypeControl => true, :height =>"400px", :center_latitude => @center.latitude, :center_longitude => @center.longitude, :zoom => 13  },
 			:last_map    => true) %></p>
 		</div>
 	</div>
 
 </div>
 <div class="row">
-	<h3>Close-By Structures</h3>
+	<h3 id="near">Close-By Structures</h3>
 	<ul class="block-grid mobile four-up">
 		<% for ps in @protected_structure.nearbys(5).limit(4) %>
 		<li>
@@ -105,3 +113,14 @@
 		<% end %>
 	</ul>
 </div>
+
+<% content_for :head do %>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=147416755353481";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<% end %>

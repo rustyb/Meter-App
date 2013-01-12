@@ -8,55 +8,103 @@
 	<%= javascript_include_tag "application" %>
 	<%= csrf_meta_tag %>
 	<%= yield(:head) %>
+	
+	<meta name='description' content='UrbanRural is online app to help you find your local built heritage. There’s a lot of built heritage out there. We want to help you find the bits local to you.'/>
+	<meta name='keywords' content='Heritage, Built Heritage, Protected, Protected Structures, NIAH, RPS, RMP, Architecture, Fingal, Ireland, History, Spatial Planning'/>
+	<link rel="canonical" href="http://urbanrural.herokuapp.com/" />
+	<meta property='og:title' content='UrbanRual - Built on Heritage, locate yours'/>
+	<meta property='og:description' content='UrbanRural is online app to help you find your local built heritage. There’s a lot of built heritage out there. We want to help you find the bits local to you and once you find the local stuff tells you how you can find out more'/>
+	<meta property='og:url' content='http://urbanrural.herokuapp.com/'/>
+	<meta property='og:site_name' content='UrbanRural'/>
+	<meta property='og:type' content='website'/>
 </head>
 <body>
 	<header>
-		<div class="container">
-			<div class="row">
-				<div class="three columns">
-					<%= link_to (image_tag "logo1.png"), root_url %>
-				</div>
-
-				<div class="nine columns">
-					<nav>
-						<ul class="hide-on-phones">
-							<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
-							<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
-							<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
-						</ul>
-						<ul class="show-on-phones">
-							<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
-							<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
-							<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
-						</ul>
-					</nav>
-				</div>
+	<div class="container">
+		<div id="home_row"class="row">
+			<div class="three columns">
+				<%# content_tag :h1, yield(:title) if show_title? %>
+				<%= link_to (image_tag "logo_din.png"), root_url %>
+				<!--<h2> <%# link_to "MeterMe - Dublin (beta)", meters_url %>  <%# link_to "RPS Fingal", protected_structures_url %></h2>-->
+			</div>
+			<div class="nine columns">
+				<nav>
+				<ul class="hide-on-phones">
+					<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
+					<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
+					<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
+				</ul>
+				<ul class="show-on-phones">
+					<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
+					<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
+					<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
+				</ul>
+				</nav>
 			</div>
 			<div class="row"><hr/></div>
 		</div>
+	<div class="row">
+		<hr>
+	</div>
+	</div>
 	</header>
 <div class="container">
 		<div class="row">
-			
-				<% flash.each do |name, msg| %>
-				<%= content_tag :div, msg, :class => "alert-box #{name}" %>
-				<% end %>
-			
-		</div>    
+			<div class="twelve columns">
+			<% flash.each do |name, msg| %>
+			<%= content_tag :div, msg, :class => "alert-box #{name}" %>
+			<% end %>
+			</div>
+			<div class="row">
+			<div class="twelve columns">
+				<%= yield(:breadcrumbs) %>
+			</div>
+			</div>
+		</div>   
+		<div class="row">
+			<div class="twelve columns" style="text-align: center;">
+		<%= link_to "Help us Improve UrbanRural", "#", :id => "buttonForModal", :class => "button large radius black nice" %>
+		</div>
+		</div>
 
-		<div class="row">		
+		<div id="myModal" class="reveal-modal">
+		     <h2>Help Urban Rural Help You!</h2>
+		     <p class="lead">We're looking for your feedback on how we could make Urban Rural better.</p>
+			<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHVqVGxNOWl6ZUtPUnFsOHRELVRJaFE6MQ" width="520" height="420" frameborder="0" marginheight="0" marginwidth="0" style="background:transparent;">Loading...</iframe>
+		     <a class="close-reveal-modal">&#215;</a>
+		</div>
+		<script type="text/javascript">
+		     $(document).ready(function() {
+		          $('#buttonForModal').click(function() {
+		               $('#myModal').reveal();
+		     });
+		});
+		</script>
+		
+		<div id="main_content" class="row">		
 			<%= yield %>
 		</div>
-		<div class="row">		
-			<hr />
-		</div>
-</div>
 		
-	<div class="container">
-		<div class="five columns"><p>@ 2011 Colin Broderick - RPS Data and NIAH Survey DATA courtesy of <%= link_to "Fingal County Council", "http://www.fingalcoco.ie" %> and available at <%= link_to "Fingal Open Data", "http://data.fingal.ie" %> <%= link_to "DubLinked", "http://www.dublinked.ie" %></p></div>
-		<div class="three columns"><p>UrbanRural - built on heritage is an entry in the Apps4Fingal Open Data competition in the Tourism Category. For more information please see <%= link_to "data.fingal.ie", "http://data.fingal.ie" %></p></div>
-		<div class="four columns"><p>If you have any issues using the site or have any feedback we would love to hear from you! Email us at <b>colinb@dt106ers.com</b> or simply tweet <b><%= link_to "@Rusty1052", "http://twitter.com/rusty1052" %></b></p></div>
-	</div>
- <%= yield (:scripts) %> 
+</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+			<div class="five columns">
+				<p>@ 2011 Colin Broderick - RPS Data and NIAH Survey DATA courtesy of <%= link_to "Fingal County Council", "http://www.fingalcoco.ie" %> and available at <%= link_to "Fingal Open Data", "http://data.fingal.ie" %> and <%= link_to "DubLinked", "http://www.dublinked.ie" %></p>
+			</div>
+			<div class="three columns">
+				<p>UrbanRural - built on heritage is an entry in the Apps4Fingal Open Data competition in the Tourism Category. For more information please see <%= link_to "data.fingal.ie", "http://data.fingal.ie" %></p>
+			</div>
+			<div class="four columns">
+				<p>If you have any issues using the site or have any feedback we would love to hear from you! Email us at <b>colinb@dt106ers.com</b> or simply tweet <b><%= link_to "@Rusty1052", "http://twitter.com/rusty1052" %> or <%= link_to "@UrbnRural", "http://twitter.com/urbnrural" %></b></p>
+			</div>
+			</div>
+			</div>
+		</footer>
+
+	
+
+	<%= yield (:scripts) %>
+	<%= render "shared/analytics"%>
 </body>
 </html>

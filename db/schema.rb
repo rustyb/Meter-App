@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120107205835) do
+ActiveRecord::Schema.define(:version => 20120111163846) do
 
   create_table "meters", :force => true do |t|
     t.integer  "dublin_no"
@@ -72,6 +72,9 @@ ActiveRecord::Schema.define(:version => 20120107205835) do
     t.float    "latitude"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "slug"
   end
+
+  add_index "protected_structures", ["slug"], :name => "index_protected_structures_on_slug"
 
 end
