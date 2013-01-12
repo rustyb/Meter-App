@@ -11,39 +11,38 @@
 </head>
 <body>
 	<header>
-	<div class="container">
-		<div id="home_row"class="row">
-			<div class="three columns">
-				<%# content_tag :h1, yield(:title) if show_title? %>
-				<%= link_to (image_tag "logo1.png"), root_url %>
-				<!--<h2> <%# link_to "MeterMe - Dublin (beta)", meters_url %>  <%# link_to "RPS Fingal", protected_structures_url %></h2>-->
+		<div class="container">
+			<div class="row">
+				<div class="three columns">
+					<%= link_to (image_tag "logo1.png"), root_url %>
+				</div>
+
+				<div class="nine columns">
+					<nav>
+						<ul class="hide-on-phones">
+							<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
+							<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
+							<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
+						</ul>
+						<ul class="show-on-phones">
+							<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
+							<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
+							<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			<div class="nine columns">
-				<nav>
-				<ul>
-					<li><%= link_to "ABOUT", :controller => :pages, :action => :about %></li>
-					<li><%= link_to "#APPS4FINGAL", "http://data.fingal.ie/Apps4Fingal/" %></li>
-					<li><%= link_to "CONTACT", :controller => :pages, :action => :contact %></li>
-				</ul>
-				</nav>
-			</div>
+			<div class="row"><hr/></div>
 		</div>
-	<div class="row">
-		<hr>
-	<!--<div class="alert-box hide">Currently data is only available for the Dublin City Council Area at present.</div> -->
-	<!--<div class="alert-box">Currently data is only available for the Fingal Council Area.</div>-->
-	</div>
-	</div>
 	</header>
 <div class="container">
 		<div class="row">
-			<div class="twelve columns">
-			<% flash.each do |name, msg| %>
-			<%= content_tag :div, msg, :class => "alert-box #{name}" %>
-			<% end %>
-			</div>
+			
+				<% flash.each do |name, msg| %>
+				<%= content_tag :div, msg, :class => "alert-box #{name}" %>
+				<% end %>
+			
 		</div>    
-
 
 		<div class="row">		
 			<%= yield %>
@@ -51,20 +50,13 @@
 		<div class="row">		
 			<hr />
 		</div>
-		<footer class="row">
-			<div class="five columns">
-				<p>@ 2011 Colin Broderick - RPS Data and NIAH Survey DATA courtesy of <%= link_to "Fingal County Council", "http://www.fingalcoco.ie" %> and available at <%= link_to "Fingal Open Data", "http://data.fingal.ie" %> <%= link_to "DubLinked", "http://www.dublinked.ie" %></p>
-			</div>
-			<div class="three columns">
-				<p>UrbanRural - built on heritage is an entry in the Apps4Fingal Open Data competition in the Tourism Category. For more information please see <%= link_to "data.fingal.ie", "http://data.fingal.ie" %></p>
-			</div>
-			<div class="four columns">
-				<p>If you have any issues using the site or have any feedback we would love to hear from you! Email us at <b>colinb@dt106ers.com</b> or simply tweet <b><%= link_to "@Rusty1052", "http://twitter.com/rusty1052" %></b></p>
-			</div>
-		</footer>
-
+</div>
+		
+	<div class="container">
+		<div class="five columns"><p>@ 2011 Colin Broderick - RPS Data and NIAH Survey DATA courtesy of <%= link_to "Fingal County Council", "http://www.fingalcoco.ie" %> and available at <%= link_to "Fingal Open Data", "http://data.fingal.ie" %> <%= link_to "DubLinked", "http://www.dublinked.ie" %></p></div>
+		<div class="three columns"><p>UrbanRural - built on heritage is an entry in the Apps4Fingal Open Data competition in the Tourism Category. For more information please see <%= link_to "data.fingal.ie", "http://data.fingal.ie" %></p></div>
+		<div class="four columns"><p>If you have any issues using the site or have any feedback we would love to hear from you! Email us at <b>colinb@dt106ers.com</b> or simply tweet <b><%= link_to "@Rusty1052", "http://twitter.com/rusty1052" %></b></p></div>
 	</div>
-
-	<%= yield (:scripts) %> 
+ <%= yield (:scripts) %> 
 </body>
 </html>

@@ -18,11 +18,14 @@ a {color:#900000;}
 	-webkit-top-right-left-radius: 8px;
 	border-top-right-radius: 8px;}
 
-#home_row {margin-top:20px;}	
-header nav ul {margin-top:20px; float:right;}
+header {margin-top:20px;}	
+header nav ul {margin-top:20px; float:right;margin: 0 0 0 -20px;overflow: hidden;}
 header nav ul li {margin: 0 0 0 30px;padding: 0;display: block;float: left;position: relative;}
 header nav ul li a {font-size: 21px;color:#3D3939;font-family: proxima-nova, "HelveticaNeue", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight: bold;padding:0 10px;}
 header nav ul li a:hover {background-color:#900000;color:#F3F3F3;}
+
+header nav ul.show-on-phones li {width: 100%;margin: 0 0 1px 20px;padding: 5px 0;}
+header nav ul.show-on-phones {display: block;margin-top: 10px;}
 
 #intro {
 text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;

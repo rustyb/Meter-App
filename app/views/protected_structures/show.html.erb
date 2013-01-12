@@ -8,7 +8,7 @@
 		  <dd><a href="#nice3">Archaeology Record</a></dd>
 		</dl>
 
-		<ul class="nice tabs-content contained">
+		<ul class="nice tabs-content contained mobile">
 		  <li class="active" id="nice1Tab">
 		  	<p>
 				<span style="font-size:1.5em;">Name</span><br />
@@ -90,7 +90,7 @@
 </div>
 <div class="row">
 	<h3>Close-By Structures</h3>
-	<ul class="block-grid four-up">
+	<ul class="block-grid mobile four-up">
 		<% for ps in @protected_structure.nearbys(5).limit(4) %>
 		<li>
 			<div class="bubble">
